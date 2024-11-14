@@ -14,6 +14,10 @@
   backdrop-filter: blur(20px);
 }
 
+.navbar_hamburger {
+  display: none;
+}
+
 .navbar_flex {
   height: 100%;
   width: 100%;
@@ -69,6 +73,7 @@
   font-size: 18px;
   border-radius: 8px;
   transition: var(--transition-hover);
+  cursor: pointer;
 }
 
 .navbar_link:hover {
@@ -82,15 +87,11 @@
 }
 
 .navbar_link-icon {
+  max-width: max-content;
   width: 12px;
   height: 12px;
   margin-left: 4px;
   color: var(--darken-600);
-}
-
-.navbar_link-icon img,
-svg {
-  stroke-width: 4px;
 }
 
 .navbar_cta {
@@ -122,7 +123,23 @@ svg {
   flex-direction: row;
 }
 
+/* Overlay */
+
+.overlay {
+  height: 100vh;
+  width: 100vw;
+  content: "";
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: var(--darken-600);
+}
+
 /* sub-nav */
+
+.navbar_menu {
+  display: none;
+}
 
 .navbar_subnav {
   width: 320px;
@@ -175,7 +192,25 @@ svg {
   background-color: var(--darken-100);
 }
 
-/* sub-nav transition */
+/* Transitions */
+
+.overlay-transition-enter {
+  opacity: 0;
+}
+
+.overlay-transition-enter-active {
+  opacity: 1;
+  transition: opacity 100ms;
+}
+
+.overlay-transition-exit {
+  opacity: 1;
+}
+
+.overlay-transition-exit-active {
+  opacity: 0;
+  transition: opacity 100ms;
+}
 
 .subnav-transition-enter {
   opacity: 0;
@@ -199,21 +234,170 @@ svg {
   transition: opacity 200ms, transform 200ms;
 }
 
+.subnav-mobile-transition-enter {
+  opacity: 0.7;
+  transform: translateX(-16px);
+}
+
+.subnav-mobile-transition-enter-active {
+  opacity: 1;
+  transform: translateX(0px);
+  transition: opacity 100ms, transform 100ms;
+}
+
+.subnav-mobile-transition-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.subnav-mobile-transition-exit-active {
+  opacity: 0;
+  transform: translateX(0px);
+  transition: opacity 200ms, transform 200ms;
+}
+
 /* Reactive */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 710px) {
   .navbar {
-    width: 100%;
-    height: 72px;
+    height: 56px;
     left: 0px;
     right: 0px;
     top: 0px;
-    padding: 0 12px 0 0;
+    padding: 0;
+    align-items: center;
+    border-radius: 0;
+  }
+
+  .navbar_hamburger {
+    display: block;
+    height: 56px;
+    width: 56px;
+    padding: 0 8px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .navbar_hamburger-inner {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    transition: var(--transition-hover);
+  }
+
+  .navbar_hamburger:hover .navbar_hamburger-inner {
+    background-color: var(--darken-100);
+  }
+
+  .navbar_home {
+    margin: 0 auto;
+    background-color: transparent;
+    transform: translateX(16px);
+  }
+
+  .navbar_home-logo-how {
+    width: 140px;
+    height: 40px;
+  }
+
+  .navbar_home-logo-ow {
+    transform: translateX(-16px);
+    width: 40px;
+    height: 40px;
+  }
+
+  .navbar_links {
+    display: none;
+  }
+
+  .navbar_cta {
+    min-height: 40px;
+    padding: 0 12px;
+    margin-right: 8px;
+  }
+
+  /* mobile menu */
+
+  .navbar_menu {
+    height: 100vh;
+    width: 480px;
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: var(--white);
+  }
+
+  .navbar_wraper {
+    padding: 8px;
+  }
+
+  .navbar_link.mobile {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+
+  .navbar_link.mobile.selected {
+    background-color: var(--darken-100);
+  }
+
+  .navbar_link-content.mobile {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+  .navbar_link-text.mobile {
+    width: 100%;
+  }
+
+  .navbar_link-icon.mobile {
+    width: 10px;
+    padding: 8px;
+  }
+
+  .mobile_subnav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  .mobile_subnav-links {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .mobile_subnav-links a {
+    height: 100%;
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--black);
+  }
+
+  .mobile_subnav-link {
+    min-height: 48px;
+    padding: 0 12px;
     display: flex;
     align-items: center;
-    box-sizing: border-box;
-    border-radius: 0;
-    background: var(--background-blur);
-    backdrop-filter: blur(20px);
+    font-size: 18px;
+    border-radius: 8px;
+    transition: var(--transition-hover);
+  }
+
+  .mobile_subnav-link:hover {
+    background-color: var(--darken-100);
   }
 }
