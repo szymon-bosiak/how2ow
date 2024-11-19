@@ -1,6 +1,5 @@
 .navbar_wrapper{
   width: 100%;
-  // height: 72px; // 72 + 16 px
 }
 
 .navbar {
@@ -264,7 +263,7 @@
 
 /* Reactive */
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 750px) {
   .navbar_wrapper{
     width: 100%;
     // height: 56px; // 56 + 16 px

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
+import axios from "axios"
 import "./heroes.css"
 import { Hero } from "../../interfaces/hero.interface"
 import support from "../../assets/support.svg"
@@ -14,12 +15,10 @@ function Heroes() {
   useEffect(() => {
     const fetchHeroes = async () => {
       try {
-        const response = await fetch("https://overfast-api.tekrop.fr/heroes")
-        if (!response.ok) {
-          throw new Error("Failed to fetch heroes")
-        }
-        const data = await response.json()
-        setHeroes(data) // Update state
+        const response = await axios.get<Hero[]>(
+          "https://overfast-api.tekrop.fr/heroes"
+        )
+        setHeroes(response.data) // Update state
       } catch (err: any) {
         setError(err.message) // Errors
       } finally {
@@ -46,8 +45,8 @@ function Heroes() {
               {heroes
                 .filter((hero) => hero.role === "tank")
                 .map((hero) => (
-                  <Link to={hero.key} className="heroes_link">
-                    <li key={hero.key} className="heroes_hero">
+                  <Link to={hero.key} key={hero.key} className="heroes_link">
+                    <li className="heroes_hero">
                       <img
                         src={hero.portrait}
                         alt={`${hero.name} portrait`}
@@ -70,8 +69,12 @@ function Heroes() {
               {heroes
                 .filter((hero) => hero.role === "damage")
                 .map((hero) => (
-                  <Link to={hero.key} className="heroes_link dps">
-                    <li key={hero.key} className="heroes_hero">
+                  <Link
+                    to={hero.key}
+                    key={hero.key}
+                    className="heroes_link dps"
+                  >
+                    <li className="heroes_hero">
                       <div className="heroes_hero-portrait-bg">
                         <img
                           src={hero.portrait}
@@ -97,8 +100,8 @@ function Heroes() {
               {heroes
                 .filter((hero) => hero.role === "support")
                 .map((hero) => (
-                  <Link to={hero.key} className="heroes_link">
-                    <li key={hero.key} className="heroes_hero">
+                  <Link to={hero.key} key={hero.key} className="heroes_link">
+                    <li className="heroes_hero">
                       <img
                         src={hero.portrait}
                         alt={`${hero.name} portrait`}
