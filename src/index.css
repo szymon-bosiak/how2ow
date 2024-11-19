@@ -1,13 +1,11 @@
 :root {
-  margin: 0 auto;
-  padding: 0;
   text-align: center;
   font-family: "Poppins", Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color: var(--dark);
-  background-color: var(--blizzard-blue);
+  background-color: var(--white);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -29,9 +27,16 @@
   --orange-hover: #f1742b;
 
   --background-blur: rgba(229, 235, 244, 0.8);
-  --background-no-blur: rgba(229, 235, 244, .95);
+  --background-no-blur: rgba(229, 235, 244, 0.95);
+  --background-hero: hsla(0, 0%, 100%, 0.9);
 
   /* ANIMATIONS */
   --transition-hover: color 0.1s ease, background-color 0.1s ease,
-    text-decoration-color 0.1s ease, filter 0.1s ease, border-color 0.1s ease;
+    text-decoration-color 0.1s ease, filter 0.1s ease, border-color 0.1s ease,
+    scale 0.1s ease;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }

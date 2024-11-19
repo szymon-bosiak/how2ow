@@ -1,3 +1,8 @@
+.navbar_wrapper{
+  width: 100%;
+  // height: 72px; // 72 + 16 px
+}
+
 .navbar {
   height: 72px;
   position: fixed;
@@ -12,6 +17,7 @@
   border-radius: 8px;
   background: var(--background-blur);
   backdrop-filter: blur(20px);
+  z-index: 99;
 }
 
 .navbar_hamburger {
@@ -259,6 +265,11 @@
 /* Reactive */
 
 @media screen and (max-width: 710px) {
+  .navbar_wrapper{
+    width: 100%;
+    // height: 56px; // 56 + 16 px
+  }
+
   .navbar {
     height: 56px;
     left: 0px;

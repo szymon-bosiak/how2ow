@@ -3,7 +3,11 @@ import './layout.css'
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 
-function Layout({ children }: { children: React.Node }) {
+type LayoutProps = {
+  children: React.ReactNode;
+};
+
+function Layout({ children }: LayoutProps) {
   return (
     <div>
       <Navbar />

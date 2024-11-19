@@ -1,0 +1,123 @@
+.heroes_bg {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../assets/training-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heroes_wrapper {
+  padding-top: 88px;
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.heroes_columns {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 2300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.heroes {
+  display: flex;
+  flex-direction: column;
+}
+
+.heroes_class {
+  margin: 0;
+  display: flex;
+  gap: 10px;
+  color: var(--white);
+  text-transform: uppercase;
+  font-size: 28px;
+}
+
+.heroes_class svg {
+  fill: var(--white);
+}
+
+.heroes_list {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 8px;
+  list-style: none;
+}
+
+ul.heroes_list {
+  padding: 0;
+}
+
+.heroes_list.dps {
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.heroes_link {
+  color: var(--black);
+  text-decoration: none;
+  transition: var(--transition-hover);
+  grid-column: span 2;
+}
+
+/* justify last row */
+.heroes_link.dps {
+  /* widow */
+  &:last-child:nth-child(10n - 2) {
+    grid-column-end: 9;
+  }
+
+  /* venture */
+  &:nth-last-child(2):nth-child(10n + 7) {
+    grid-column-end: 7;
+  }
+
+  /* tracer */
+  &:nth-last-child(3):nth-child(10n + 6) {
+    grid-column-end: 5;
+  }
+}
+
+.heroes_link:hover {
+  scale: 1.05;
+}
+
+.heroes_hero {
+  display: flex;
+  flex-direction: column;
+  background: var(--background-hero);
+  border-radius: 6px;
+}
+
+.heroes_hero-portrait {
+  margin-top: 4px;
+  width: 160px;
+  background: url("../../assets/hero-bg-pattern.png") center/cover no-repeat,
+    linear-gradient(
+      180deg,
+      rgba(107, 114, 143, 1) 0%,
+      rgba(211, 195, 199, 1) 100%
+    );
+  border-radius: 3px;
+}
+
+.heroes_hero-name {
+  margin: 8px 0;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  transform: skew(-14deg);
+}
