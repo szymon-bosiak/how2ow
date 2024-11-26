@@ -5,6 +5,8 @@ import Layout from "./components/Layout/Layout"
 // import AboutPage from "./pages/AboutPage"
 // import GameInfo from "./pages/GameInfo"\
 import Heroes from "./pages/Heroes/Heroes"
+import HeroDetails from "./pages/HeroDetails/HeroDetails"
+import HeroSkins from "./pages/HeroSkins/HeroSkins"
 // import Skins from "./pages/Skins"
 // import TierList from "./pages/TierList"
 
@@ -16,8 +18,9 @@ function App() {
           {/* <Route path="/" element={<HomePage />} />
           <Route path="/game-info" element={<GameInfo />} /> */}
           <Route path="/heroes" element={<Heroes />} />
-          {/* <Route path="/skins" element={<Skins />} />
-          <Route path="/tier-list" element={<TierList />} /> */}
+          <Route path="/heroes/:heroName" element={<HeroDetails />} />
+          <Route path="/skins" element={<HeroSkins />} />
+          {/* <Route path="/tier-list" element={<TierList />} /> */}
         </Routes>
       </Layout>
     </Router>

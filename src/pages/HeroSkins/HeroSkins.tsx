@@ -1,7 +1,7 @@
-import "./heroes.css"
+import "./heroSkins.css"
 import HeroList from "../../components/HeroList/HeroList"
 
-function Heroes() {
+function HeroSkins() {
   return (
     <div>
       <HeroList />
@@ -9,4 +9,4 @@ function Heroes() {
   )
 }
 
-export default Heroes
+export default HeroSkins
