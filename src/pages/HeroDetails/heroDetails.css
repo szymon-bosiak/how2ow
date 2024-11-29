@@ -242,6 +242,78 @@
   font-weight: 500;
 }
 
+/* Tips */
+.hero-details_tips-wrapper {
+  width: 100%;
+  height: 100%;
+  margin-top: -20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+}
+
+.hero-details_tips {
+  width: 100%;
+  max-width: 2600px;
+  height: 100%;
+  padding: 80px 60px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: left;
+  box-sizing: border-box;
+  background-position-y: bottom;
+}
+
+.hero-details_tips h2 {
+  margin: 0;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.hero-details_tips-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+}
+
+.hero-details_tip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hero-details_tip h3 {
+  min-width: 80px;
+  margin: 0;
+  font-size: 90px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: transparent;
+  background: linear-gradient(
+    to bottom,
+    var(--white),
+    rgba(255, 255, 255, 0.01)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-details_tip p {
+  margin-left: 12px;
+  font-size: 26px;
+  transform: translateY(12px);
+}
+
+.hero-details_divider {
+  -webkit-mask-box-image: url(../../assets/top_divider.svg);
+  -webkit-mask-box-image-slice: 16 400 fill;
+}
+
 @media screen and (max-width: 960px) {
   /* About */
   .hero-details_info {
@@ -258,8 +330,6 @@
   .hero-details_info-wraper {
     width: 100%;
   }
-
-  /* Abilities */
 }
 
 @media screen and (max-width: 750px) {
@@ -292,7 +362,7 @@
     mask-border: none;
   }
 
-  .hero-details_abilities-content{
+  .hero-details_abilities-content {
     height: 600px;
   }
 
@@ -337,6 +407,24 @@
     padding-top: 10px;
     font-size: 15px;
     font-weight: 400;
+  }
+
+  /* Tips */
+  .hero-details_tips {
+    padding: 70px 40px 40px;
+  }
+
+  .hero-details_tips h2 {
+    font-size: 36px;
+  }
+
+  .hero-details_tip h3 {
+    min-width: 60px;
+    font-size: 70px;
+  }
+
+  .hero-details_tip p {
+    font-size: 22px;
   }
 }
 
