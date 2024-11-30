@@ -309,11 +309,6 @@
   transform: translateY(12px);
 }
 
-.hero-details_divider {
-  -webkit-mask-box-image: url(../../assets/top_divider.svg);
-  -webkit-mask-box-image-slice: 16 400 fill;
-}
-
 @media screen and (max-width: 960px) {
   /* About */
   .hero-details_info {
