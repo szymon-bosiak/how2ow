@@ -8,6 +8,7 @@ function Footer() {
         <p>
           Website made by{" "}
           <a
+            target="blank"
             href="https://szymon-bosiak.github.io/Portfolio/"
             className="footer_content-link"
           >

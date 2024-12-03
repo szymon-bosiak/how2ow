@@ -1,13 +1,10 @@
-// import { useState } from "react"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import Layout from "./components/Layout/Layout"
-// import HomePage from "./pages/HomePage"
-// import AboutPage from "./pages/AboutPage"
-// import GameInfo from "./pages/GameInfo"\
 import Heroes from "./pages/Heroes/Heroes"
 import HeroDetails from "./pages/HeroDetails/HeroDetails"
+import HeroesSkins from "./pages/HeroesSkins/HeroesSkins"
 import HeroSkins from "./pages/HeroSkins/HeroSkins"
-// import Skins from "./pages/Skins"
+import About from "./pages/About/About"
 // import TierList from "./pages/TierList"
 
 function App() {
@@ -19,8 +16,9 @@ function App() {
           <Route path="/game-info" element={<GameInfo />} /> */}
           <Route path="/heroes" element={<Heroes />} />
           <Route path="/heroes/:heroName" element={<HeroDetails />} />
-          <Route path="/skins" element={<HeroSkins />} />
-          {/* <Route path="/tier-list" element={<TierList />} /> */}
+          <Route path="/skins" element={<HeroesSkins />} />
+          <Route path="/skins/:heroName" element={<HeroSkins />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </Layout>
     </Router>
