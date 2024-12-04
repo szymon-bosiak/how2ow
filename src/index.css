@@ -22,11 +22,20 @@
   --darken-600: #00000080;
   --shadow-100: rgba(0, 0, 0, 0.1);
 
+  --dark-blue: #1e243a;
   --blizzard-blue: #05a0fa;
   --light-blue: #54bbf7;
+  --neon-blue: #1ee3e4;
+  --neon-blue-bg: #1ee4e415;
 
   --orange: #f06414;
   --orange-hover: #f1742b;
+
+  --mythic: linear-gradient(90deg, #01c19d, #dddddd, #c1269a);
+  --legendary: #ff9c00;
+  --epic: #ed3cef;
+  --rare: #0b9ccf;
+  --common: #ffffff;
 
   --background-blur: rgba(229, 235, 244, 0.8);
   --background-no-blur: rgba(229, 235, 244, 0.95);

@@ -3,11 +3,11 @@ import { SetStateAction, useEffect, useState } from "react"
 import axios from "axios"
 import "./heroDetails.css"
 import { HeroDesc } from "../../interfaces/heroDesc.interface"
-import support from "../../assets/support.svg"
-import damage from "../../assets/damage.svg"
-import tank from "../../assets/tank.svg"
-import location from "../../assets/location.svg"
-import birthday from "../../assets/birthday.svg"
+import support from "../../assets/icons/support.svg"
+import damage from "../../assets/icons/damage.svg"
+import tank from "../../assets/icons/tank.svg"
+import location from "../../assets/icons/location.svg"
+import birthday from "../../assets/icons/birthday.svg"
 
 const general = {
   tipsBg: {

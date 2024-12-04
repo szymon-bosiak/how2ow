@@ -4,10 +4,10 @@ import "./navbar.css"
 import { Link } from "react-router-dom"
 import logo from "../../assets/logo.svg"
 import OW from "../../assets/ow.svg"
-import arrow from "../../assets/arrow.svg"
-import subnavArrow from "../../assets/subnav-arrow.svg"
-import hamburger from "../../assets/hamburger.svg"
-import x from "../../assets/x.svg"
+import arrow from "../../assets/icons/arrow.svg"
+import subnavArrow from "../../assets/icons/subnav-arrow.svg"
+import hamburger from "../../assets/icons/hamburger.svg"
+import x from "../../assets/icons/x.svg"
 
 function Navbar() {
   const [hoveredItem, setHoveredItem] = useState<string | null>(null)

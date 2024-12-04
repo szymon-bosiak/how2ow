@@ -1,4 +1,4 @@
-interface Skin {
+export interface Skin {
   name: string
   rarity: "Common" | "Rare" | "Epic" | "Legendary" | "Mythic"
   img: string
@@ -18,7 +18,6 @@ interface Skin {
     | "Overwatch Anniversary"
     | "Overwatch Archives"
     | "Summer Games"
-    | "Overwatch League"
     | "BCRF Charity Event"
     | null
   avaliable: boolean
@@ -314,7 +313,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         img: "/skins/ana/haroeris.png",
         value: 300,
         currency: "League Tokens",
-        event: "Overwatch League",
+        event: null,
         avaliable: false,
         desc: null,
       },
@@ -6962,9 +6961,9 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         desc: null,
       },
       {
-        name: "Enchanted Armor",
+        name: "Security Chief",
         rarity: "Legendary",
-        img: "/skins/pharah/enchanted-armor.png",
+        img: "/skins/pharah/security-chief.png",
         value: 1000,
         currency: "Overwatch Coins",
         event: null,
@@ -11057,8 +11056,8 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         name: "Cyberdevil",
         rarity: "Legendary",
         img: "/skins/widowmaker/cyberdevil.png",
-        value: 1000,
-        currency: "Credits",
+        value: 1900,
+        currency: "Overwatch Coins",
         event: null,
         avaliable: true,
         desc: null,
@@ -11067,8 +11066,8 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         name: "Dryad",
         rarity: "Legendary",
         img: "/skins/widowmaker/dryad.png",
-        value: 1000,
-        currency: "Credits",
+        value: 1900,
+        currency: "Overwatch Coins",
         event: null,
         avaliable: true,
         desc: null,
@@ -11077,8 +11076,8 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         name: "Medusa",
         rarity: "Legendary",
         img: "/skins/widowmaker/medusa.png",
-        value: 1000,
-        currency: "Credits",
+        value: 1900,
+        currency: "Overwatch Coins",
         event: null,
         avaliable: true,
         desc: null,
@@ -11087,8 +11086,8 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         name: "Rose Lily",
         rarity: "Legendary",
         img: "/skins/widowmaker/rose-lily.png",
-        value: 1000,
-        currency: "Credits",
+        value: 1900,
+        currency: "Overwatch Coins",
         event: null,
         avaliable: true,
         desc: null,
@@ -11097,8 +11096,8 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         name: "Saint-Tropez",
         rarity: "Legendary",
         img: "/skins/widowmaker/saint-tropez.png",
-        value: 1000,
-        currency: "Credits",
+        value: 1900,
+        currency: "Overwatch Coins",
         event: null,
         avaliable: true,
         desc: null,
@@ -11107,8 +11106,8 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         name: "Wild Tracker",
         rarity: "Legendary",
         img: "/skins/widowmaker/wild-tracker.png",
-        value: 1000,
-        currency: "Credits",
+        value: 1900,
+        currency: "Overwatch Coins",
         event: null,
         avaliable: true,
         desc: null,
@@ -11117,8 +11116,8 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         name: "Euryale",
         rarity: "Legendary",
         img: "/skins/widowmaker/euryale.png",
-        value: 1000,
-        currency: "Credits",
+        value: 1900,
+        currency: "Overwatch Coins",
         event: null,
         avaliable: true,
         desc: null,
@@ -11127,8 +11126,8 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         name: "Sylvanas",
         rarity: "Legendary",
         img: "/skins/widowmaker/sylvanas.png",
-        value: 1000,
-        currency: "Credits",
+        value: 1900,
+        currency: "Overwatch Coins",
         event: null,
         avaliable: true,
         desc: null,

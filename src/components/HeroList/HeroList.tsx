@@ -3,9 +3,9 @@ import { Link } from "react-router-dom"
 import axios from "axios"
 import "./heroList.css"
 import { Hero } from "../../interfaces/hero.interface"
-import support from "../../assets/support.svg"
-import damage from "../../assets/damage.svg"
-import tank from "../../assets/tank.svg"
+import support from "../../assets/icons/support.svg"
+import damage from "../../assets/icons/damage.svg"
+import tank from "../../assets/icons/tank.svg"
 
 function HeroList() {
   const [heroes, setHeroes] = useState<Hero[]>([]) // State to store API data
