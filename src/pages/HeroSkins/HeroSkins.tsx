@@ -25,7 +25,9 @@ function HeroSkins() {
   const { heroName } = useParams<{ heroName: string }>()
   const [isLoading, setIsLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
-  const [activeSkin, setActiveSkin] = useState<Skin | null>()
+  const [activeSkin, setActiveSkin] = useState<Skin | null>(
+    heroSkinsData[heroName!].skins[0]
+  )
 
   const heroSkins = heroSkinsData[heroName!].skins
 
@@ -61,64 +63,72 @@ function HeroSkins() {
     <div className="skins">
       <div className="skins_bg">
         <div className="skins_wrapper">
-          <div className="skins_hero">
-            <h3>{heroName}</h3>
-          </div>
+          <div className="skins_wrapper-flex">
+            <div className="skins_hero">
+              <h3>{heroName}</h3>
+            </div>
 
-          <div className="skins_list">
-            {heroSkins.map((skin, index) => (
-              <div key={skin.name} className="skins_list-skin">
-                <div
-                  key={skin.name + index}
-                  className={`skins_list-skin-item ${
-                    activeSkin === skin ? "active" : ""
-                  }`}
-                  onClick={() => handleSkinClick(skin)}
-                >
-                  <div className="skins_list-skin-item-left">
-                    <div className="skins_list-skin-event">
-                      {skin.event
-                        ? eventIcons[skin.event] ?? <span>{skin.event}</span>
-                        : null}
-                    </div>
-                    <h4
-                      className={`skin_list-skin-name ${skin.rarity.toLowerCase()}`}
-                    >
-                      {skin.name}
-                    </h4>
-                  </div>
-
-                  <div className="skins_list-skin-item-right">
-                    <div className="skins_list-skin-item-right-currency">
-                      {skin.avaliable && skin.currency
-                        ? currencyIcons[skin.currency] ?? (
-                            <span>{skin.currency}</span>
-                          )
-                        : null}
+            <div className="skins_list">
+              {heroSkins.map((skin, index) => (
+                <div key={skin.name} className="skins_list-skin">
+                  <div
+                    key={skin.name + index}
+                    className={`skins_list-skin-item ${
+                      activeSkin === skin ? "active" : ""
+                    }`}
+                    onClick={() => handleSkinClick(skin)}
+                  >
+                    <div className="skins_list-skin-item-left">
+                      <div className="skins_list-skin-event">
+                        {skin.event
+                          ? eventIcons[skin.event] ?? <span>{skin.event}</span>
+                          : null}
+                      </div>
+                      <h4
+                        className={`skin_list-skin-name ${skin.rarity.toLowerCase()}`}
+                      >
+                        {skin.name}
+                      </h4>
                     </div>
 
-                    <div className="skins_list-skin-item-right-price">
-                      {skin.avaliable && skin.value !== null && (
-                        <p>{skin.value}</p>
-                      )}
-                    </div>
+                    <div className="skins_list-skin-item-right">
+                      <div className="skins_list-skin-item-right-currency">
+                        {skin.avaliable && skin.currency
+                          ? currencyIcons[skin.currency] ?? (
+                              <span>{skin.currency}</span>
+                            )
+                          : null}
+                      </div>
 
-                    <div className="skins_list-skin-item-right-avalibility">
-                      {skin.avaliable ? (
-                        ""
-                      ) : (
-                        <img src={locked} alt="Not avaliable" />
-                      )}
+                      <div className="skins_list-skin-item-right-price">
+                        {skin.avaliable && skin.value !== null && (
+                          <p>{skin.value}</p>
+                        )}
+                      </div>
+
+                      <div className="skins_list-skin-item-right-avalibility">
+                        {skin.avaliable ? (
+                          ""
+                        ) : (
+                          <img src={locked} alt="Not avaliable" />
+                        )}
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
 
-          <div className="skins_skin-img">
-            {/* <img src={skin.img} alt={skin.name} /> */}
-            <p>{activeSkin?.name}</p>
+          <div className="skins_skin">
+            <div className="skins_skin-img-container">
+              <img
+                className="skins_skin-img"
+                src={activeSkin?.img}
+                alt={activeSkin?.name}
+              />
+            </div>
+            <p className="skins_skin-desc">{activeSkin?.name}</p>
           </div>
         </div>
       </div>
