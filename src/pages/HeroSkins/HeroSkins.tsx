@@ -20,6 +20,7 @@ import overwatchCoins from "../../assets/icons/Overwatch_Coin.png"
 import owlTokens from "../../assets/icons/OWLtoken.webp"
 
 import locked from "../../assets/icons/Locked.webp"
+import info from "../../assets/icons/info.svg"
 
 function HeroSkins() {
   const { heroName } = useParams<{ heroName: string }>()
@@ -68,55 +69,71 @@ function HeroSkins() {
               <h3>{heroName}</h3>
             </div>
 
-            <div className="skins_list">
-              {heroSkins.map((skin, index) => (
-                <div key={skin.name} className="skins_list-skin">
-                  <div
-                    key={skin.name + index}
-                    className={`skins_list-skin-item ${
-                      activeSkin === skin ? "active" : ""
-                    }`}
-                    onClick={() => handleSkinClick(skin)}
-                  >
-                    <div className="skins_list-skin-item-left">
-                      <div className="skins_list-skin-event">
-                        {skin.event
-                          ? eventIcons[skin.event] ?? <span>{skin.event}</span>
-                          : null}
+            <div className="skins_wrapper-flex-inner">
+              {activeSkin?.desc ? (
+                <p className="skins_skin-desc mobile">
+                  <img
+                    className="skins_skin-desc-icon"
+                    src={info}
+                    alt="skin information icon"
+                  />
+                  {activeSkin?.desc}
+                </p>
+              ) : (
+                ""
+              )}
+              <div className="skins_list">
+                {heroSkins.map((skin, index) => (
+                  <div key={skin.name} className="skins_list-skin">
+                    <div
+                      key={skin.name + index}
+                      className={`skins_list-skin-item ${
+                        activeSkin === skin ? "active" : ""
+                      }`}
+                      onClick={() => handleSkinClick(skin)}
+                    >
+                      <div className="skins_list-skin-item-left">
+                        <div className="skins_list-skin-event">
+                          {skin.event
+                            ? eventIcons[skin.event] ?? (
+                                <span>{skin.event}</span>
+                              )
+                            : null}
+                        </div>
+                        <h4
+                          className={`skin_list-skin-name ${skin.rarity.toLowerCase()}`}
+                        >
+                          {skin.name}
+                        </h4>
                       </div>
-                      <h4
-                        className={`skin_list-skin-name ${skin.rarity.toLowerCase()}`}
-                      >
-                        {skin.name}
-                      </h4>
-                    </div>
 
-                    <div className="skins_list-skin-item-right">
-                      <div className="skins_list-skin-item-right-currency">
-                        {skin.avaliable && skin.currency
-                          ? currencyIcons[skin.currency] ?? (
-                              <span>{skin.currency}</span>
-                            )
-                          : null}
-                      </div>
+                      <div className="skins_list-skin-item-right">
+                        <div className="skins_list-skin-item-right-currency">
+                          {skin.avaliable && skin.currency
+                            ? currencyIcons[skin.currency] ?? (
+                                <span>{skin.currency}</span>
+                              )
+                            : null}
+                        </div>
 
-                      <div className="skins_list-skin-item-right-price">
-                        {skin.avaliable && skin.value !== null && (
-                          <p>{skin.value}</p>
-                        )}
-                      </div>
+                        <div className="skins_list-skin-item-right-price">
+                          {skin.avaliable && skin.value !== null && (
+                            <p>{skin.value}</p>
+                          )}
+                        </div>
 
-                      <div className="skins_list-skin-item-right-avalibility">
-                        {skin.avaliable ? (
-                          ""
-                        ) : (
-                          <img src={locked} alt="Not avaliable" />
-                        )}
+                        <div className="skins_list-skin-item-right-avalibility">
+                          {skin.avaliable ? (
+                            ""
+                          ) : (
+                            <img src={locked} alt="Not avaliable" />
+                          )}
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
 
@@ -128,7 +145,19 @@ function HeroSkins() {
                 alt={activeSkin?.name}
               />
             </div>
-            <p className="skins_skin-desc">{activeSkin?.name}</p>
+
+            {activeSkin?.desc ? (
+              <p className="skins_skin-desc desktop">
+                <img
+                  className="skins_skin-desc-icon"
+                  src={info}
+                  alt="skin information icon"
+                />
+                {activeSkin?.desc}
+              </p>
+            ) : (
+              ""
+            )}
           </div>
         </div>
       </div>
