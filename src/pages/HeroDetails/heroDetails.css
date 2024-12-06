@@ -258,7 +258,7 @@
   width: 100%;
   max-width: 2600px;
   height: 100%;
-  padding: 80px 60px 50px;
+  padding: 80px 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -279,6 +279,7 @@
   display: flex;
   flex-direction: column;
   max-width: 1200px;
+  gap: 30px;
 }
 
 .hero-details_tip {
@@ -406,20 +407,24 @@
 
   /* Tips */
   .hero-details_tips {
-    padding: 70px 40px 40px;
+    padding: 70px 40px;
   }
 
   .hero-details_tips h2 {
     font-size: 36px;
   }
 
+  .hero-details_tip {
+    align-items: flex-start;
+  }
+
   .hero-details_tip h3 {
     min-width: 60px;
-    font-size: 70px;
+    font-size: 60px;
   }
 
   .hero-details_tip p {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 

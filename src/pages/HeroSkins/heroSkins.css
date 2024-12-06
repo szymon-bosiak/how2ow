@@ -18,7 +18,7 @@
 }
 
 .skins_wrapper {
-  padding: 88px 40px 60px;
+  padding: 128px 40px 60px;
   height: 100%;
   flex: 1;
   display: flex;
@@ -35,10 +35,11 @@
 
 .skins_hero {
   width: 100%;
-  padding-left: 15px;
+  max-width: 500px;
+  padding-bottom: 30px;
   display: flex;
-  flex-direction: column;
-  text-align: left;
+  flex-wrap: wrap;
+  flex-shrink: 1;
   z-index: 2;
 }
 
@@ -46,8 +47,11 @@
   margin: 0;
   font-family: "Oswald", sans-serif;
   letter-spacing: -0.5px;
+  line-height: 1;
   transform: skew(-14deg);
   font-size: 90px;
+  white-space: nowrap;
+  font-size: clamp(80px, 50%, 90px);
   font-weight: 500;
   text-transform: uppercase;
   color: transparent;
@@ -63,7 +67,6 @@
 .skins_list {
   width: 500px;
   height: 63vh;
-  /* height: 830px; */
   padding: 9px 6px;
   background-color: var(--dark-blue);
   border-radius: 10px;
@@ -218,17 +221,18 @@
 
 .skins_skin-desc {
   width: 100%;
-  max-width: 300px;
+  max-width: 320px;
   position: absolute;
   bottom: 20%;
   right: 0;
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: end;
+  text-align: left;
   color: var(--white);
   font-size: 20px;
   z-index: 20;
+  opacity: .8;
 }
 
 .skins_skin-desc.mobile {
@@ -238,12 +242,13 @@
 .skins_skin-desc-icon {
   width: 24px;
   height: 24px;
-  padding-right: 4px;
+  padding-right: 3px;
+  transform: translateY(3px);
 }
 
 @media screen and (max-width: 2100px) {
   .skins_wrapper {
-    padding: 88px 0px 60px 40px;
+    padding: 128px 0px 60px 40px;
   }
 
   .skins_skin-img img {
@@ -291,6 +296,14 @@
     position: relative;
   }
 
+  .skins_hero {
+    padding: 0;
+  }
+
+  .skins_hero h3 {
+    padding: 20px 20px;
+  }
+
   .skins_skin {
     height: 100%;
     width: 100%;
@@ -298,8 +311,7 @@
   }
 
   .skins_skin-img {
-    top: -1%;
-    left: -5%;
+    bottom: 12%;
   }
 
   .skins_list {
@@ -327,8 +339,77 @@
   }
 }
 
+@media screen and (max-width: 750px) {
+  .skins_wrapper-flex {
+    min-width: min-content;
+  }
+
+  .skins_wrapper {
+    padding: 56px 0px 60px 0px;
+  }
+}
+
 @media screen and (max-width: 600px) {
-  .skins_skin-img {
-    left: 0;
+  .skins_hero {
+    width: 100%;
+    text-align: left;
+    flex-wrap: no-wrap;
+    flex-shrink: 0;
+  }
+
+  .skins_hero h3 {
+    margin: 0;
+    font-size: 90px;
+    white-space: wrap;
+    font-size: clamp(70px, 50%, 90px);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .skins_list-skin-item-left h4 {
+    font-size: 16px;
+  }
+
+  .skins_list-skin-event {
+    padding-right: 5px;
+  }
+
+  .skins_list-skin-event img {
+    height: 16px;
+  }
+
+  .skins_list-skin-item-right {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  .skins_list-skin-item-right-currency {
+    padding-right: 5px;
+  }
+
+  .skins_list-skin-item-right-currency img {
+    width: 16px;
+  }
+
+  .skins_list-skin-item-right-price {
+    width: 40px;
+  }
+
+  .skins_list-skin-item-right-avalibility {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skins_skin-desc {
+    font-size: 15px;
+    opacity: .6;
+  }
+
+  .skins_skin-desc-icon {
+    width: 18px;
+    height: 18px;
+    padding-right: 0;
+    transform: translate(-2px, 1px);
   }
 }

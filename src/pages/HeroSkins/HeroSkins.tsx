@@ -20,7 +20,7 @@ import overwatchCoins from "../../assets/icons/Overwatch_Coin.png"
 import owlTokens from "../../assets/icons/OWLtoken.webp"
 
 import locked from "../../assets/icons/Locked.webp"
-import info from "../../assets/icons/info.svg"
+import info from "../../assets/icons/info_full.svg"
 
 function HeroSkins() {
   const { heroName } = useParams<{ heroName: string }>()
@@ -147,14 +147,14 @@ function HeroSkins() {
             </div>
 
             {activeSkin?.desc ? (
-              <p className="skins_skin-desc desktop">
+              <div className="skins_skin-desc desktop">
                 <img
                   className="skins_skin-desc-icon"
                   src={info}
                   alt="skin information icon"
                 />
-                {activeSkin?.desc}
-              </p>
+                <p>{activeSkin?.desc}</p>
+              </div>
             ) : (
               ""
             )}
