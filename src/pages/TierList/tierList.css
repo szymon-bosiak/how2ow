@@ -1,0 +1,314 @@
+.tierList_container {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blt9828c70fb3f45a60/6306c16eec8ae711a43279b0/2600_Silver_Background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.tierList_content {
+  padding-top: 128px;
+  height: 100%;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.tierList_content-wraper {
+  width: 100%;
+  max-width: 2004px;
+  padding: 0 40px;
+  margin-bottom: 80px;
+  box-sizing: border-box;
+}
+
+.tierList_content-heading {
+  text-align: left;
+}
+
+.tierList_content-heading-text {
+  padding-bottom: 20px;
+  line-height: 30px;
+  color: var(--dark);
+}
+
+.tierList_content-heading-text h2 {
+  font-size: 56px;
+  margin: 0;
+}
+
+.tierList_content-heading-select {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.tierList_content-heading-role-container {
+}
+
+.tierList_content-heading-role-button {
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  border: 4px solid var(--white);
+  border-radius: 100%;
+  cursor: pointer;
+  box-sizing: border-box;
+  opacity: 0.5;
+  transition: var(--transition-hover-long);
+}
+
+.tierList_content-heading-role-button:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.tierList_content-heading-role-button--active {
+  opacity: 1;
+}
+
+.tierList_content-heading-role-button img {
+  width: 50px;
+}
+
+.tierList_content-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--white);
+}
+
+.tierList_content-tiers {
+}
+
+.tierList_content-tier-inner {
+  display: flex;
+  flex-direction: row;
+}
+
+.tierList_content-tier-name {
+  margin: 4px;
+  width: 124px;
+  height: 124px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--dark);
+}
+
+.tierList_content-tier-name--mythic {
+  width: 124px;
+  height: 124px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tierList_content-tier-name.common {
+  color: var(--white);
+}
+.tierList_content-tier-name.rare {
+  color: var(--rare);
+}
+.tierList_content-tier-name.epic {
+  color: var(--epic);
+}
+.tierList_content-tier-name.legendary {
+  color: var(--legendary);
+}
+.tierList_content-tier-name--mythic.mythic {
+  background: linear-gradient(130deg, #01c19d, #dddddd, #c1269a);
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+}
+
+.tierList_content-mythic-container {
+  margin: 4px;
+  width: 124px;
+  height: 124px;
+  background-color: var(--dark);
+}
+
+.tierList_content-tier-name h3 {
+  width: 124px;
+  height: 124px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 90px;
+  box-sizing: border-box;
+}
+
+.tierList_content-tier-name--mythic h3 {
+  width: 124px;
+  height: 124px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 90px;
+  box-sizing: border-box;
+}
+
+.tierList_content-tier-row {
+    margin: 4px 0;
+}
+
+.tierList_content-tier-portrait {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.tierList_content-tier-portrait img {
+  width: 124px;
+  height: 124px;
+}
+
+.tierList_source {
+  margin-top: 10px;
+  width: 100%;
+  margin-left: 2px;
+  text-align: left;
+  font-size: 12px;
+}
+
+.tierList_source-link {
+  color: var(--blizzard-blue);
+  font-weight: 500;
+  text-decoration: none;
+  transition: var(--transition-hover);
+  position: relative;
+}
+
+.tierList_source-link::after {
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+  content: "";
+  border-radius: 5px;
+  background-color: var(--blizzard-blue);
+  transition: all 0.2s ease-in-out;
+}
+
+.tierList_source-link:hover {
+  color: var(--light-blue);
+}
+
+.tierList_source-link:hover::after {
+  background-color: var(--light-blue);
+  transform: translateY(1px);
+  scale: 1.05;
+}
+
+@media screen and (max-width: 870px) {
+  .tierList_content-heading-text h2 {
+    font-size: 40px;
+  }
+
+  .tierList_content-tier-name {
+    width: 100px;
+    height: 100px;
+  }
+  .tierList_content-tier-name--mythic {
+    width: 100px;
+    height: 100px;
+  }
+  .tierList_content-mythic-container {
+    width: 100px;
+    height: 100px;
+  }
+
+  .tierList_content-tier-name h3 {
+    width: 100px;
+    height: 100px;
+    font-size: 70px;
+  }
+
+  .tierList_content-tier-name--mythic h3 {
+    width: 100px;
+    height: 100px;
+    font-size: 70px;
+  }
+
+  .tierList_content-tier-portrait img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .tierList_content-heading-text h2 {
+    font-size: 40px;
+  }
+
+  .tierList_content-tier-name {
+    width: 70px;
+    height: 70px;
+  }
+  .tierList_content-tier-name--mythic {
+    width: 70px;
+    height: 70px;
+  }
+  .tierList_content-mythic-container {
+    width: 70px;
+    height: 70px;
+  }
+
+  .tierList_content-tier-name h3 {
+    width: 70px;
+    height: 70px;
+    font-size: 70px;
+  }
+
+  .tierList_content-tier-name--mythic h3 {
+    width: 70px;
+    height: 70px;
+    font-size: 70px;
+  }
+
+  .tierList_content-tier-portrait img {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .tierList_content-heading-select {
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  .tierList_content-heading-role-button {
+    padding: 11px;
+    border: 3px solid var(--white);
+    flex-wrap: wrap;
+  }
+  .tierList_content-heading-role-button img {
+    width: 38px;
+  }
+}

@@ -5,7 +5,7 @@ import HeroDetails from "./pages/HeroDetails/HeroDetails"
 import HeroesSkins from "./pages/HeroesSkins/HeroesSkins"
 import HeroSkins from "./pages/HeroSkins/HeroSkins"
 import About from "./pages/About/About"
-// import TierList from "./pages/TierList"
+import TierList from "./pages/TierList/TierList"
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
           <Route path="/heroes/:heroName" element={<HeroDetails />} />
           <Route path="/skins" element={<HeroesSkins />} />
           <Route path="/skins/:heroName" element={<HeroSkins />} />
+          <Route path="/tier-list" element={<TierList />} />
           <Route path="/about" element={<About />} />
         </Routes>
       </Layout>

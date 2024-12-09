@@ -1,228 +1,227 @@
 .heroes_bg {
-    width: 100%;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    background-image: url("../../assets/training-bg.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../assets/training-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.heroes_wrapper {
+  padding-top: 88px;
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.heroes_columns {
+  margin-top: 30px;
+  width: 100%;
+  padding: 0 10px;
+  max-width: 2300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.heroes {
+  display: flex;
+  flex-direction: column;
+}
+
+.heroes_class {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--white);
+  text-transform: uppercase;
+  font-size: 28px;
+}
+
+.heroes_class img {
+  height: 22px;
+  padding: 9px;
+  border: 3px solid #ffffff80;
+  border-radius: 100%;
+  overflow: visible;
+}
+
+.heroes_list {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 8px;
+  list-style: none;
+}
+
+ul.heroes_list {
+  padding: 0;
+}
+
+.heroes_list.dps {
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.heroes_link {
+  max-width: max-content;
+  color: var(--black);
+  text-decoration: none;
+  transition: var(--transition-hover);
+  grid-column: span 2;
+}
+
+/* justify last row */
+.heroes_link.dps {
+  /* widow */
+  &:last-child:nth-child(10n - 2) {
+    grid-column-end: 9;
   }
-  
-  .heroes_wrapper {
-    padding-top: 88px;
-    height: 100%;
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+
+  /* venture */
+  &:nth-last-child(2):nth-child(10n + 7) {
+    grid-column-end: 7;
   }
-  
+
+  /* tracer */
+  &:nth-last-child(3):nth-child(10n + 6) {
+    grid-column-end: 5;
+  }
+}
+
+.heroes_link:hover {
+  scale: 1.05;
+}
+
+.heroes_hero {
+  max-width: min-content;
+  display: flex;
+  flex-direction: column;
+  background: var(--background-hero);
+  border-radius: 6px;
+}
+
+.heroes_hero-portrait {
+  width: 160px;
+  margin-top: 4px;
+  display: flex;
+  background: url("../../assets/hero-bg-pattern.png") center/cover no-repeat,
+    linear-gradient(
+      180deg,
+      rgba(107, 114, 143, 1) 0%,
+      rgba(211, 195, 199, 1) 100%
+    );
+  border-radius: 3px;
+}
+
+.heroes_hero-name {
+  margin: 8px 0;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  transform: skew(-14deg);
+}
+
+@media screen and (max-width: 2250px) {
   .heroes_columns {
-    margin-top: 30px;
-    width: 100%;
-    padding: 0 10px;
-    max-width: 2300px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 20px;
+    margin-bottom: 40px;
+    justify-content: space-evenly;
   }
-  
-  .heroes {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .heroes_class {
-    margin: 0;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    color: var(--white);
-    text-transform: uppercase;
-    font-size: 28px;
-  }
-  
-  .heroes_class img {
-    height: 22px;
-    padding: 9px;
-    border: 3px solid #ffffff80;
-    border-radius: 100%;
-    overflow: visible;
-  }
-  
+
   .heroes_list {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    gap: 8px;
-    list-style: none;
+    grid-template-columns: repeat(6, 1fr);
   }
-  
-  ul.heroes_list {
-    padding: 0;
-  }
-  
+
   .heroes_list.dps {
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(8, 1fr);
   }
-  
-  .heroes_link {
-    max-width: max-content;
-    color: var(--black);
-    text-decoration: none;
-    transition: var(--transition-hover);
-    grid-column: span 2;
-  }
-  
-  /* justify last row */
+
+  /* adjust - justify last row */
   .heroes_link.dps {
     /* widow */
     &:last-child:nth-child(10n - 2) {
-      grid-column-end: 9;
-    }
-  
-    /* venture */
-    &:nth-last-child(2):nth-child(10n + 7) {
       grid-column-end: 7;
     }
-  
-    /* tracer */
-    &:nth-last-child(3):nth-child(10n + 6) {
+
+    /* venture */
+    &:nth-last-child(2):nth-child(10n + 7) {
       grid-column-end: 5;
     }
+
+    /* tracer */
+    &:nth-last-child(3):nth-child(10n + 6) {
+      grid-column-end: initial;
+    }
   }
-  
-  .heroes_link:hover {
-    scale: 1.05;
-  }
-  
-  .heroes_hero {
-    max-width: min-content;
-    display: flex;
+}
+
+@media screen and (max-width: 1750px) {
+  .heroes_columns {
     flex-direction: column;
-    background: var(--background-hero);
-    border-radius: 6px;
+    align-items: center;
+    gap: 30px;
   }
-  
-  .heroes_hero-portrait {
-    width: 160px;
-    margin-top: 4px;
-    display: flex;
-    background: url("../../assets/hero-bg-pattern.png") center/cover no-repeat,
-      linear-gradient(
-        180deg,
-        rgba(107, 114, 143, 1) 0%,
-        rgba(211, 195, 199, 1) 100%
-      );
-    border-radius: 3px;
+
+  .heroes_list {
+    max-width: max-content;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
   }
-  
-  .heroes_hero-name {
-    margin: 8px 0;
-    text-transform: uppercase;
-    font-family: "Oswald", sans-serif;
-    font-size: 25px;
-    font-weight: 500;
-    letter-spacing: -0.5px;
-    transform: skew(-14deg);
+
+  .heroes_list.dps {
+    grid-template-columns: repeat(4, 1fr);
   }
-  
-  @media screen and (max-width: 2250px) {
-    .heroes_columns {
-      margin-bottom: 40px;
-      justify-content: space-evenly;
+
+  /* remove - justify last row */
+  .heroes_link.dps {
+    /* widow */
+    &:last-child:nth-child(10n - 2) {
+      grid-column-end: initial;
     }
-  
-    .heroes_list {
-      grid-template-columns: repeat(6, 1fr);
+
+    /* venture */
+    &:nth-last-child(2):nth-child(10n + 7) {
+      grid-column-end: initial;
     }
-  
-    .heroes_list.dps {
-      grid-template-columns: repeat(8, 1fr);
-    }
-  
-    /* adjust - justify last row */
-    .heroes_link.dps {
-      /* widow */
-      &:last-child:nth-child(10n - 2) {
-        grid-column-end: 7;
-      }
-  
-      /* venture */
-      &:nth-last-child(2):nth-child(10n + 7) {
-        grid-column-end: 5;
-      }
-  
-      /* tracer */
-      &:nth-last-child(3):nth-child(10n + 6) {
-        grid-column-end: initial;
-      }
+
+    /* tracer */
+    &:nth-last-child(3):nth-child(10n + 6) {
+      grid-column-end: initial;
     }
   }
-  
-  @media screen and (max-width: 1750px) {
-    .heroes_columns {
-      flex-direction: column;
-      align-items: center;
-      gap: 30px;
-    }
-  
-    .heroes_list {
-      max-width: max-content;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 20px;
-    }
-  
-    .heroes_list.dps {
-      grid-template-columns: repeat(4, 1fr);
-    }
-  
-    /* remove - justify last row */
-    .heroes_link.dps {
-      /* widow */
-      &:last-child:nth-child(10n - 2) {
-        grid-column-end: initial;
-      }
-  
-      /* venture */
-      &:nth-last-child(2):nth-child(10n + 7) {
-        grid-column-end: initial;
-      }
-  
-      /* tracer */
-      &:nth-last-child(3):nth-child(10n + 6) {
-        grid-column-end: initial;
-      }
-    }
-  
-    .heroes_link {
-      grid-column: span 1;
-    }
+
+  .heroes_link {
+    grid-column: span 1;
   }
-  
-  @media screen and (max-width: 750px) {
-    .heroes_list {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  
-    .heroes_list.dps {
-      grid-template-columns: repeat(3, 1fr);
-    }
+}
+
+@media screen and (max-width: 750px) {
+  .heroes_list {
+    grid-template-columns: repeat(3, 1fr);
   }
-  
-  @media screen and (max-width: 560px) {
-    .heroes_list {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  
-    .heroes_list.dps {
-      grid-template-columns: repeat(2, 1fr);
-    }
+
+  .heroes_list.dps {
+    grid-template-columns: repeat(3, 1fr);
   }
-  
+}
+
+@media screen and (max-width: 560px) {
+  .heroes_list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .heroes_list.dps {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
