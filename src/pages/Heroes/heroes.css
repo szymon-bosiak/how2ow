@@ -1,0 +1,24 @@
+.heroList_bg--info {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltd0bc9a7387113fff/6450282513e90763ea6e0eee/1600_Origin_Story_v2.jpg?format=webply&quality=90");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.heroList_wrapper--info {
+  padding-top: 88px;
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}

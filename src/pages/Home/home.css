@@ -1,0 +1,57 @@
+.home {
+  height: 100%;
+  width: 100%;
+  perspective: 1000px;
+  overflow: hidden;
+  position: "relative";
+}
+
+.home_container {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt0783c76a58bd39e2/660c5cce39a9b3d622f86c68/Desktop_Outro_Sky.jpg?format=webply&quality=90");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home_container img {
+  height: 95vh;
+  width: auto;
+  position: absolute;
+  left: "50%";
+  bottom: 0;
+  background-repeat: no-repeat;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  pointer-events: none;
+}
+
+.home_container-header {
+  position: absolute;
+  color: #fff;
+  z-index: 10;
+}
+
+.home_container-header h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.home_container-button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.home_container-primary-button {
+  background-color: #007bff;
+
+  padding: 1rem 2rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}

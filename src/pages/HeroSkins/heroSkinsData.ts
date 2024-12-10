@@ -564,7 +564,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Gangster",
         rarity: "Legendary",
-        img: "/skins/ashe/Gangster.png",
+        img: "/skins/ashe/gangster.png",
         value: 1000,
         currency: "Credits",
         event: null,
@@ -1720,7 +1720,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Undead",
         rarity: "Epic",
-        img: "/skins/cassidy/Undead.png",
+        img: "/skins/cassidy/undead.png",
         value: 750,
         currency: "Credits",
         event: "Halloween Terror",
@@ -2124,7 +2124,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Officer",
         rarity: "Legendary",
-        img: "/skins/dva/black-cat.png",
+        img: "/skins/dva/officer.png",
         value: 1000,
         currency: "Credits",
         event: null,
@@ -2302,9 +2302,9 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         desc: null,
       },
       {
-        name: "2020 Pacific All-Stars",
+        name: "2020 Paciffic All-Stars",
         rarity: "Legendary",
-        img: "/skins/dva/2020-pacific-all-stars.png",
+        img: "/skins/dva/2020-paciffic-all-stars.png",
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -2633,16 +2633,6 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         name: "Classic",
         rarity: "Common",
         img: "/skins/echo/ow.png",
-        value: null,
-        currency: null,
-        event: null,
-        avaliable: true,
-        desc: "Free starting skin",
-      },
-      {
-        name: "Overwatch 2",
-        rarity: "Common",
-        img: "/skins/echo/ow2.png",
         value: null,
         currency: null,
         event: null,
@@ -3156,7 +3146,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Karasu-Tengu",
         rarity: "Legendary",
-        img: "/skins/genji/Karasu---tengu.png",
+        img: "/skins/genji/karasu---tengu.png",
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -3194,9 +3184,9 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         desc: null,
       },
       {
-        name: "2018 Pacific All-Stars",
+        name: "2018 Paciffic All-Stars",
         rarity: "Legendary",
-        img: "/skins/genji/2018-pacific-all---stars.png",
+        img: "/skins/genji/2018-paciffic-all---stars.png",
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -3826,9 +3816,9 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
   "junker-queen": {
     skins: [
       {
-        name: "Overwatch 2",
+        name: "Classic",
         rarity: "Common",
-        img: "/skins/junker-queen/ow2.png",
+        img: "/skins/junker-queen/ow.png",
         value: null,
         currency: null,
         event: null,
@@ -3959,7 +3949,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Heavy Metal ",
         rarity: "Legendary",
-        img: "/skins/junker-queen/heavy-metal .png",
+        img: "/skins/junker-queen/heavy-metal.png",
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4013,7 +4003,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "/skins/junkerat/ow.png",
+        img: "/skins/junkrat/ow.png",
         value: null,
         currency: null,
         event: null,
@@ -4023,7 +4013,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "/skins/junkerat/ow2.png",
+        img: "/skins/junkrat/ow2.png",
         value: null,
         currency: null,
         event: null,
@@ -4033,7 +4023,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Bleached",
         rarity: "Rare",
-        img: "/skins/junkerat/bleached.png",
+        img: "/skins/junkrat/bleached.png",
         value: 75,
         currency: "Credits",
         event: null,
@@ -4043,7 +4033,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Drowned",
         rarity: "Rare",
-        img: "/skins/junkerat/drowned.png",
+        img: "/skins/junkrat/drowned.png",
         value: 75,
         currency: "Credits",
         event: null,
@@ -4053,7 +4043,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Irradiated",
         rarity: "Rare",
-        img: "/skins/junkerat/irradiated.png",
+        img: "/skins/junkrat/irradiated.png",
         value: 75,
         currency: "Credits",
         event: null,
@@ -4063,7 +4053,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Rusted",
         rarity: "Rare",
-        img: "/skins/junkerat/rusted.png",
+        img: "/skins/junkrat/rusted.png",
         value: 75,
         currency: "Credits",
         event: null,
@@ -4073,7 +4063,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Caution",
         rarity: "Epic",
-        img: "/skins/junkerat/caution.png",
+        img: "/skins/junkrat/caution.png",
         value: 250,
         currency: "Credits",
         event: null,
@@ -4083,7 +4073,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Jailbird",
         rarity: "Epic",
-        img: "/skins/junkerat/jailbird.png",
+        img: "/skins/junkrat/jailbird.png",
         value: 250,
         currency: "Credits",
         event: null,
@@ -4093,7 +4083,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Toasted",
         rarity: "Epic",
-        img: "/skins/junkerat/toasted.png",
+        img: "/skins/junkrat/toasted.png",
         value: 250,
         currency: "Credits",
         event: null,
@@ -4103,7 +4093,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Firework",
         rarity: "Epic",
-        img: "/skins/junkerat/firework.png",
+        img: "/skins/junkrat/firework.png",
         value: 750,
         currency: "Credits",
         event: "Lunar New Year",
@@ -4113,7 +4103,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Circus",
         rarity: "Epic",
-        img: "/skins/junkerat/circus.png",
+        img: "/skins/junkrat/circus.png",
         value: 750,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -4123,7 +4113,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Inferno",
         rarity: "Epic",
-        img: "/skins/junkerat/inferno.png",
+        img: "/skins/junkrat/inferno.png",
         value: null,
         currency: null,
         event: "Halloween Terror",
@@ -4133,7 +4123,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Neon Streets",
         rarity: "Epic",
-        img: "/skins/junkerat/neon-streets.png",
+        img: "/skins/junkrat/neon-streets.png",
         value: 1000,
         currency: null,
         event: null,
@@ -4143,7 +4133,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sawtooth Trapper",
         rarity: "Epic",
-        img: "/skins/junkerat/sawtooth-trapper.png",
+        img: "/skins/junkrat/sawtooth-trapper.png",
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -4153,7 +4143,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mobster",
         rarity: "Epic",
-        img: "/skins/junkerat/mobster.png",
+        img: "/skins/junkrat/mobster.png",
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4163,7 +4153,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Aviator",
         rarity: "Epic",
-        img: "/skins/junkerat/aviator.png",
+        img: "/skins/junkrat/aviator.png",
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4173,7 +4163,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Fool",
         rarity: "Legendary",
-        img: "/skins/junkerat/Fool.png",
+        img: "/skins/junkrat/fool.png",
         value: 1500,
         currency: "Credits",
         event: null,
@@ -4183,7 +4173,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Jester",
         rarity: "Legendary",
-        img: "/skins/junkerat/jester.png",
+        img: "/skins/junkrat/jester.png",
         value: 1000,
         currency: "Credits",
         event: null,
@@ -4193,7 +4183,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Hayseed",
         rarity: "Legendary",
-        img: "/skins/junkerat/hayseed.png",
+        img: "/skins/junkrat/hayseed.png",
         value: 1000,
         currency: "Credits",
         event: null,
@@ -4203,7 +4193,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Scarecrow",
         rarity: "Legendary",
-        img: "/skins/junkerat/scarecrow.png",
+        img: "/skins/junkrat/scarecrow.png",
         value: 1000,
         currency: "Credits",
         event: null,
@@ -4213,7 +4203,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "King Jamison",
         rarity: "Legendary",
-        img: "/skins/junkerat/king-jamison.png",
+        img: "/skins/junkrat/king-jamison.png",
         value: 1500,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -4223,7 +4213,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Junkfood",
         rarity: "Legendary",
-        img: "/skins/junkerat/junkfood.png",
+        img: "/skins/junkrat/junkfood.png",
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -4233,7 +4223,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Bilgerat",
         rarity: "Legendary",
-        img: "/skins/junkerat/bilgerat.png",
+        img: "/skins/junkrat/bilgerat.png",
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -4243,7 +4233,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cricket",
         rarity: "Legendary",
-        img: "/skins/junkerat/cricket.png",
+        img: "/skins/junkrat/cricket.png",
         value: 1500,
         currency: "Credits",
         event: "Summer Games",
@@ -4253,7 +4243,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Dr. Junkenstein",
         rarity: "Legendary",
-        img: "/skins/junkerat/dr-junkenstein.png",
+        img: "/skins/junkrat/dr-junkenstein.png",
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -4263,7 +4253,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Beachrat",
         rarity: "Legendary",
-        img: "/skins/junkerat/beachrat.png",
+        img: "/skins/junkrat/beachrat.png",
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -4273,7 +4263,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Krampus",
         rarity: "Legendary",
-        img: "/skins/junkerat/krampus.png",
+        img: "/skins/junkrat/krampus.png",
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -4283,7 +4273,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Fawksey James",
         rarity: "Legendary",
-        img: "/skins/junkerat/fawksey-james.png",
+        img: "/skins/junkrat/fawksey-james.png",
         value: null,
         currency: null,
         event: null,
@@ -4293,7 +4283,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Junkbot",
         rarity: "Legendary",
-        img: "/skins/junkerat/junkbot.png",
+        img: "/skins/junkrat/junkbot.png",
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4303,7 +4293,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Hong Hai Er",
         rarity: "Legendary",
-        img: "/skins/junkerat/hong-hai-er.png",
+        img: "/skins/junkrat/hong-hai-er.png",
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -4313,7 +4303,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Lifeguard",
         rarity: "Legendary",
-        img: "/skins/junkerat/lifeguard.png",
+        img: "/skins/junkrat/lifeguard.png",
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -4561,7 +4551,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Festive",
         rarity: "Legendary",
-        img: "/skins/kiriko/Festive.png",
+        img: "/skins/kiriko/festive.png",
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4837,9 +4827,9 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         desc: "Free starting skin",
       },
       {
-        name: "Amsonia",
+        name: "Azul",
         rarity: "Rare",
-        img: "/skins/lucio/amsonia.png",
+        img: "/skins/lucio/azul.png",
         value: 75,
         currency: "Credits",
         event: null,
@@ -5127,9 +5117,9 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         desc: null,
       },
       {
-        name: "2019 Pacific All-Stars",
+        name: "2019 Paciffic All-Stars",
         rarity: "Legendary",
-        img: "/skins/lucio/2019-pacific-all---stars.png",
+        img: "/skins/lucio/2019-paciffic-all---stars.png",
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -5273,7 +5263,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Port-De-Paix",
         rarity: "Legendary",
-        img: "/skins/mauga/port-de-paix.png",
+        img: "/skins/mauga/port---de---paix.png",
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -5397,7 +5387,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Zhongguo",
         rarity: "Epic",
-        img: "/skins/mei/zhongguz.png",
+        img: "/skins/mei/zhongguo.png",
         value: null,
         currency: null,
         event: "Summer Games",
@@ -5617,7 +5607,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Neon Streets",
         rarity: "Legendary",
-        img: "/skins/mei/mm---mei.png",
+        img: "/skins/mei/neon-streets.png",
         value: null,
         currency: null,
         event: null,
@@ -6689,7 +6679,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Grand Beast",
         rarity: "Legendary",
-        img: "/skins/orisa/grand-beaste.png",
+        img: "/skins/orisa/grand-beast.png",
         value: 50,
         currency: "Mythic Prisms",
         event: null,
@@ -7055,9 +7045,9 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
   ramattra: {
     skins: [
       {
-        name: "Overwatch 2",
+        name: "Classic",
         rarity: "Common",
-        img: "/skins/ramattra/ow2.png",
+        img: "/skins/ramattra/ow.png",
         value: null,
         currency: null,
         event: null,
@@ -8035,7 +8025,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "All Might",
         rarity: "Legendary",
-        img: "/skins/reinhardt/all-might.png",
+        img: "/skins/reinhardt/all-mighty.png",
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -9899,7 +9889,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Tyrande",
         rarity: "Legendary",
-        img: "/skins/symmetra/Tyrande.png",
+        img: "/skins/symmetra/tyrande.png",
         value: 1500,
         currency: "Credits",
         event: null,
@@ -11249,7 +11239,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "BlizzCon 2017",
         rarity: "Epic",
-        img: "/skins/winston/blizzCon-2017.png",
+        img: "/skins/winston/blizzcon-2017.png",
         value: null,
         currency: null,
         event: null,
@@ -12077,7 +12067,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Apocalypse Trainer",
         rarity: "Legendary",
-        img: "/skins/zarya/apocalypse-trainern.png",
+        img: "/skins/zarya/apocalypse-trainer.png",
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",

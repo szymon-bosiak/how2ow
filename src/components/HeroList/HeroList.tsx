@@ -33,88 +33,80 @@ function HeroList() {
   if (error) return <p>Error: {error}</p>
 
   return (
-    <div className="heroes_bg">
-      <div className="heroes_wrapper">
-        <div className="heroes_columns">
-          {/* Tank Heroes */}
-          <section className="heroes">
-            <h1 className="heroes_class">
-              <img src={tank} alt="" className="heroes_name-img" /> Tank
-            </h1>
-            <ul className="heroes_list">
-              {heroes
-                .filter((hero) => hero.role === "tank")
-                .map((hero) => (
-                  <Link to={hero.key} key={hero.key} className="heroes_link">
-                    <li className="heroes_hero">
-                      <img
-                        src={hero.portrait}
-                        alt={`${hero.name} portrait`}
-                        className="heroes_hero-portrait"
-                      />
-                      <h2 className="heroes_hero-name">{hero.name}</h2>
-                    </li>
-                  </Link>
-                ))}
-            </ul>
-          </section>
+    <div className="heroes_columns">
+      {/* Tank Heroes */}
+      <section className="heroes">
+        <h1 className="heroes_class">
+          <img src={tank} alt="" className="heroes_name-img" /> Tank
+        </h1>
+        <ul className="heroes_list">
+          {heroes
+            .filter((hero) => hero.role === "tank")
+            .map((hero) => (
+              <Link to={hero.key} key={hero.key} className="heroes_link">
+                <li className="heroes_hero">
+                  <img
+                    src={hero.portrait}
+                    alt={`${hero.name} portrait`}
+                    className="heroes_hero-portrait"
+                  />
+                  <h2 className="heroes_hero-name">{hero.name}</h2>
+                </li>
+              </Link>
+            ))}
+        </ul>
+      </section>
 
-          {/* Damage Heroes */}
-          <section className="heroes">
-            <h1 className="heroes_class">
-              <img src={damage} alt="" className="heroes_name-img" />
-              Damage
-            </h1>
-            <ul className="heroes_list dps">
-              {heroes
-                .filter((hero) => hero.role === "damage")
-                .map((hero) => (
-                  <Link
-                    to={hero.key}
-                    key={hero.key}
-                    className="heroes_link dps"
-                  >
-                    <li className="heroes_hero">
-                      <div className="heroes_hero-portrait-bg">
-                        <img
-                          src={hero.portrait}
-                          alt={`${hero.name} portrait`}
-                          className="heroes_hero-portrait"
-                        />
-                      </div>
+      {/* Damage Heroes */}
+      <section className="heroes">
+        <h1 className="heroes_class">
+          <img src={damage} alt="" className="heroes_name-img" />
+          Damage
+        </h1>
+        <ul className="heroes_list dps">
+          {heroes
+            .filter((hero) => hero.role === "damage")
+            .map((hero) => (
+              <Link to={hero.key} key={hero.key} className="heroes_link dps">
+                <li className="heroes_hero">
+                  <div className="heroes_hero-portrait-bg">
+                    <img
+                      src={hero.portrait}
+                      alt={`${hero.name} portrait`}
+                      className="heroes_hero-portrait"
+                    />
+                  </div>
 
-                      <h2 className="heroes_hero-name">{hero.name}</h2>
-                    </li>
-                  </Link>
-                ))}
-            </ul>
-          </section>
+                  <h2 className="heroes_hero-name">{hero.name}</h2>
+                </li>
+              </Link>
+            ))}
+        </ul>
+      </section>
 
-          {/* Support Heroes */}
-          <section className="heroes">
-            <h1 className="heroes_class">
-              <img src={support} alt="" className="heroes_name-img" />
-              Support
-            </h1>
-            <ul className="heroes_list">
-              {heroes
-                .filter((hero) => hero.role === "support")
-                .map((hero) => (
-                  <Link to={hero.key} key={hero.key} className="heroes_link">
-                    <li className="heroes_hero">
-                      <img
-                        src={hero.portrait}
-                        alt={`${hero.name} portrait`}
-                        className="heroes_hero-portrait"
-                      />
-                      <h2 className="heroes_hero-name">{hero.name}</h2>
-                    </li>
-                  </Link>
-                ))}
-            </ul>
-          </section>
-        </div>
-      </div>
+      {/* Support Heroes */}
+      <section className="heroes">
+        <h1 className="heroes_class">
+          <img src={support} alt="" className="heroes_name-img" />
+          Support
+        </h1>
+        <ul className="heroes_list">
+          {heroes
+            .filter((hero) => hero.role === "support")
+            .map((hero) => (
+              <Link to={hero.key} key={hero.key} className="heroes_link">
+                <li className="heroes_hero">
+                  <img
+                    src={hero.portrait}
+                    alt={`${hero.name} portrait`}
+                    className="heroes_hero-portrait"
+                  />
+                  <h2 className="heroes_hero-name">{hero.name}</h2>
+                </li>
+              </Link>
+            ))}
+        </ul>
+      </section>
     </div>
   )
 }
