@@ -1,21 +1,12 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import "./home.css"
+import link from "../../assets/icons/link_icon.svg"
+import { Link } from "react-router-dom"
 
 function Home() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
   const [isMouseInside, setIsMouseInside] = useState(false)
-
-  const assets = {
-    lg: {
-      all: "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt10ca78298ef6edf0/660c5d270b9c8248765adc18/Desktop_Outro_Characters.png?format=webply&quality=90",
-      background:
-        "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt0783c76a58bd39e2/660c5cce39a9b3d622f86c68/Desktop_Outro_Sky.jpg?format=webply&quality=90",
-    },
-    sm: {
-      universal:
-        "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt29fc116531f1acaa/660c5c8d022c72028b87ff42/960_Outro.jpg?format=webply&quality=90",
-    },
-  }
+  const [isDesktop, setIsDesktop] = useState<boolean>(false)
 
   const heroes = [
     {
@@ -57,6 +48,25 @@ function Home() {
     setIsMouseInside(false)
   }
 
+  useEffect(() => {
+    const updateAssest = () => {
+      const width = window.innerWidth
+      if (width <= 1000) {
+        setIsDesktop(false)
+      } else {
+        setIsDesktop(true)
+      }
+    }
+
+    updateAssest()
+
+    window.addEventListener("resize", updateAssest)
+
+    return () => {
+      window.removeEventListener("resize", updateAssest)
+    }
+  })
+
   return (
     <div
       className="home"
@@ -64,29 +74,57 @@ function Home() {
       onMouseLeave={handleMouseLeave}
     >
       <div className="home_container">
-        {heroes.map((hero, index) => (
-          <img
-            key={index}
-            src={hero.url}
-            alt={hero.name}
-            style={{
-              transform: isMouseInside
-                ? `translate3d(${mousePosition.x * hero.depth * 200}px, ${
-                    mousePosition.y * hero.depth * 200
-                  }px, 0px)`
-                : "translate3d(0px, 0px, 0px)",
-              transition: isMouseInside ? "none" : "transform 0.6s ease-out",
-            }}
-          />
-        ))}
+        {isDesktop ? (
+          <>
+            {heroes.map((hero, index) => (
+              <img
+                key={index}
+                src={hero.url}
+                alt={hero.name}
+                className="home_container-img"
+                style={{
+                  transform: isMouseInside
+                    ? `translate3d(${mousePosition.x * hero.depth * 100}px, ${
+                        mousePosition.y * hero.depth * 100
+                      }px, 0px)`
+                    : "translate3d(0px, 0px, 0px)",
+                }}
+              />
+            ))}
+          </>
+        ) : (
+          ""
+        )}
+
         <header className="home_container-header">
-          <h2>The future is worth fighting for. Join us!</h2>
+          <h2>Welcome to</h2>
+          <img
+            className="home_container-header-img"
+            src="https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt12c582d9d58631b9/6504c4b7af4949338d926e6c/Masthead_Overwatch2_Logo.png?format=webply&quality=90"
+            alt="Overwatch 2"
+          />
+          <h2>guide</h2>
           <div className="home_container-button-group">
-            <button
-              className="home_container-primary-button"
-              onClick={() => alert("Play Now clicked!")}
-            >
-              Play Now
+            <button className="home_container-button primary">
+              <a
+                href="https://overwatch.blizzard.com/en-us/news/patch-notes/"
+                target="blank"
+                className="home_container-button-link"
+              >
+                {" "}
+                Patch Notes{" "}
+                <img
+                  className="home_container-link-img"
+                  src={link}
+                  alt="link"
+                />
+              </a>
+            </button>
+
+            <button className="home_container-button secondary">
+              <Link to="/skins" className="home_container-button-link">
+                Browse Skins
+              </Link>
             </button>
           </div>
         </header>

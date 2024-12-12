@@ -24,11 +24,13 @@
 
   --dark-blue: #1e243a;
   --blizzard-blue: #05a0fa;
+  --blizzard-blue-transparent: #05a0fae8;
   --light-blue: #54bbf7;
   --neon-blue: #1ee3e4;
   --neon-blue-bg: #1ee4e415;
 
   --orange: #f06414;
+  --orange-transparent: #f06514ea;
   --orange-hover: #f1742b;
 
   --mythic: linear-gradient(90deg, #01c19d, #dddddd, #c1269a);

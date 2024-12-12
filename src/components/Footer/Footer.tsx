@@ -12,7 +12,7 @@ function Footer() {
             href="https://szymon-bosiak.github.io/Portfolio/"
             className="footer_content-link"
           >
-            Monbo
+            Szymon Bosiak
           </a>
         </p>
         <p>
