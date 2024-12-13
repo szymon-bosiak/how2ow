@@ -145,6 +145,14 @@ const data: Record<
       "Use dragonstrike often, this Ultimate builds up quite fast so do not hold it for long.",
     ],
   },
+  hazard: {
+    thumbnail: {
+      sm: "https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt79de5f3ff6334ac8/671ac1994cf974058fea6a2d/960_Hazard.jpg",
+      md: "https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt858312851ab13877/671ac1914210e8458b19bd67/1600_Hazard.jpg",
+      lg: "https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltd748c1f5f124ef06/671ac189ef1216fa37bf67e3/2600_Hazard.jpg",
+    },
+    tips: ["Learn cooldowns."],
+  },
   illari: {
     thumbnail: {
       sm: "https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt025e154d24282801/64c03bd5b73a2ac1729ef62a/960_Illari.jpg",

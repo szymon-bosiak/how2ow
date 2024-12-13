@@ -41,6 +41,9 @@ const localData: Record<string, { tier: string }> = {
   hanzo: {
     tier: "B",
   },
+  hazard: {
+    tier: "A",
+  },
   illari: {
     tier: "B",
   },
