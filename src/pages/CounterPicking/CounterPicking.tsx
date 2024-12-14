@@ -1,173 +1,394 @@
 import "./counterPicking.css"
 
-const localData: Record<string, { weak: string[], strong: string[] }> = {
+const localData: Record<string, { counteredBy: string[] }> = {
   ana: {
-    weak: [],
-    strong: []
+    counteredBy: ["winston", "ramattra", "echo", "pharah", "tracer", "kiriko"],
   },
   ashe: {
-    weak: [],
-    strong: []
+    counteredBy: [
+      "zarya",
+      "reinhardt",
+      "genji",
+      "tracer",
+      "widowmaker",
+      "ana",
+      "kiriko",
+    ],
   },
   baptiste: {
-    weak: [],
-    strong: []
+    counteredBy: ["winston", "dva", "cassidy", "ashe", "mei", "lucio"],
   },
   bastion: {
-    weak: [],
-    strong: []
+    counteredBy: [
+      "zarya",
+      "orisa",
+      "junkrat",
+      "pharah",
+      "genji",
+      "tracer",
+      "ana",
+    ],
   },
   brigitte: {
-    weak: [],
-    strong: []
+    counteredBy: ["reinhardt", "roadhog", "pharah", "echo", "junkrat"],
   },
   cassidy: {
-    weak: [],
-    strong: []
+    counteredBy: ["Reinhardt", "Winston", "Genji", "Cassidy", "Ana"],
   },
   dva: {
-    weak: [],
-    strong: []
+    counteredBy: [
+      "zarya",
+      "winston",
+      "symmetra",
+      "sojourn",
+      "bastion",
+      "moira",
+      "brigitte",
+    ],
   },
   doomfist: {
-    weak: [],
-    strong: []
+    counteredBy: [
+      "orisa",
+      "zarya",
+      "sombra",
+      "bastion",
+      "cassidy",
+      "tracer",
+      "genji",
+      "ana",
+      "brigitte",
+    ],
   },
   echo: {
-    weak: [],
-    strong: []
+    counteredBy: [
+      "winston",
+      "zarya",
+      "ashe",
+      "cassidy",
+      "soldier-76",
+      "widowmaker",
+    ],
   },
   genji: {
-    weak: [],
-    strong: []
+    counteredBy: ["winston", "zarya", "symmetra", "mei", "moira", "ana"],
   },
   hanzo: {
-    weak: [],
-    strong: []
+    counteredBy: ["dva", "wrecking-ball", "widowmaker", "genji", "lucio"],
   },
   hazard: {
-    weak: [],
-    strong: []
+    counteredBy: [
+      "reinhardt",
+      "zarya",
+      "sombra",
+      "widowmaker",
+      "hanzo",
+      "soldier-76",
+      "ana",
+      "zenyatta",
+    ],
   },
   illari: {
-    weak: [],
-    strong: []
+    counteredBy: [
+      "orisa",
+      "zarya",
+      "dva",
+      "cassidy",
+      "ashe",
+      "widowmaker",
+      "baptiste",
+      "lifeweaver",
+      "lucio",
+    ],
   },
   "junker-queen": {
-    weak: [],
-    strong: []
+    counteredBy: [
+      "zarya",
+      "wrecking-ball",
+      "orisa",
+      "widowmaker",
+      "hanzo",
+      "mei",
+      "ashe",
+      "soldier-76",
+      "kiriko",
+      "ana",
+      "lucio",
+    ],
   },
   junkrat: {
-    weak: [],
-    strong: []
+    counteredBy: [
+      "zarya",
+      "wrecking-ball",
+      "cassidy",
+      "soldier-76",
+      "lucio",
+      "brigitte",
+      "lifeweaver",
+    ],
   },
   juno: {
-    weak: [],
-    strong: []
+    counteredBy: [
+      "dva",
+      "winston",
+      "reinhardt",
+      "sombra",
+      "soldier-76",
+      "widowmaker",
+      "lucio",
+      "ana",
+    ],
   },
   kiriko: {
-    weak: [],
-    strong: []
+    counteredBy: ["roadhog", "winston", "tracer", "sombra", "genji", "mei"],
   },
   lifeweaver: {
-    weak: [],
-    strong: []
+    counteredBy: ["roadhog", "dva", "sombra", "soldier-76", "lucio"],
   },
   lucio: {
-    weak: [],
-    strong: []
+    counteredBy: [
+      "winston",
+      "roadhog",
+      "soldier-76",
+      "cassidy",
+      "symmetra",
+      "torbjorn",
+      "mei",
+      "moira",
+    ],
   },
   mauga: {
-    weak: [],
-    strong: []
+    counteredBy: [
+      "wrecking-ball",
+      "mauga",
+      "doomfist",
+      "orisa",
+      "reaper",
+      "mei",
+      "sombra",
+      "sojourn",
+      "zenyatta",
+      "kiriko",
+    ],
   },
   mei: {
-    weak: [],
-    strong: []
+    counteredBy: ["dva", "sombra", "pharah", "echo", "kiriko"],
   },
   mercy: {
-    weak: [],
-    strong: []
+    counteredBy: [
+      "winston",
+      "roadhog",
+      "echo",
+      "cassidy",
+      "widowmaker",
+      "genji",
+      "tracer",
+    ],
   },
   moira: {
-    weak: [],
-    strong: []
+    counteredBy: [
+      "roadhog",
+      "zarya",
+      "echo",
+      "pharah",
+      "widowmaker",
+      "junkrat",
+      "mei",
+      "ashe",
+      "ana",
+    ],
   },
   orisa: {
-    weak: [],
-    strong: []
+    counteredBy: ["zarya", "dva", "mei", "bastion", "echo", "sojourn", "moira"],
   },
   pharah: {
-    weak: [],
-    strong: []
+    counteredBy: [
+      "dva",
+      "roadhog",
+      "mauga",
+      "soldier-76",
+      "cassidy",
+      "ashe",
+      "widowmaker",
+      "baptiste",
+    ],
   },
   ramattra: {
-    weak: [],
-    strong: []
+    counteredBy: [
+      "roadhog",
+      "bastion",
+      "mei",
+      "reaper",
+      "tracer",
+      "genji",
+      "cassidy",
+      "sojourn",
+      "pharah",
+      "kiriko",
+    ],
   },
   reaper: {
-    weak: [],
-    strong: []
+    counteredBy: ["zarya", "pharah", "echo", "junkrat", "widowmaker", "ana"],
   },
   reinhardt: {
-    weak: [],
-    strong: []
+    counteredBy: [
+      "orisa",
+      "ramattra",
+      "wrecking-ball",
+      "bastion",
+      "pharah",
+      "junkrat",
+      "sobmra",
+      "mei",
+      "symmetra",
+      "sojourn",
+      "cassidy",
+      "zenyatta",
+    ],
   },
   roadhog: {
-    weak: [],
-    strong: []
+    counteredBy: [
+      "orisa",
+      "zarya",
+      "wrecking-ball",
+      "reaper",
+      "sojourn",
+      "cassidy",
+      "ashe",
+      "widowmaker",
+      "echo",
+      "ana",
+    ],
   },
   sigma: {
-    weak: [],
-    strong: []
+    counteredBy: [
+      "zarya",
+      "ramattra",
+      "roadhog",
+      "mei",
+      "symmetra",
+      "tracer",
+      "cassidy",
+      "genji",
+      "sombra",
+      "lucio",
+    ],
   },
   sojourn: {
-    weak: [],
-    strong: []
+    counteredBy: ["winston", "mauga", "genji", "tracer", "lucio"],
   },
   "soldier-76": {
-    weak: [],
-    strong: []
+    counteredBy: [
+      "roadhog",
+      "ashe",
+      "cassidy",
+      "genji",
+      "junkrat",
+      "ana",
+      "lucio",
+    ],
   },
   sombra: {
-    weak: [],
-    strong: []
+    counteredBy: [
+      "widowmaker",
+      "pharah",
+      "junkrat",
+      "hanzo",
+      "mei",
+      "kiriko",
+      "ana",
+    ],
   },
   symmetra: {
-    weak: [],
-    strong: []
+    counteredBy: ["winston", "mauga", "pharah", "junkrat", "echo"],
   },
   torbjorn: {
-    weak: [],
-    strong: []
+    counteredBy: ["dva", "junkrat", "ashe"],
   },
   tracer: {
-    weak: [],
-    strong: []
+    counteredBy: [
+      "winston",
+      "mauga",
+      "symmetra",
+      "torbjorn",
+      "mei",
+      "brigitte",
+      "moira",
+    ],
   },
   venture: {
-    weak: [],
-    strong: []
+    counteredBy: [
+      "reinhardt",
+      "sigma",
+      "zarya",
+      "dva",
+      "pharah",
+      "soldier-76",
+      "mei",
+      "ana",
+    ],
   },
   widowmaker: {
-    weak: [],
-    strong: []
+    counteredBy: ["dva", "winston", "genji", "tracer", "sombra", "zenyatta"],
   },
   winston: {
-    weak: [],
-    strong: []
+    counteredBy: [
+      "roadhog",
+      "wrecking-ball",
+      "dva",
+      "junker-queen",
+      "zarya",
+      "junkrat",
+      "bastion",
+      "reaper",
+      "torbjorn",
+      "pharah",
+      "ana",
+      "brigitte",
+    ],
   },
   "wrecking-ball": {
-    weak: [],
-    strong: []
+    counteredBy: [
+      "roadhog",
+      "doomfist",
+      "mei",
+      "bastion",
+      "sombra",
+      "tracer",
+      "pharah",
+      "cassidy",
+      "ana",
+      "brigitte",
+    ],
   },
   zarya: {
-    weak: [],
-    strong: []
+    counteredBy: [
+      "winston",
+      "reinhardt",
+      "zarya",
+      "mei",
+      "ashe",
+      "cassidy",
+      "hanzo",
+      "tracer",
+      "widowmaker",
+      "soldier-76",
+      "zenyatta",
+    ],
   },
   zenyatta: {
-    weak: [],
-    strong: []
+    counteredBy: [
+      "dva",
+      "zarya",
+      "junkrat",
+      "pharah",
+      "cassidy",
+      "widowmaker",
+      "ashe",
+      "hanzo",
+      "tracer",
+      "kiriko",
+      "zenyatta",
+    ],
   },
 }
 
