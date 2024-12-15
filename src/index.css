@@ -46,11 +46,11 @@
   /* ANIMATIONS */
   --transition-hover: color 0.1s ease, background-color 0.1s ease,
     text-decoration-color 0.1s ease, filter 0.1s ease, border-color 0.1s ease,
-    scale 0.1s ease;
+    scale 0.1s ease, transform 0.1s ease, max-height 0.1s ease;
 
-    --transition-hover-long: color 0.2s ease, background-color 0.2s ease,
+  --transition-hover-long: color 0.2s ease, background-color 0.2s ease,
     text-decoration-color 0.2s ease, filter 0.2s ease, border-color 0.2s ease,
-    scale 0.2s ease;
+    scale 0.2s ease, transform 0.2s ease, max-height 0.2s ease;
 }
 
 body {

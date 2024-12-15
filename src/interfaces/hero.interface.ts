@@ -8,3 +8,7 @@ export interface Hero {
 export interface HeroWithTier extends Hero {
   tier: string
 }
+
+export interface HeroWithCounter extends Hero {
+  counteredBy: string[]
+}
