@@ -84,8 +84,8 @@ function Home() {
                 className="home_container-img"
                 style={{
                   transform: isMouseInside
-                    ? `translate3d(${mousePosition.x * hero.depth * 100}px, ${
-                        mousePosition.y * hero.depth * 100
+                    ? `translate3d(${mousePosition.x * hero.depth * 200}px, ${
+                        mousePosition.y * hero.depth * 200
                       }px, 0px)`
                     : "translate3d(0px, 0px, 0px)",
                 }}

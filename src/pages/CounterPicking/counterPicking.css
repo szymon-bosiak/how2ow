@@ -1,6 +1,5 @@
 .counterPicking {
   overflow: hidden;
-
   background-color: var(--black);
   color: var(--white);
 }
@@ -31,19 +30,31 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-
 }
 
-.counterPicking_list ul {
-
+.counterPicking_columns {
+  display: flex;
+  gap: 16px;
 }
 
-.counterPicking_list li {
+.counterPicking_columns ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
   list-style: none;
 }
 
-.counterPicking_list-hero {
+.counterPicking_columns li {
   width: 100%;
+}
+
+.counterPicking_column {
+  display: flex;
+}
+
+.counterPicking_list-hero {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -52,8 +63,9 @@
     #353e62 48%,
     #242a42 100%
   );
-  border: 3px solid var(--white);
+  border: 2px solid var(--white);
   border-radius: 6px;
+  box-sizing: border-box;
 }
 
 .counterPicking_list-hero-tile {
@@ -102,26 +114,83 @@
 
 .counterPicking_list-counters {
   max-height: 0;
+  width: 100%;
   display: flex;
-  flex-direction: column;
   justify-content: flex-start;
   overflow: hidden;
   transition: var(--transition-hover-long);
 }
 
+.counterPicking_list-counters-container {
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .counterPicking_list-counters.expanded {
-  max-height: 500px;
+  max-height: 600px;
 }
 
 .counterPicking_list-role-group {
   display: flex;
 }
 
+.counterPicking_list-role-group-role-img {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-shrink: 0;
+}
+
 .counterPicking_list-role-heroes {
   display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.counterPicking_list-counter-hero {
+  width: 80px;
+  height: 80px;
 }
 
 .counterPicking_list-counter-hero img {
   width: 80px;
-  height: auto;
+  height: 80px;
+}
+
+@media screen and (max-width: 750px) {
+  .counterPicking_wraper {
+    padding: 88px 10px 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .counterPicking_list-hero h3 {
+    font-size: 30px;
+  }
+
+  .counterPicking_list-hero-img {
+    height: 90px;
+  }
+
+  .counterPicking_list-role-group-role-img {
+    width: 50px;
+    height: 70px;
+    margin-right: 20px;
+  }
+
+  .counterPicking_list-counter-hero {
+    width: 70px;
+    height: 70px;
+  }
+
+  .counterPicking_list-counter-hero img {
+    width: 70px;
+    height: 70px;
+  }
 }
