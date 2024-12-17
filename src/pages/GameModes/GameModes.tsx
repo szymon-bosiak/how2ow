@@ -135,9 +135,12 @@ function GameModes() {
                       >
                         <img src={arrow} alt="arrow left" />
                       </div>
-                      <div className="gameModes_content-graphics-carousel-img"
-                      style={{ backgroundImage: `url(${currentMap?.screenshot})` }}>
-                      </div>
+                      <div
+                        className="gameModes_content-graphics-carousel-img"
+                        style={{
+                          backgroundImage: `url(${currentMap?.screenshot})`,
+                        }}
+                      ></div>
                       <div
                         className={`gameModes_content-graphics-carousel-nav right ${
                           showcaseIndex === mapsToDisplay - 1
