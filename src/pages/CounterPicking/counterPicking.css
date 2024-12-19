@@ -23,7 +23,7 @@
   );
 }
 
-.counterPicking_wraper {
+.counterPicking_wrapper {
   padding: 128px 40px 60px;
   height: 100%;
   flex: 1;
@@ -164,7 +164,7 @@
 }
 
 @media screen and (max-width: 750px) {
-  .counterPicking_wraper {
+  .counterPicking_wrapper {
     padding: 88px 10px 40px;
   }
 }

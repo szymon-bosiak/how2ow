@@ -1,0 +1,93 @@
+.about {
+  overflow: hidden;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.about_bg {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt68cac2eaeaba4e3e/64a5f21a3b801d88cec53367/1600_Heroes.jpg?format=webply&quality=90");
+}
+
+.about_wrapper {
+  padding: 128px 40px 60px;
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: left;
+}
+
+.about-section {
+  position: relative;
+  padding-left: 20px;
+}
+
+.about-section::before {
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: "";
+  background-color: var(--blizzard-blue);
+  border-radius: 10px;
+}
+
+.about-section h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.about_wrapper p {
+  max-width: 800px;
+}
+
+.about_content-link {
+  color: var(--blizzard-blue);
+  font-weight: 500;
+  text-decoration: none;
+  transition: var(--transition-hover);
+  position: relative;
+}
+
+.about_content-link::after {
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+
+  content: "";
+  border-radius: 5px;
+  background-color: var(--blizzard-blue);
+  transition: all 0.2s ease-in-out;
+}
+
+.about_content-link:hover {
+  color: var(--light-blue);
+}
+
+.about_content-link:hover::after {
+  background-color: var(--light-blue);
+  transform: translateY(1px);
+  scale: 1.1;
+}
+
+@media screen and (max-width: 750px) {
+  .about_wrapper {
+    padding: 68px 20px 40px;
+  }
+}

@@ -185,7 +185,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Sanguine Curse",
@@ -195,7 +195,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Ultrawatch",
@@ -205,7 +205,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Wadjet",
@@ -365,7 +365,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Arch-Commandant Amari",
@@ -375,7 +375,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Stakeout",
@@ -385,7 +385,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Tomb Walker",
@@ -395,7 +395,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "A-7000 Wargod",
@@ -549,7 +549,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Haunted",
@@ -559,7 +559,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Gangster",
@@ -679,7 +679,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Haunted Doll",
@@ -699,7 +699,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Faye Valentine",
@@ -709,7 +709,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Calamity Empress",
@@ -863,7 +863,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Polar",
@@ -873,7 +873,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Desert Ops",
@@ -983,7 +983,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Scorpion",
@@ -1157,7 +1157,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Antique",
@@ -1287,7 +1287,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Fire Engine",
@@ -1297,7 +1297,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Bumblebee",
@@ -1307,7 +1307,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Magma",
@@ -1317,7 +1317,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Cardboard",
@@ -1327,7 +1327,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Pirate Ship",
@@ -1501,7 +1501,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Máni",
@@ -1621,7 +1621,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Azure Drake",
@@ -1631,7 +1631,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Antifragile BB",
@@ -1641,7 +1641,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Polar",
@@ -1651,7 +1651,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Turned Hunter",
@@ -1661,7 +1661,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Cardboard",
@@ -1671,7 +1671,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
     ],
   },
@@ -1825,7 +1825,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Gambler",
@@ -1975,7 +1975,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "C-455 Sharpshooter",
@@ -1985,7 +1985,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Spike Spiegel",
@@ -1995,7 +1995,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Ultrawatch",
@@ -2005,7 +2005,17 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
+      },
+      {
+        name: "Cozy",
+        rarity: "Legendary",
+        img: "/skins/cassidy/cozy.png",
+        value: 1900,
+        currency: "Overwatch Coins",
+        event: "Shop",
+        avaliable: true,
+        desc: "Sometines available in the Shop",
       },
     ],
   },
@@ -2129,7 +2139,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Junker",
@@ -2289,7 +2299,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Gentle Tokki Fuchsia",
@@ -2299,7 +2309,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Gentle Tokki Aqua",
@@ -2309,7 +2319,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Antifragile Dazzle",
@@ -2319,7 +2329,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Rosy Hanbok",
@@ -2329,7 +2339,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Porsche",
@@ -2339,7 +2349,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Heist",
@@ -2349,7 +2359,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Dainty Cat",
@@ -2359,7 +2369,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Cardboard",
@@ -2369,7 +2379,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "2020 Paciffic All-Stars",
@@ -2673,7 +2683,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Funky",
@@ -2683,7 +2693,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Thunder",
@@ -2817,7 +2827,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Camo",
@@ -2927,7 +2937,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Automaton",
@@ -2937,7 +2947,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Strawberry",
@@ -2947,7 +2957,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Phoenix",
@@ -2957,7 +2967,17 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
+      },
+      {
+        name: "Merry Marionette",
+        rarity: "Legendary",
+        img: "/skins/echo/merry-marionette.png",
+        value: 1900,
+        currency: "Overwatch Coins",
+        event: "Shop",
+        avaliable: true,
+        desc: "Sometines available in the Shop",
       },
     ],
   },
@@ -3071,7 +3091,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Polar",
@@ -3081,7 +3101,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Junker",
@@ -3317,51 +3337,61 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         name: "Divine Monkey",
         rarity: "Legendary",
         img: "/skins/genji/divine-monkey.png",
-        value: 1000,
+        value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Genos",
         rarity: "Legendary",
         img: "/skins/genji/genos.png",
-        value: 1000,
+        value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Volcanic",
         rarity: "Legendary",
         img: "/skins/genji/volcanic.png",
-        value: 1000,
+        value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Heihu",
         rarity: "Legendary",
         img: "/skins/genji/heihu.png",
-        value: 1000,
+        value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Stone Crow",
         rarity: "Legendary",
         img: "/skins/genji/stone-crow.png",
-        value: 1000,
+        value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
+      },
+      {
+        name: "Zuko",
+        rarity: "Legendary",
+        img: "/skins/genji/zuko.png",
+        value: 1900,
+        currency: "Overwatch Coins",
+        event: "Shop",
+        avaliable: true,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Cyber Demon",
@@ -3505,7 +3535,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Young Hanzo",
@@ -3625,7 +3655,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Cupid",
@@ -3635,7 +3665,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Drake Master",
@@ -3645,7 +3675,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Great Tengu",
@@ -3655,7 +3685,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Hashimoto",
@@ -3665,7 +3695,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Streetwear",
@@ -3675,7 +3705,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Heir",
@@ -3685,7 +3715,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Cyber Oni",
@@ -3695,7 +3725,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Onryō",
@@ -3843,7 +3873,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Nightfall",
@@ -3853,7 +3883,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Shadowchild",
@@ -3933,7 +3963,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Black Cat",
@@ -3943,7 +3973,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
     ],
   },
@@ -4037,7 +4067,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Circuit Breaker",
@@ -4068,7 +4098,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Mob Boss",
@@ -4078,7 +4108,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Gladiator Queen",
@@ -4098,7 +4128,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Black Metal",
@@ -4292,7 +4322,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Aviator",
@@ -4302,7 +4332,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Fool",
@@ -4432,7 +4462,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Hong Hai Er",
@@ -4516,7 +4546,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
     ],
   },
@@ -4600,7 +4630,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Sakura",
@@ -4610,7 +4640,17 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
+      },
+      {
+        name: "Suki",
+        rarity: "Epic",
+        img: "/skins/kiriko/suki.png",
+        value: 1000,
+        currency: "Overwatch Coins",
+        event: "Shop",
+        avaliable: true,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Athleisure",
@@ -4650,7 +4690,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Terrible Tornado",
@@ -4660,7 +4700,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Time Keeper",
@@ -4670,7 +4710,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "K-2000 Blademaster",
@@ -4680,7 +4720,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Antifragile Kira-Kira",
@@ -4690,7 +4730,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Festive",
@@ -4700,7 +4740,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Hashimoto",
@@ -4710,7 +4750,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Lifeguard",
@@ -4720,7 +4760,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Oni",
@@ -4730,7 +4770,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Divinator",
@@ -4740,7 +4780,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Yatagarasu",
@@ -4750,7 +4790,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Himiko Toga",
@@ -4760,7 +4800,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Amaterasu",
@@ -4864,7 +4904,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Synthwave",
@@ -4874,7 +4914,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Cotton Candy",
@@ -4884,7 +4924,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Regent",
@@ -4924,7 +4964,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Cleric",
@@ -4934,7 +4974,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Harbinger",
@@ -4944,7 +4984,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Lifeguarder",
@@ -4954,7 +4994,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
     ],
   },
@@ -5128,7 +5168,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Octopus",
@@ -5138,7 +5178,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "HippityHop",
@@ -5318,7 +5358,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Dark Faun",
@@ -5328,7 +5368,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Poet",
@@ -5338,7 +5378,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
     ],
   },
@@ -5402,7 +5442,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Bonesplinter",
@@ -5432,7 +5472,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Jet Black",
@@ -5442,7 +5482,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Jötunn",
@@ -5452,7 +5492,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
     ],
   },
@@ -5569,6 +5609,16 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         desc: null,
       },
       {
+        name: "Katara",
+        rarity: "Epic",
+        img: "/skins/mei/katara.png",
+        value: null,
+        currency: null,
+        event: null,
+        avaliable: false,
+        desc: "Overwatch 2 x Avatar: The Last Airbender",
+      },
+      {
         name: "Cursed Seer",
         rarity: "Epic",
         img: "/skins/mei/cursed-seer.png",
@@ -5596,7 +5646,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Hu Tou Mao",
@@ -5606,7 +5656,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Cartographer",
@@ -5616,7 +5666,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Firefighter",
@@ -5806,7 +5856,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Flower Child",
@@ -5816,7 +5866,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Strawberry",
@@ -5826,7 +5876,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
     ],
   },
@@ -5970,7 +6020,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Honey Bee",
@@ -5980,7 +6030,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Zombie Doctor",
@@ -5990,7 +6040,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Sigrún",
@@ -6190,7 +6240,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Jingle Belle",
@@ -6200,7 +6250,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Happy Holly",
@@ -6210,7 +6260,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Mystic Swan",
@@ -6220,7 +6270,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Beach Rescue",
@@ -6230,7 +6280,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Formalwear",
@@ -6240,7 +6290,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Wyvern",
@@ -6250,7 +6300,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Conjurer",
@@ -6260,7 +6310,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Black Cat",
@@ -6270,7 +6320,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Rose Majesty",
@@ -6280,7 +6330,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Vengeance",
@@ -6404,7 +6454,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Magma",
@@ -6414,7 +6464,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Glam",
@@ -6544,7 +6594,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Plague Doctor",
@@ -6554,7 +6604,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Lilith",
@@ -6564,7 +6614,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Wicked",
@@ -6708,7 +6758,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Dynastinae",
@@ -6838,7 +6888,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Rubber Ducky",
@@ -6848,7 +6898,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Fiend",
@@ -6858,7 +6908,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "OR-Unit",
@@ -6868,7 +6918,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Retro Future",
@@ -6878,7 +6928,17 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
+      },
+      {
+        name: "Appa",
+        rarity: "Legendary",
+        img: "/skins/orisa/appa.png",
+        value: 1900,
+        currency: "Overwatch Coins",
+        event: "Shop",
+        avaliable: true,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Grand Beast",
@@ -7022,7 +7082,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Devil",
@@ -7032,7 +7092,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Mechaqueen",
@@ -7202,7 +7262,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Nutcracker",
@@ -7212,7 +7272,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Porsche",
@@ -7222,7 +7282,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Beach Rescue",
@@ -7232,7 +7292,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Nefertari",
@@ -7242,7 +7302,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Dragon Hunter",
@@ -7252,7 +7312,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
     ],
   },
@@ -7336,7 +7396,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Jade Totem",
@@ -7346,7 +7406,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Travelling Monk",
@@ -7376,7 +7436,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Necromancer",
@@ -7386,7 +7446,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Summoner",
@@ -7396,7 +7456,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Megatron",
@@ -7406,7 +7466,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Ocean King",
@@ -7416,7 +7476,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Poseidon",
@@ -7580,7 +7640,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Nebula",
@@ -7590,7 +7650,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Ringleader",
@@ -7600,7 +7660,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Fenrir",
@@ -7610,7 +7670,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Nevermore",
@@ -7820,7 +7880,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Eagle Warrior",
@@ -7830,7 +7890,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Heartbreaker",
@@ -7840,7 +7900,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Tomura Shigaraki",
@@ -7850,7 +7910,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Cardboard",
@@ -7860,7 +7920,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Anubis",
@@ -7994,7 +8054,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Crusader",
@@ -8174,7 +8234,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Cardboard",
@@ -8184,7 +8244,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Imperius",
@@ -8194,7 +8254,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Heaven's Devil",
@@ -8204,7 +8264,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Rosahardt",
@@ -8214,7 +8274,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Fallen Knight",
@@ -8224,7 +8284,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Optimus Prime",
@@ -8234,7 +8294,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Polar",
@@ -8244,7 +8304,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Lich King",
@@ -8254,7 +8314,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "All Might",
@@ -8264,7 +8324,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Thor",
@@ -8558,7 +8618,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Cyclops",
@@ -8568,7 +8628,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Roadbot",
@@ -8578,7 +8638,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Polar Hog",
@@ -8588,7 +8648,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Horror Hog",
@@ -8862,7 +8922,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Bronze Drake",
@@ -8872,7 +8932,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Plunderer",
@@ -8882,7 +8942,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Galactic Emperor",
@@ -8966,7 +9026,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Infinite Admiral",
@@ -8976,7 +9036,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Barista",
@@ -8986,7 +9046,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Night Ops",
@@ -8996,7 +9056,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Troop Commander",
@@ -9076,7 +9136,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Polar",
@@ -9086,7 +9146,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Vigilante",
@@ -9096,7 +9156,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Formalwear",
@@ -9106,7 +9166,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Sea Soldier",
@@ -9116,7 +9176,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
     ],
   },
@@ -9260,7 +9320,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Commando: 76",
@@ -9450,7 +9510,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Infinite Guard: 76",
@@ -9460,7 +9520,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Huntsman: 76",
@@ -9470,7 +9530,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Heist",
@@ -9480,7 +9540,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Grill Zombie: 76",
@@ -9490,7 +9550,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
     ],
   },
@@ -9634,7 +9694,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Quicksilver",
@@ -9644,7 +9704,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Nightshade",
@@ -9654,7 +9714,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Azúcar",
@@ -9804,7 +9864,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Marioneta",
@@ -9814,7 +9874,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Gilded Hunter",
@@ -9824,7 +9884,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Antifragile Slay Star",
@@ -9834,7 +9894,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Ed",
@@ -9844,7 +9904,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Magma",
@@ -9854,7 +9914,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Tuxedo Cat",
@@ -9864,7 +9924,17 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
+      },
+      {
+        name: "Loki",
+        rarity: "Legendary",
+        img: "/skins/sombra/loki.png",
+        value: 1900,
+        currency: "Overwatch Coins",
+        event: "Shop",
+        avaliable: true,
+        desc: "Sometines available in the Shop",
       },
     ],
   },
@@ -9978,7 +10048,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Vampire",
@@ -10048,7 +10118,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Architech",
@@ -10188,7 +10258,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Sin'dorei",
@@ -10198,7 +10268,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Infernal Witch",
@@ -10208,7 +10278,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
     ],
   },
@@ -10332,7 +10402,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Chopper",
@@ -10462,7 +10532,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Starship Engineer",
@@ -10472,7 +10542,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Prospector",
@@ -10482,7 +10552,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Diamond Magni",
@@ -10492,7 +10562,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Drowned",
@@ -10502,7 +10572,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
     ],
   },
@@ -10635,8 +10705,8 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
-        avaliable: false,
-        desc: "Tracer's Comic Challenge",
+        avaliable: true,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Constable",
@@ -10646,7 +10716,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Synthwave",
@@ -10656,7 +10726,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Punk",
@@ -10846,7 +10916,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Antifragile Traysi",
@@ -10856,7 +10926,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Formalwear",
@@ -10866,7 +10936,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Operative Oxton",
@@ -10876,7 +10946,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Evening Wear",
@@ -10886,7 +10956,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Deku",
@@ -10896,7 +10966,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Black Cat",
@@ -10906,7 +10976,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Adventurer",
@@ -10990,7 +11060,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
     ],
   },
@@ -11124,7 +11194,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Endless Sight",
@@ -11312,7 +11382,17 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         img: "/skins/widowmaker/cyberdevil.png",
         value: 1900,
         currency: "Overwatch Coins",
-        event: null,
+        event: "Shop",
+        avaliable: true,
+        desc: null,
+      },
+      {
+        name: "Cyber Fiend",
+        rarity: "Legendary",
+        img: "/skins/widowmaker/cyber-fiend.png",
+        value: 1900,
+        currency: "Overwatch Coins",
+        event: "Shop",
         avaliable: true,
         desc: null,
       },
@@ -11322,7 +11402,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         img: "/skins/widowmaker/dryad.png",
         value: 1900,
         currency: "Overwatch Coins",
-        event: null,
+        event: "Shop",
         avaliable: true,
         desc: null,
       },
@@ -11332,7 +11412,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         img: "/skins/widowmaker/medusa.png",
         value: 1900,
         currency: "Overwatch Coins",
-        event: null,
+        event: "Shop",
         avaliable: true,
         desc: null,
       },
@@ -11342,7 +11422,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         img: "/skins/widowmaker/rose-lily.png",
         value: 1900,
         currency: "Overwatch Coins",
-        event: null,
+        event: "Shop",
         avaliable: true,
         desc: null,
       },
@@ -11352,7 +11432,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         img: "/skins/widowmaker/saint-tropez.png",
         value: 1900,
         currency: "Overwatch Coins",
-        event: null,
+        event: "Shop",
         avaliable: true,
         desc: null,
       },
@@ -11362,7 +11442,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         img: "/skins/widowmaker/wild-tracker.png",
         value: 1900,
         currency: "Overwatch Coins",
-        event: null,
+        event: "Shop",
         avaliable: true,
         desc: null,
       },
@@ -11372,7 +11452,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         img: "/skins/widowmaker/euryale.png",
         value: 1900,
         currency: "Overwatch Coins",
-        event: null,
+        event: "Shop",
         avaliable: true,
         desc: null,
       },
@@ -11382,7 +11462,17 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         img: "/skins/widowmaker/sylvanas.png",
         value: 1900,
         currency: "Overwatch Coins",
-        event: null,
+        event: "Shop",
+        avaliable: true,
+        desc: null,
+      },
+      {
+        name: "Winter Chic",
+        rarity: "Legendary",
+        img: "/skins/widowmaker/winter-chic.png",
+        value: 1900,
+        currency: "Overwatch Coins",
+        event: "Shop",
         avaliable: true,
         desc: null,
       },
@@ -11528,7 +11618,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Ugly Sweater",
@@ -11538,7 +11628,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Frogston",
@@ -11678,7 +11768,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Flying Ace",
@@ -11832,7 +11922,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Honeycomb",
@@ -11962,7 +12052,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Deep Sea",
@@ -11972,7 +12062,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Azmodan",
@@ -12126,7 +12216,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Talon",
@@ -12136,7 +12226,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Arctic",
@@ -12326,7 +12416,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Apocalypse Trainer",
@@ -12336,7 +12426,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
     ],
   },
@@ -12460,7 +12550,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Bathmaster",
@@ -12470,7 +12560,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Beast Whisperer",
@@ -12620,7 +12710,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Takoyaki",
@@ -12630,7 +12720,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Z-3N Destroyer",
@@ -12640,7 +12730,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "Kaiju",
@@ -12650,7 +12740,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
       },
       {
         name: "thrall",
@@ -12660,7 +12750,17 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
         currency: "Overwatch Coins",
         event: "Shop",
         avaliable: true,
-        desc: null,
+        desc: "Sometines available in the Shop",
+      },
+      {
+        name: "Aang",
+        rarity: "Legendary",
+        img: "/skins/zenyatta/aang.png",
+        value: 1900,
+        currency: "Overwatch Coins",
+        event: "Shop",
+        avaliable: true,
+        desc: "Sometines available in the Shop",
       },
     ],
   },

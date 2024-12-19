@@ -84,7 +84,7 @@ function CounterPicking() {
   return (
     <div className="counterPicking">
       <div className="counterPicking_container">
-        <div className="counterPicking_wraper">
+        <div className="counterPicking_wrapper">
           <div className="counterPicking_columns">
             {columns.map((column, colIndex) => (
               <div key={colIndex} className="counterPicking_column">
