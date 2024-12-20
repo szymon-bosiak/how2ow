@@ -6,6 +6,12 @@ import tank from "../../assets/icons/tank.svg"
 import axios from "axios"
 import { useState, useEffect } from "react"
 import { HeroWithTier } from "../../interfaces/hero.interface"
+import { motion, AnimatePresence } from "framer-motion"
+
+const variants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: { opacity: 1, y: 0 },
+}
 
 const localData: Record<string, { tier: string }> = {
   ana: {
@@ -166,6 +172,19 @@ function TierList() {
     fetchHeroes()
   }, [])
 
+  const tiers = [
+    { tier: "A", nameClass: "legendary" },
+    { tier: "B", nameClass: "epic" },
+    { tier: "C", nameClass: "rare" },
+    { tier: "D", nameClass: "common" },
+  ]
+
+  const filterHeroes = (tier: string) =>
+    heroes.filter(
+      (hero) =>
+        hero.tier === tier && (roleFilter === "all" || hero.role === roleFilter)
+    )
+
   if (isLoading) return <p className="tierList_content">Loading...</p>
   if (error) return <p className="tierList_content">Error: {error}</p>
 
@@ -179,60 +198,32 @@ function TierList() {
               <p>for Season 13</p>
             </div>
             <div className="tierList_content-heading-select">
-              <div className="tierList_content-heading-role-container">
-                <button
-                  className={`tierList_content-heading-role-button ${
-                    roleFilter === "all"
-                      ? "tierList_content-heading-role-button--active"
-                      : ""
-                  }`}
-                  onClick={() => setRoleFilter("all")}
+              {[
+                { role: "all", img: all, alt: "All roles" },
+                { role: "tank", img: tank, alt: "Tank role" },
+                { role: "damage", img: damage, alt: "Damage role" },
+                { role: "support", img: support, alt: "Support role" },
+              ].map(({ role, img, alt }) => (
+                <div
+                  key={role}
+                  className="tierList_content-heading-role-container"
                 >
-                  <img src={all} alt="All roles" />
-                </button>
-              </div>
-
-              <div className="tierList_content-heading-role-container">
-                <button
-                  className={`tierList_content-heading-role-button ${
-                    roleFilter === "tank"
-                      ? "tierList_content-heading-role-button--active"
-                      : ""
-                  }`}
-                  onClick={() => setRoleFilter("tank")}
-                >
-                  <img src={tank} alt="Tank role" />
-                </button>
-              </div>
-
-              <div className="tierList_content-heading-role-container">
-                <button
-                  className={`tierList_content-heading-role-button ${
-                    roleFilter === "damage"
-                      ? "tierList_content-heading-role-button--active"
-                      : ""
-                  }`}
-                  onClick={() => setRoleFilter("damage")}
-                >
-                  <img src={damage} alt="Damage role" />
-                </button>
-              </div>
-
-              <div className="tierList_content-heading-role-container">
-                <button
-                  className={`tierList_content-heading-role-button ${
-                    roleFilter === "support"
-                      ? "tierList_content-heading-role-button--active"
-                      : ""
-                  }`}
-                  onClick={() => setRoleFilter("support")}
-                >
-                  <img src={support} alt="Support role" />
-                </button>
-              </div>
+                  <button
+                    className={`tierList_content-heading-role-button ${
+                      roleFilter === role
+                        ? "tierList_content-heading-role-button--active"
+                        : ""
+                    }`}
+                    onClick={() => setRoleFilter(role)}
+                  >
+                    <img src={img} alt={alt} />
+                  </button>
+                </div>
+              ))}
             </div>
           </div>
 
+          {/* This tier is separated because its "S" has a different styling */}
           <div className="tierList_content-list">
             <div className="tierList_content-tiers">
               <div className="tierList_content-tier-inner">
@@ -273,149 +264,24 @@ function TierList() {
                 </div>
               </div>
 
-              <div className="tierList_content-tier-inner">
-                <div className="tierList_content-tier-name legendary">
-                  <h3>A</h3>
-                </div>
-                <div className="tierList_content-tier-row">
-                  {roleFilter === "all" ? (
+              {tiers.map(({ tier, nameClass }) => (
+                <div key={tier} className="tierList_content-tier-inner">
+                  <div className={`tierList_content-tier-name ${nameClass}`}>
+                    <h3>{tier}</h3>
+                  </div>
+                  <div className="tierList_content-tier-row">
                     <div className="tierList_content-tier-portrait">
-                      {heroes
-                        .filter((hero) => hero.tier === "A")
-                        .map((hero) => (
-                          <img
-                            src={hero.portrait}
-                            alt={`${hero.name} portrait`}
-                            key={hero.name}
-                          />
-                        ))}
+                      {filterHeroes(tier).map((hero) => (
+                        <img
+                          key={hero.name}
+                          src={hero.portrait}
+                          alt={`${hero.name} portrait`}
+                        />
+                      ))}
                     </div>
-                  ) : (
-                    <div className="tierList_content-tier-portrait">
-                      {heroes
-                        .filter(
-                          (hero) =>
-                            hero.role === roleFilter && hero.tier === "A"
-                        )
-                        .map((hero) => (
-                          <img
-                            src={hero.portrait}
-                            alt={`${hero.name} portrait`}
-                            key={hero.name}
-                          />
-                        ))}
-                    </div>
-                  )}
+                  </div>
                 </div>
-              </div>
-
-              <div className="tierList_content-tier-inner">
-                <div className="tierList_content-tier-name epic">
-                  <h3>B</h3>
-                </div>
-                <div className="tierList_content-tier-row">
-                  {roleFilter === "all" ? (
-                    <div className="tierList_content-tier-portrait">
-                      {heroes
-                        .filter((hero) => hero.tier === "B")
-                        .map((hero) => (
-                          <img
-                            src={hero.portrait}
-                            alt={`${hero.name} portrait`}
-                            key={hero.name}
-                          />
-                        ))}
-                    </div>
-                  ) : (
-                    <div className="tierList_content-tier-portrait">
-                      {heroes
-                        .filter(
-                          (hero) =>
-                            hero.role === roleFilter && hero.tier === "B"
-                        )
-                        .map((hero) => (
-                          <img
-                            src={hero.portrait}
-                            alt={`${hero.name} portrait`}
-                            key={hero.name}
-                          />
-                        ))}
-                    </div>
-                  )}
-                </div>
-              </div>
-
-              <div className="tierList_content-tier-inner">
-                <div className="tierList_content-tier-name rare">
-                  <h3>C</h3>
-                </div>
-                <div className="tierList_content-tier-row">
-                  {roleFilter === "all" ? (
-                    <div className="tierList_content-tier-portrait">
-                      {heroes
-                        .filter((hero) => hero.tier === "C")
-                        .map((hero) => (
-                          <img
-                            src={hero.portrait}
-                            alt={`${hero.name} portrait`}
-                            key={hero.name}
-                          />
-                        ))}
-                    </div>
-                  ) : (
-                    <div className="tierList_content-tier-portrait">
-                      {heroes
-                        .filter(
-                          (hero) =>
-                            hero.role === roleFilter && hero.tier === "C"
-                        )
-                        .map((hero) => (
-                          <img
-                            src={hero.portrait}
-                            key={hero.name}
-                            alt={`${hero.name} portrait`}
-                          />
-                        ))}
-                    </div>
-                  )}
-                </div>
-              </div>
-
-              <div className="tierList_content-tier-inner">
-                <div className="tierList_content-tier-name common">
-                  <h3>D</h3>
-                </div>
-                <div className="tierList_content-tier-row">
-                  {roleFilter === "all" ? (
-                    <div className="tierList_content-tier-portrait">
-                      {heroes
-                        .filter((hero) => hero.tier === "D")
-                        .map((hero) => (
-                          <img
-                            src={hero.portrait}
-                            alt={`${hero.name} portrait`}
-                            key={hero.name}
-                          />
-                        ))}
-                    </div>
-                  ) : (
-                    <div className="tierList_content-tier-portrait">
-                      {heroes
-                        .filter(
-                          (hero) =>
-                            hero.role === roleFilter && hero.tier === "D"
-                        )
-                        .map((hero) => (
-                          <img
-                            src={hero.portrait}
-                            alt={`${hero.name} portrait`}
-                            key={hero.name}
-                          />
-                        ))}
-                    </div>
-                  )}
-                </div>
-              </div>
+              ))}
             </div>
           </div>
 
