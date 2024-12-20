@@ -6,139 +6,15 @@ import tank from "../../assets/icons/tank.svg"
 import axios from "axios"
 import { useState, useEffect } from "react"
 import { HeroWithTier } from "../../interfaces/hero.interface"
-import { motion, AnimatePresence } from "framer-motion"
+import { AnimatePresence, motion } from "framer-motion"
+import { tierListData } from "./tierListData"
 
-const variants = {
-  hidden: { opacity: 0, y: 20 },
-  visible: { opacity: 1, y: 0 },
-}
-
-const localData: Record<string, { tier: string }> = {
-  ana: {
-    tier: "S",
-  },
-  ashe: {
-    tier: "A",
-  },
-  baptiste: {
-    tier: "A",
-  },
-  bastion: {
-    tier: "C",
-  },
-  brigitte: {
-    tier: "S",
-  },
-  cassidy: {
-    tier: "A",
-  },
-  dva: {
-    tier: "A",
-  },
-  doomfist: {
-    tier: "B",
-  },
-  echo: {
-    tier: "A",
-  },
-  genji: {
-    tier: "A",
-  },
-  hanzo: {
-    tier: "B",
-  },
-  hazard: {
-    tier: "A",
-  },
-  illari: {
-    tier: "B",
-  },
-  "junker-queen": {
-    tier: "B",
-  },
-  junkrat: {
-    tier: "A",
-  },
-  juno: {
-    tier: "S",
-  },
-  kiriko: {
-    tier: "A",
-  },
-  lifeweaver: {
-    tier: "D",
-  },
-  lucio: {
-    tier: "A",
-  },
-  mauga: {
-    tier: "B",
-  },
-  mei: {
-    tier: "A",
-  },
-  mercy: {
-    tier: "C",
-  },
-  moira: {
-    tier: "B",
-  },
-  orisa: {
-    tier: "A",
-  },
-  pharah: {
-    tier: "A",
-  },
-  ramattra: {
-    tier: "A",
-  },
-  reaper: {
-    tier: "B",
-  },
-  reinhardt: {
-    tier: "B",
-  },
-  roadhog: {
-    tier: "B",
-  },
-  sigma: {
-    tier: "A",
-  },
-  sojourn: {
-    tier: "S",
-  },
-  "soldier-76": {
-    tier: "B",
-  },
-  sombra: {
-    tier: "C",
-  },
-  symmetra: {
-    tier: "B",
-  },
-  torbjorn: {
-    tier: "B",
-  },
-  tracer: {
-    tier: "A",
-  },
-  venture: {
-    tier: "B",
-  },
-  widowmaker: {
-    tier: "S",
-  },
-  winston: {
-    tier: "A",
-  },
-  "wrecking-ball": {
-    tier: "B",
-  },
-  zarya: {
-    tier: "C",
-  },
-  zenyatta: {
-    tier: "A",
+const portraitVariants = {
+  hidden: { opacity: 0, scale: 0.9 },
+  visible: {
+    opacity: 1,
+    scale: 1,
+    transition: { duration: 0.3 },
   },
 }
 
@@ -158,7 +34,7 @@ function TierList() {
         // Combine API data with local data
         const combinedHeroes = response.data.map((hero) => ({
           ...hero,
-          tier: localData[hero.key]?.tier,
+          tier: tierListData[hero.key]?.tier,
         }))
 
         setHeroes(combinedHeroes)
@@ -265,19 +141,24 @@ function TierList() {
               </div>
 
               {tiers.map(({ tier, nameClass }) => (
-                <div key={tier} className="tierList_content-tier-inner">
+                <div className="tierList_content-tier-inner" key={tier}>
                   <div className={`tierList_content-tier-name ${nameClass}`}>
                     <h3>{tier}</h3>
                   </div>
                   <div className="tierList_content-tier-row">
                     <div className="tierList_content-tier-portrait">
-                      {filterHeroes(tier).map((hero) => (
-                        <img
-                          key={hero.name}
-                          src={hero.portrait}
-                          alt={`${hero.name} portrait`}
-                        />
-                      ))}
+                      <AnimatePresence>
+                        {filterHeroes(tier).map((hero) => (
+                          <motion.img
+                            key={hero.name}
+                            src={hero.portrait}
+                            alt={`${hero.name} portrait`}
+                            variants={portraitVariants}
+                            initial="hidden"
+                            animate="visible"
+                          />
+                        ))}
+                      </AnimatePresence>
                     </div>
                   </div>
                 </div>
