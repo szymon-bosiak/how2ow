@@ -6,7 +6,6 @@ import HeroesSkins from "./pages/HeroesSkins/HeroesSkins"
 import HeroSkins from "./pages/HeroSkins/HeroSkins"
 import About from "./pages/About/About"
 import TierList from "./pages/TierList/TierList"
-import Roles from "./pages/Roles/Roles"
 import GameModes from "./pages/GameModes/GameModes"
 import CounterPicking from "./pages/CounterPicking/CounterPicking"
 import Home from "./pages/Home/Home"
@@ -18,7 +17,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
 
-          <Route path="/game-info/roles" element={<Roles />} />
           <Route path="/game-info/game-modes" element={<GameModes />} />
           <Route path="/game-info/counter-picking" element={<CounterPicking />} />
 

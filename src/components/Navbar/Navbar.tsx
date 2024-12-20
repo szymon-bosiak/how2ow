@@ -25,7 +25,6 @@ function Navbar() {
       path: "",
       icon: arrow,
       subNav: [
-        // { title: "Roles", path: "/game-info/roles" },
         { title: "Game Modes", path: "/game-info/game-modes" },
         { title: "Counter Picking", path: "/game-info/counter-picking" },
       ],

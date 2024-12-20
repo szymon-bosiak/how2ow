@@ -29,8 +29,8 @@ function HeroList() {
     fetchHeroes()
   }, [])
 
-  if (isLoading) return <p>Loading...</p>
-  if (error) return <p>Error: {error}</p>
+  if (isLoading) return <p className="heroes_columns">Loading...</p>
+  if (error) return <p className="heroes_columns">Error: {error}</p>
 
   return (
     <div className="heroes_columns">

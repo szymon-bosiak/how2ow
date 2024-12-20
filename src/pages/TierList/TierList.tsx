@@ -166,8 +166,8 @@ function TierList() {
     fetchHeroes()
   }, [])
 
-  if (isLoading) return <p>Loading...</p>
-  if (error) return <p>Error: {error}</p>
+  if (isLoading) return <p className="tierList_content">Loading...</p>
+  if (error) return <p className="tierList_content">Error: {error}</p>
 
   return (
     <div className="tierList_container">

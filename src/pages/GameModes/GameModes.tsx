@@ -51,8 +51,8 @@ function GameModes() {
     fetchData()
   }, [])
 
-  if (isLoading) return <p>Loading...</p>
-  if (error) return <p>Error: {error}</p>
+  if (isLoading) return <p className="gameModes_wrapper">Loading...</p>
+  if (error) return <p className="gameModes_wrapper">Error: {error}</p>
 
   const handleGameModeClick = (gameMode: GameModeWithMaps) => {
     setSelectedGameMode(gameMode)

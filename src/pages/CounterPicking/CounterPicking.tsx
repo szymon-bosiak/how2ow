@@ -74,8 +74,8 @@ function CounterPicking() {
     return columns
   }
 
-  if (isLoading) return <p>Loading...</p>
-  if (error) return <p>Error: {error}</p>
+  if (isLoading) return <p className="counterPicking_wrapper">Loading...</p>
+  if (error) return <p className="counterPicking_wrapper">Error: {error}</p>
 
   const toggleHero = (heroName: string) => {
     setActiveHero((prev) => (prev === heroName ? null : heroName))
