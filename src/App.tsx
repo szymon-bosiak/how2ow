@@ -154,7 +154,7 @@ function App() {
 
 export default function RootApp() {
   return (
-    <Router>
+    <Router basename="/how2ow">
       <Layout>
         <App />
       </Layout>
