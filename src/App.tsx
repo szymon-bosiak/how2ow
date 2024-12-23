@@ -1,29 +1,29 @@
 import {
-  BrowserRouter as Router,
+  HashRouter, // Import HashRouter
   Route,
   Routes,
   useLocation,
-} from "react-router-dom"
-import Layout from "./components/Layout/Layout"
-import Heroes from "./pages/Heroes/Heroes"
-import HeroDetails from "./pages/HeroDetails/HeroDetails"
-import HeroesSkins from "./pages/HeroesSkins/HeroesSkins"
-import HeroSkins from "./pages/HeroSkins/HeroSkins"
-import About from "./pages/About/About"
-import TierList from "./pages/TierList/TierList"
-import GameModes from "./pages/GameModes/GameModes"
-import CounterPicking from "./pages/CounterPicking/CounterPicking"
-import Home from "./pages/Home/Home"
-import { AnimatePresence, motion } from "motion/react"
+} from "react-router-dom";
+import Layout from "./components/Layout/Layout";
+import Heroes from "./pages/Heroes/Heroes";
+import HeroDetails from "./pages/HeroDetails/HeroDetails";
+import HeroesSkins from "./pages/HeroesSkins/HeroesSkins";
+import HeroSkins from "./pages/HeroSkins/HeroSkins";
+import About from "./pages/About/About";
+import TierList from "./pages/TierList/TierList";
+import GameModes from "./pages/GameModes/GameModes";
+import CounterPicking from "./pages/CounterPicking/CounterPicking";
+import Home from "./pages/Home/Home";
+import { AnimatePresence, motion } from "motion/react";
 
 const pageVariants = {
   initial: { opacity: 0, transition: { duration: 0.3 } },
   animate: { opacity: 1, transition: { duration: 0.3 } },
   exit: { opacity: 0, transition: { duration: 0.3 } },
-}
+};
 
 function App() {
-  const location = useLocation()
+  const location = useLocation();
   return (
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
@@ -40,7 +40,6 @@ function App() {
             </motion.div>
           }
         />
-
         <Route
           path="/game-info/game-modes"
           element={
@@ -67,7 +66,6 @@ function App() {
             </motion.div>
           }
         />
-
         <Route
           path="/heroes"
           element={
@@ -94,7 +92,6 @@ function App() {
             </motion.div>
           }
         />
-
         <Route
           path="/skins"
           element={
@@ -149,15 +146,15 @@ function App() {
         />
       </Routes>
     </AnimatePresence>
-  )
+  );
 }
 
 export default function RootApp() {
   return (
-    <Router basename="/how2ow">
+    <HashRouter> {/* Switch to HashRouter */}
       <Layout>
         <App />
       </Layout>
-    </Router>
-  )
+    </HashRouter>
+  );
 }
