@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import "./heroSkins.css"
 import { heroSkinsData, Skin } from "./heroSkinsData"
 import { useParams } from "react-router"
@@ -12,7 +12,7 @@ import overwatchArchives from "../../assets/icons/Overwatch_Archives_Icon.webp"
 import summerGames from "../../assets/icons/Summer_Games_Icon.webp"
 import shop from "../../assets/icons/Shop_Icon.png"
 import winterWonderland from "../../assets/icons/Winter_Wonderland_Icon.webp"
-import esports from "../../assets/icons/Overwatch_Esports_Icon.webp"
+// import esports from "../../assets/icons/Overwatch_Esports_Icon.webp"
 
 import credits from "../../assets/icons/Credits.webp"
 import mythicPrisms from "../../assets/icons/Mythic_Prism.webp"
@@ -24,8 +24,7 @@ import info from "../../assets/icons/info_full.svg"
 
 function HeroSkins() {
   const { heroName } = useParams<{ heroName: string }>()
-  const [isLoading, setIsLoading] = useState(true)
-  const [error, setError] = useState<string | null>(null)
+
   const [activeSkin, setActiveSkin] = useState<Skin | null>(
     heroSkinsData[heroName!].skins[0]
   )
