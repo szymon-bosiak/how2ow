@@ -30,7 +30,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/ana/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -40,7 +40,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/ana/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -50,7 +50,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Citrine",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/ana/citrine.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/citrine.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -60,7 +60,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Garnet",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/ana/garnet.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/garnet.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -70,7 +70,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Peridot",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/ana/peridot.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/peridot.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -80,7 +80,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Turquoise",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/ana/turquoise.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/turquoise.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -90,7 +90,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Merciful",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/ana/merciful.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/merciful.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -100,7 +100,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Shrike",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/ana/shrike.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/shrike.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: null,
@@ -110,7 +110,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Tal",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/ana/tal.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/tal.png`,
         value: 750,
         currency: "Credits",
         event: "Lunar New Year",
@@ -120,7 +120,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cybermedic",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/ana/cybermedic.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/cybermedic.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Overwatch Anniversary",
@@ -130,7 +130,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ghoul",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/ana/ghoul.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/ghoul.png`,
         value: 750,
         currency: "Credits",
         event: "Halloween Terror",
@@ -140,7 +140,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Gingerbread",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/ana/gingerbread.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/gingerbread.png`,
         value: null,
         currency: null,
         event: "Winter Wonderland",
@@ -150,7 +150,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Bastet",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/ana/bastet.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/bastet.png`,
         value: null,
         currency: null,
         event: null,
@@ -160,7 +160,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Spiritwarder",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/ana/spiritwarder.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/spiritwarder.png`,
         value: null,
         currency: null,
         event: null,
@@ -170,7 +170,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Polar",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/ana/polar.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/polar.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -180,7 +180,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Midnight Camo",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/ana/midnight-camo.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/midnight-camo.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -190,7 +190,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sanguine Curse",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/ana/sanguine-curse.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/sanguine-curse.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -200,7 +200,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ultrawatch",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/ana/ultrawatch.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/ultrawatch.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -210,7 +210,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Wadjet",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ana/wadjet.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/wadjet.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -220,7 +220,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Wasteland",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ana/wasteland.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/wasteland.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -230,7 +230,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Captain Amari",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ana/captain-amari.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/captain-amari.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -240,7 +240,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Horus",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ana/horus.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/horus.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -250,7 +250,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sniper",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ana/sniper.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/sniper.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -260,7 +260,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Night Owl",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ana/night-owl.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/night-owl.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -270,7 +270,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cabana",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ana/cabana.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/cabana.png`,
         value: 1500,
         currency: "Overwatch Coins",
         event: "Summer Games",
@@ -280,7 +280,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Snow Owl",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ana/snow-owl.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/snow-owl.png`,
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -290,7 +290,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Corsair",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ana/corsair.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/corsair.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -300,7 +300,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mummy",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ana/mummy.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/mummy.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -310,7 +310,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Haroeris",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ana/haroeris.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/haroeris.png`,
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -320,7 +320,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Botanist",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ana/botanist.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/botanist.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -330,7 +330,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Nighthawker",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ana/nighthawker.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/nighthawker.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -340,7 +340,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Oni",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ana/oni.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/oni.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -350,7 +350,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Bog Witch",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ana/bog-witch.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/bog-witch.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -360,7 +360,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Blackbraid",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ana/blackbraid.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/blackbraid.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -370,7 +370,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Arch-Commandant Amari",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ana/arch-commandant-amari.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/arch-commandant-amari.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -380,7 +380,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Stakeout",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ana/stakeout.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/stakeout.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -390,7 +390,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Tomb Walker",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ana/tomb-walker.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/tomb-walker.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -400,7 +400,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "A-7000 Wargod",
         rarity: "Mythic",
-        img: "${import.meta.env.BASE_URL}skins/ana/a-7000-wargod.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ana/a-7000-wargod.png`,
         value: 50,
         currency: "Mythic Prisms",
         event: null,
@@ -414,7 +414,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/ashe/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ashe/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -424,7 +424,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/ashe/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ashe/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -434,7 +434,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Paintbrush",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/ashe/paintbrush.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ashe/paintbrush.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -444,7 +444,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sunflower",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/ashe/sunflower.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ashe/sunflower.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -454,7 +454,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Tansy",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/ashe/tansy.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ashe/tansy.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -464,7 +464,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Yucca",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/ashe/yucca.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ashe/yucca.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -474,7 +474,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Posh",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/ashe/posh.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ashe/posh.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -484,7 +484,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Thorn",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/ashe/thorn.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ashe/thorn.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -494,7 +494,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Prosperity",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/ashe/prosperity.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ashe/prosperity.png`,
         value: null,
         currency: null,
         event: "Lunar New Year",
@@ -504,7 +504,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Winter",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/ashe/winter.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ashe/winter.png`,
         value: 750,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -514,7 +514,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mardi Gras",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/ashe/mardi-gras.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ashe/mardi-gras.png`,
         value: null,
         currency: null,
         event: null,
@@ -524,7 +524,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Deadlock",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/ashe/deadlock.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ashe/deadlock.png`,
         value: null,
         currency: null,
         event: null,
@@ -534,7 +534,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Snake Wrangler",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/ashe/snake-wrangler.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ashe/snake-wrangler.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -544,7 +544,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Merry Outlaw",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/ashe/merry-outlaw.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ashe/merry-outlaw.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -554,7 +554,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Haunted",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/ashe/haunted.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ashe/haunted.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -564,7 +564,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Gangster",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ashe/gangster.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ashe/gangster.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -574,7 +574,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mobster",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ashe/mobster.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ashe/mobster.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -584,7 +584,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Jungle",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ashe/jungle.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ashe/jungle.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -594,7 +594,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Safari",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ashe/safari.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ashe/safari.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -604,7 +604,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Tiger Huntress",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ashe/tiger-huntress.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ashe/tiger-huntress.png`,
         value: 1500,
         currency: "Credits",
         event: "Lunar New Year",
@@ -614,7 +614,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Intergalactic Smuggler",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ashe/intergalactic-smuggler.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ashe/intergalactic-smuggler.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -624,7 +624,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Dorothy",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ashe/dorothy.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ashe/dorothy.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -634,7 +634,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Socialite",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ashe/tiger-huntress.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ashe/tiger-huntress.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -644,7 +644,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Little Red",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ashe/little-red.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ashe/little-red.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -654,7 +654,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Poolside",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ashe/poolside.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ashe/poolside.png`,
         value: 1500,
         currency: "Credits",
         event: "Summer Games",
@@ -664,7 +664,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Warlock",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ashe/warlock.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ashe/warlock.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -674,7 +674,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Raijin",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ashe/raijin.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ashe/raijin.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -684,7 +684,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Haunted Doll",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ashe/haunted-doll.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ashe/haunted-doll.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -694,7 +694,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Storm Rider",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ashe/storm-rider.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ashe/storm-rider.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -704,7 +704,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Faye Valentine",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ashe/faye-valentine.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ashe/faye-valentine.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -714,7 +714,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Calamity Empress",
         rarity: "Mythic",
-        img: "${import.meta.env.BASE_URL}skins/ashe/calamity-empress.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ashe/calamity-empress.png`,
         value: 50,
         currency: "Mythic Prisms",
         event: null,
@@ -728,7 +728,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/baptiste/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/baptiste/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -738,7 +738,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/baptiste/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/baptiste/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -748,7 +748,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ble",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/baptiste/ble.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/baptiste/ble.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -758,7 +758,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Vyolèt",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/baptiste/vyolet.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/baptiste/vyolet.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -768,7 +768,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Vèt",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/baptiste/vet.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/baptiste/vet.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -778,7 +778,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Wouj",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/baptiste/wouj.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/baptiste/wouj.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -788,7 +788,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Camouflage",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/baptiste/camouflage.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/baptiste/camouflage.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -798,7 +798,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Wasteland",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/baptiste/wasteland.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/baptiste/wasteland.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -808,7 +808,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Terracotta Medic",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/baptiste/terracotta-medic.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/baptiste/terracotta-medic.png`,
         value: null,
         currency: null,
         event: "Lunar New Year",
@@ -818,7 +818,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Vampire",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/baptiste/vampire.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/baptiste/vampire.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Halloween Terror",
@@ -828,7 +828,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Combat Medic",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/baptiste/combat-medic.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/baptiste/combat-medic.png`,
         value: null,
         currency: null,
         event: null,
@@ -838,7 +838,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Deluxe",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/baptiste/deluxe.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/baptiste/deluxe.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -848,7 +848,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mummy",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/baptiste/mummy.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/baptiste/mummy.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -858,7 +858,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Blue Steel",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/baptiste/blue-steel.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/baptiste/blue-steel.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -868,7 +868,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Polar",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/baptiste/polar.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/baptiste/polar.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -878,7 +878,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Desert Ops",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/baptiste/desert-ops.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/baptiste/desert-ops.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -888,7 +888,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Spec Ops",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/baptiste/spec-ops.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/baptiste/spec-ops.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -898,7 +898,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Buccaneer",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/baptiste/buccaneer.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/baptiste/buccaneer.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -908,7 +908,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Pirate",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/baptiste/pirate.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/baptiste/pirate.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -918,7 +918,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Talon",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/baptiste/talon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/baptiste/talon.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -928,7 +928,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Funky",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/baptiste/funky.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/baptiste/funky.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -938,7 +938,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Arctic Ops",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/baptiste/arctic-ops.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/baptiste/arctic-ops.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -948,7 +948,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Tropical",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/baptiste/tropical.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/baptiste/tropical.png`,
         value: 1500,
         currency: "Credits",
         event: "Summer Games",
@@ -958,7 +958,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Snowboarder",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/baptiste/snowboarder.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/baptiste/snowboarder.png`,
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -968,7 +968,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Formalwear",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/baptiste/formalwear.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/baptiste/formalwear.png`,
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -978,7 +978,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Bounty Hunter",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/baptiste/bounty-hunter.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/baptiste/bounty-hunter.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -988,7 +988,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Scorpion",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/baptiste/scorpion.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/baptiste/scorpion.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -1002,7 +1002,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/bastion/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -1012,7 +1012,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/bastion/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -1022,7 +1022,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Dawn",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/bastion/dawn.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/dawn.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -1032,7 +1032,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Meadow",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/bastion/meadow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/meadow.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -1042,7 +1042,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sky",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/bastion/sky.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/sky.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -1052,7 +1052,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Soot",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/bastion/soot.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/soot.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -1062,7 +1062,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Defense Matrix",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/bastion/defense-matrix.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/defense-matrix.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -1072,7 +1072,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Omnic Crisis",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/bastion/omnic-crisis.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/omnic-crisis.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -1082,7 +1082,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Rooster",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/bastion/rooster.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/rooster.png`,
         value: 750,
         currency: "Credits",
         event: "Lunar New Year",
@@ -1092,7 +1092,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Null Sector",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/bastion/null-sector.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/null-sector.png`,
         value: 750,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -1102,7 +1102,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sand Castle",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/bastion/sand-castle.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/sand-castle.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Overwatch Archives",
@@ -1112,7 +1112,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Tombstone",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/bastion/tombstone.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/tombstone.png`,
         value: 750,
         currency: "Credits",
         event: "Halloween Terror",
@@ -1122,7 +1122,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Gift Wrap",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/bastion/gift-wrap.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/gift-wrap.png`,
         value: 750,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -1132,7 +1132,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "BlizzCon 2016",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/bastion/blizzcon-2016.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/blizzcon-2016.png`,
         value: 750,
         currency: "Credits",
         event: null,
@@ -1142,7 +1142,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Infinite Annihilator",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/bastion/infinite-annihilator.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/infinite-annihilator.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -1152,7 +1152,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Pumpkin",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/bastion/pumpkin.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/pumpkin.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -1162,7 +1162,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Antique",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/bastion/antique.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/antique.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -1172,7 +1172,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Woodbot",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/bastion/woodbot.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/woodbot.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -1182,7 +1182,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Gearbot",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/bastion/gearbot.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/gearbot.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -1192,7 +1192,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Steambot",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/bastion/steambot.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/steambot.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -1202,7 +1202,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Dragonfire",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/bastion/dragonfire.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/dragonfire.png`,
         value: null,
         currency: null,
         event: "Lunar New Year",
@@ -1212,7 +1212,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Gwishin",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/bastion/gwishin.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/gwishin.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -1222,7 +1222,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Dune Buggy",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/bastion/dune-buggy.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/dune-buggy.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -1232,7 +1232,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Stealth",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/bastion/stealth.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/stealth.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -1242,7 +1242,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Coffin",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/bastion/coffin.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/coffin.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -1252,7 +1252,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Avalanche",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/bastion/avalanche.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/avalanche.png`,
         value: 1500,
         currency: "Credits",
         event: "Summer Games",
@@ -1262,7 +1262,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overgrown",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/bastion/overgrown.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/overgrown.png`,
         value: null,
         currency: null,
         event: null,
@@ -1272,7 +1272,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Brick",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/bastion/brick.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/brick.png`,
         value: null,
         currency: null,
         event: null,
@@ -1282,7 +1282,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Gingerbread",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/bastion/gingerbread.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/gingerbread.png`,
         value: 1,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -1292,7 +1292,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Fire Engine",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/bastion/fire-engine.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/fire-engine.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -1302,7 +1302,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Bumblebee",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/bastion/bumblebee.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/bumblebee.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -1312,7 +1312,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Magma",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/bastion/magma.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/magma.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -1322,7 +1322,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cardboard",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/bastion/cardboard.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/cardboard.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -1332,7 +1332,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Pirate Ship",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/bastion/pirate-ship.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/pirate-ship.png`,
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -1342,7 +1342,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Rikimaru Ramen",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/bastion/rikimaru-ramen.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/bastion/rikimaru-ramen.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -1356,7 +1356,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -1366,7 +1366,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -1376,7 +1376,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Blå",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/bla.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/bla.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -1386,7 +1386,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Grön",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/gron.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/gron.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -1396,7 +1396,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Plommon",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/plommon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/plommon.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -1406,7 +1406,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Röd",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/rod.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/rod.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -1416,7 +1416,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Carbon Fiber",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/carbon-fiber.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/carbon-fiber.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -1426,7 +1426,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ironclad",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/ironclad.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/ironclad.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -1436,7 +1436,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "General",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/general.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/general.png`,
         value: 750,
         currency: "Credits",
         event: "Lunar New Year",
@@ -1446,7 +1446,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Tre Kronor",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/tre-kronor.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/tre-kronor.png`,
         value: 750,
         currency: "Credits",
         event: "Summer Games",
@@ -1456,7 +1456,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Stone",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/stone.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/stone.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Halloween Terror",
@@ -1466,7 +1466,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ice Queen",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/ice-queen.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/ice-queen.png`,
         value: null,
         currency: null,
         event: "Winter Wonderland",
@@ -1476,7 +1476,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Peppermint Bark",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/peppermint-bark.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/peppermint-bark.png`,
         value: null,
         currency: null,
         event: "Winter Wonderland",
@@ -1486,7 +1486,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Talon",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/talon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/talon.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -1496,7 +1496,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Pearlescent",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/pearlescent.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/pearlescent.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -1506,7 +1506,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Máni",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/mani.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/mani.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -1516,7 +1516,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Engineer",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/engineer.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/engineer.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -1526,7 +1526,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mechanic",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/mechanic.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/mechanic.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -1536,7 +1536,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Opera",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/opera.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/opera.png`,
         value: 1500,
         currency: "Credits",
         event: "Lunar New Year",
@@ -1546,7 +1546,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Medic",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/medic.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/medic.png`,
         value: 2200,
         currency: "Overwatch Coins",
         event: null,
@@ -1556,7 +1556,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Shieldmaiden",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/shieldmaiden.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/shieldmaiden.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -1566,7 +1566,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Riot Police",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/riot-police.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/riot-police.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -1576,7 +1576,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Feskarn",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/feskarn.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/feskarn.png`,
         value: null,
         currency: null,
         event: "Summer Games",
@@ -1586,7 +1586,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Vampire Hunter",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/vampire-hunter.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/vampire-hunter.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -1596,7 +1596,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sparkplug",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/sparkplug.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/sparkplug.png`,
         value: null,
         currency: null,
         event: null,
@@ -1606,7 +1606,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Goat",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/goat.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/goat.png`,
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -1616,7 +1616,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Royal Captain",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/royal-captain.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/royal-captain.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -1626,7 +1626,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Azure Drake",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/azure-drake.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/azure-drake.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -1636,7 +1636,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Antifragile BB",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/antifragile-bb.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/antifragile-bb.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -1646,7 +1646,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Polar",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/polar.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/polar.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -1656,7 +1656,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Turned Hunter",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/turned-hunter.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/turned-hunter.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -1666,7 +1666,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cardboard",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/brigitte/cardboard.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/brigitte/cardboard.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -1680,7 +1680,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -1690,7 +1690,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -1700,7 +1700,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ebony",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/ebony.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/ebony.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -1710,7 +1710,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Lake",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/lake.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/lake.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -1720,7 +1720,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sage",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/sage.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/sage.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -1730,7 +1730,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Wheat",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/wheat.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/wheat.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -1740,7 +1740,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Xiake",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/xiake.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/xiake.png`,
         value: null,
         currency: null,
         event: "Lunar New Year",
@@ -1750,7 +1750,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Masked Man",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/masked-man.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/masked-man.png`,
         value: null,
         currency: null,
         event: "Overwatch Anniversary",
@@ -1760,7 +1760,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "American",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/american.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/american.png`,
         value: 750,
         currency: "Credits",
         event: "Summer Games",
@@ -1770,7 +1770,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Undead",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/undead.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/undead.png`,
         value: 750,
         currency: "Credits",
         event: "Halloween Terror",
@@ -1780,7 +1780,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Scrooge",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/scrooge.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/scrooge.png`,
         value: 750,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -1790,7 +1790,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Forest Ranger",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/forest-ranger.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/forest-ranger.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -1800,7 +1800,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Polar",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/polar.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/polar.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -1810,7 +1810,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sandstorm",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/sandstorm.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/sandstorm.png`,
         value: null,
         currency: null,
         event: null,
@@ -1820,7 +1820,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ritzy",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/ritzy.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/ritzy.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -1830,7 +1830,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Gambler",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/gambler.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/gambler.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -1840,7 +1840,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Riverboat",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/riverboat.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/riverboat.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -1850,7 +1850,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mystery Man",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/mystery-man.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/mystery-man.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -1860,7 +1860,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Vigilante",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/vigilante.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/vigilante.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -1870,7 +1870,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Magistrate",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/magistrate.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/magistrate.png`,
         value: 1500,
         currency: "Credits",
         event: "Lunar New Year",
@@ -1880,7 +1880,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Blackwatch",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/blackwatch.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/blackwatch.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -1890,7 +1890,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Deadlock",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/deadlock.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/deadlock.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -1900,7 +1900,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sherlock",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/sherlock.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/sherlock.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -1910,7 +1910,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Lifeguard",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/lifeguard.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/lifeguard.png`,
         value: 1500,
         currency: "Credits",
         event: "Summer Games",
@@ -1920,7 +1920,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Van Helsing",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/van-helsing.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/van-helsing.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -1930,7 +1930,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mountain Man",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/mountain-man.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/mountain-man.png`,
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -1940,7 +1940,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Formalwear",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/formalwear.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/formalwear.png`,
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -1950,7 +1950,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Invisible Man",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/invisible-man.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/invisible-man.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -1960,7 +1960,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Longhorn",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/longhorn.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/longhorn.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -1970,7 +1970,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Space Ranger",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/space-ranger.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/space-ranger.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -1980,7 +1980,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "C-455 Sharpshooter",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/c-455-sharpshooter.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/c-455-sharpshooter.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -1990,7 +1990,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Spike Spiegel",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/spike-spiegel.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/spike-spiegel.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -2000,7 +2000,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ultrawatch",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/ultrawatch.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/ultrawatch.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -2010,7 +2010,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cozy",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/cassidy/cozy.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/cassidy/cozy.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -2024,7 +2024,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/dva/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -2034,7 +2034,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/dva/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -2044,7 +2044,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Blueberry",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/dva/blueberry.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/blueberry.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -2054,7 +2054,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Lemon-Lime",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/dva/lemon-lime.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/lemon-lime.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -2064,7 +2064,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Tangerine",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/dva/tangerine.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/tangerine.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -2074,7 +2074,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Watermelon",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/dva/watermelon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/watermelon.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -2084,7 +2084,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Carbon Fiber",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/dva/carbon-fiber.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/carbon-fiber.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -2094,7 +2094,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "White Rabbit",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/dva/white-rabbit.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/white-rabbit.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -2104,7 +2104,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Midnight",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/dva/midnight.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/midnight.png`,
         value: null,
         currency: null,
         event: "Overwatch Anniversary",
@@ -2114,7 +2114,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Taegeukgi",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/dva/taegeukgi.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/taegeukgi.png`,
         value: 750,
         currency: "Credits",
         event: "Summer Games",
@@ -2124,7 +2124,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Nano",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/dva/nano.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/nano.png`,
         value: null,
         currency: null,
         event: null,
@@ -2134,7 +2134,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Infinite Ace",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/dva/infinite-ace.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/infinite-ace.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -2144,7 +2144,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Junker",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/dva/junker.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/junker.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -2154,7 +2154,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Scavenger",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/dva/scavenger.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/scavenger.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -2164,7 +2164,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "B.Va",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/dva/bva.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/bva.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -2174,7 +2174,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Junebug",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/dva/junebug.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/junebug.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -2184,7 +2184,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Black Cat",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/dva/black-cat.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/black-cat.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -2194,7 +2194,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Officer",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/dva/officer.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/officer.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -2204,7 +2204,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Palanquin",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/dva/palanquin.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/palanquin.png`,
         value: 1500,
         currency: "Credits",
         event: null,
@@ -2214,7 +2214,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Waveracer",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/dva/waveracer.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/waveracer.png`,
         value: null,
         currency: null,
         event: "Summer Games",
@@ -2224,7 +2224,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cruiser",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/dva/cruiser.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/cruiser.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -2234,7 +2234,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Academy",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/dva/academy.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/academy.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -2244,7 +2244,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Varsity",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/dva/varsity.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/varsity.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -2254,7 +2254,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "White Cat",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/dva/white-cat.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/white-cat.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -2264,7 +2264,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Shin-Ryeong",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/dva/shin-ryeong.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/shin-ryeong.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -2274,7 +2274,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sleighing",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/dva/sleighing.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/sleighing.png`,
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -2284,7 +2284,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "EDM",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/dva/edm.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/edm.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -2294,7 +2294,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Turtle Ship",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/dva/turtle-ship.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/turtle-ship.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -2304,7 +2304,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Gentle Tokki Fuchsia",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/dva/gentle-tokki-fuchsia.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/gentle-tokki-fuchsia.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -2314,7 +2314,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Gentle Tokki Aqua",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/dva/gentle-tokki-aqua.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/gentle-tokki-aqua.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -2324,7 +2324,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Antifragile Dazzle",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/dva/antifragile-dazzle.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/antifragile-dazzle.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -2334,7 +2334,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Rosy Hanbok",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/dva/rosy-hanbok.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/rosy-hanbok.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -2344,7 +2344,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Porsche",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/dva/porsche.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/porsche.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -2354,7 +2354,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Heist",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/dva/heist.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/heist.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -2364,7 +2364,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Dainty Cat",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/dva/dainty-cat.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/dainty-cat.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -2374,7 +2374,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cardboard",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/dva/cardboard.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/cardboard.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -2384,7 +2384,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "2020 Paciffic All-Stars",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/dva/2020-paciffic-all-stars.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/dva/2020-paciffic-all-stars.png`,
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -2398,7 +2398,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/doomfist/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/doomfist/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -2408,7 +2408,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/doomfist/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/doomfist/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -2418,7 +2418,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Daisy",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/doomfist/daisy.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/doomfist/daisy.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -2428,7 +2428,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Lake",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/doomfist/lake.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/doomfist/lake.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -2438,7 +2438,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Plains",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/doomfist/plains.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/doomfist/plains.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -2448,7 +2448,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sunset",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/doomfist/sunset.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/doomfist/sunset.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -2458,7 +2458,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Leopard",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/doomfist/leopard.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/doomfist/leopard.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -2468,7 +2468,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Painted",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/doomfist/painted.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/doomfist/painted.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -2478,7 +2478,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Monk",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/doomfist/monk.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/doomfist/monk.png`,
         value: null,
         currency: null,
         event: "Lunar New Year",
@@ -2488,7 +2488,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Carbon Fiber",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/doomfist/carbon-fiber.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/doomfist/carbon-fiber.png`,
         value: 750,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -2498,7 +2498,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "General",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/doomfist/general.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/doomfist/general.png`,
         value: null,
         currency: null,
         event: null,
@@ -2508,7 +2508,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Tropical",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/doomfist/tropical.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/doomfist/tropical.png`,
         value: null,
         currency: null,
         event: "Summer Games",
@@ -2518,7 +2518,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Kìnìún",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/doomfist/kìnìún.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/doomfist/kìnìún.png`,
         value: null,
         currency: null,
         event: "Summer Games",
@@ -2528,7 +2528,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cursed Warrior",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/doomfist/cursed-warrior.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/doomfist/cursed-warrior.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -2538,7 +2538,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Avatar",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/doomfist/avatar.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/doomfist/avatar.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -2548,7 +2548,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Spirit",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/doomfist/spirit.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/doomfist/spirit.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -2558,7 +2558,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Caution",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/doomfist/caution.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/doomfist/caution.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -2568,7 +2568,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Irin",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/doomfist/irin.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/doomfist/irin.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -2578,7 +2578,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Blackhand",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/doomfist/blackhand.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/doomfist/blackhand.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -2588,7 +2588,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Talon",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/doomfist/talon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/doomfist/talon.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -2598,7 +2598,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Formal",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/doomfist/formal.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/doomfist/formal.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -2608,7 +2608,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Gladiator",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/doomfist/gladiator.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/doomfist/gladiator.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -2618,7 +2618,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Karate",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/doomfist/karate.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/doomfist/karate.png`,
         value: 1500,
         currency: "Credits",
         event: "Summer Games",
@@ -2628,7 +2628,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Swamp Monster",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/doomfist/swamp-monster.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/doomfist/swamp-monster.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -2638,7 +2638,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Jötunn",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/doomfist/jotunn.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/doomfist/jotunn.png`,
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -2648,7 +2648,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Bonebreaker",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/doomfist/bonebreaker.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/doomfist/bonebreaker.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -2658,7 +2658,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Strike Commander",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/doomfist/strike-commander.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/doomfist/strike-commander.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -2668,7 +2668,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Bast",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/doomfist/bast.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/doomfist/bast.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -2678,7 +2678,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Saitama",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/doomfist/saitama.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/doomfist/saitama.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -2688,7 +2688,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Funky",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/doomfist/funky.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/doomfist/funky.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -2698,7 +2698,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Thunder",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/doomfist/funky.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/doomfist/funky.png`,
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -2712,7 +2712,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/echo/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/echo/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -2722,7 +2722,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Durian",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/echo/durian.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/echo/durian.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -2732,7 +2732,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Marina",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/echo/marina.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/echo/marina.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -2742,7 +2742,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Papaya",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/echo/papaya.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/echo/papaya.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -2752,7 +2752,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Vanda",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/echo/vanda.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/echo/vanda.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -2762,7 +2762,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Carbon Fiber",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/echo/carbon-fiber.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/echo/carbon-fiber.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -2772,7 +2772,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Hot Rod",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/echo/hot-rod.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/echo/hot-rod.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -2782,7 +2782,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Bird of Paradise",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/echo/bird-of-paradise.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/echo/bird-of-paradise.png`,
         value: null,
         currency: null,
         event: "Overwatch Anniversary",
@@ -2792,7 +2792,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ragdoll",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/echo/ragdoll.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/echo/ragdoll.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Halloween Terror",
@@ -2802,7 +2802,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Dance Machine",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/echo/dance-machine.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/echo/dance-machine.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -2812,7 +2812,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Slime Queen",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/echo/slime-queen.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/echo/slime-queen.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -2822,7 +2822,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Retro Future",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/echo/retro-future.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/echo/retro-future.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -2832,7 +2832,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Camo",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/echo/camo.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/echo/camo.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -2842,7 +2842,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Stealth",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/echo/stealth.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/echo/stealth.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -2852,7 +2852,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Butterfly",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/echo/butterfly.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/echo/butterfly.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -2862,7 +2862,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Moth",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/echo/moth.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/echo/moth.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -2872,7 +2872,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Kkachi",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/echo/kkachi.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/echo/kkachi.png`,
         value: 1500,
         currency: "Credits",
         event: "Lunar New Year",
@@ -2882,7 +2882,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Vampire Bat",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/echo/vampire-bat.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/echo/vampire-bat.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -2892,7 +2892,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Surf's Up",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/echo/surf's-up.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/echo/surf's-up.png`,
         value: 1500,
         currency: "Credits",
         event: "Summer Games",
@@ -2902,7 +2902,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Good and Evil",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/echo/good-and-evil.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/echo/good-and-evil.png`,
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -2912,7 +2912,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Victorian Doll",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/echo/victorian-doll.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/echo/victorian-doll.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -2922,7 +2922,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Aset",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/echo/aset.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/echo/aset.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -2932,7 +2932,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ice Angel",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/echo/ice-angel.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/echo/ice-angel.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -2942,7 +2942,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Automaton",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/echo/automaton.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/echo/automaton.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -2952,7 +2952,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Strawberry",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/echo/strawberry.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/echo/strawberry.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -2962,7 +2962,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Phoenix",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/echo/phoenix.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/echo/phoenix.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -2972,7 +2972,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Merry Marionette",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/echo/merry-marionette.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/echo/merry-marionette.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -2986,7 +2986,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/genji/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -2996,7 +2996,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/genji/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -3006,7 +3006,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Azurite",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/genji/azurite.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/azurite.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -3016,7 +3016,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cinnabar",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/genji/cinnabar.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/cinnabar.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -3026,7 +3026,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Malachite",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/genji/malachite.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/malachite.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -3036,7 +3036,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ochre",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/genji/ochre.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/ochre.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -3046,7 +3046,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Carbon Fiber",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/genji/carbon-fiber.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/carbon-fiber.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -3056,7 +3056,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Chrome",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/genji/chrome.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/chrome.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -3066,7 +3066,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Nihon",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/genji/nihon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/nihon.png`,
         value: 750,
         currency: "Credits",
         event: "Summer Games",
@@ -3076,7 +3076,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Skeleton",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/genji/skeleton.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/skeleton.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Halloween Terror",
@@ -3086,7 +3086,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Street Runner",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/genji/street-runner.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/street-runner.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -3096,7 +3096,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Polar",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/genji/polar.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/polar.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -3106,7 +3106,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Junker",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/genji/junker.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/junker.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -3116,7 +3116,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sparrow",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/genji/sparrow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/sparrow.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -3126,7 +3126,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Young Genji",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/genji/young-genji.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/young-genji.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -3136,7 +3136,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Bedouin",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/genji/bedouin.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/bedouin.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -3146,7 +3146,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Nomad",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/genji/nomad.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/nomad.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -3156,7 +3156,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Oni",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/genji/oni.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/oni.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -3166,7 +3166,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Baihu",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/genji/baihu.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/baihu.png`,
         value: 1500,
         currency: "Credits",
         event: "Lunar New Year",
@@ -3176,7 +3176,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Blackwatch",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/genji/blackwatch.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/blackwatch.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -3186,7 +3186,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Bushi",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/genji/bushi.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/bushi.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -3196,7 +3196,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sentai",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/genji/sentai.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/sentai.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -3206,7 +3206,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Genjiman",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/genji/genjiman.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/genjiman.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -3216,7 +3216,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Demon",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/genji/demon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/demon.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -3226,7 +3226,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Kendoka",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/genji/kendoka.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/kendoka.png`,
         value: 1500,
         currency: "Credits",
         event: "Summer Games",
@@ -3236,7 +3236,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Karasu-Tengu",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/genji/karasu---tengu.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/karasu---tengu.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -3246,7 +3246,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ice Wraith",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/genji/ice-wraith.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/ice-wraith.png`,
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -3256,7 +3256,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Illidan",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/genji/illidan.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/illidan.png`,
         value: null,
         currency: null,
         event: null,
@@ -3266,7 +3266,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Happi",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/genji/happi.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/happi.png`,
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -3276,7 +3276,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "2018 Paciffic All-Stars",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/genji/2018-paciffic-all---stars.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/2018-paciffic-all---stars.png`,
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -3286,7 +3286,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Dallas Summer",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/genji/dallas-summer.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/dallas-summer.png`,
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -3296,7 +3296,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Shanghai Summer",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/genji/shanghai-summer.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/shanghai-summer.png`,
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -3306,7 +3306,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Royal Guard",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/genji/royal-guard.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/royal-guard.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -3316,7 +3316,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ultrawatch",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/genji/ultrawatch.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/ultrawatch.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -3326,7 +3326,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Omakase",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/genji/omakase.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/omakase.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -3336,7 +3336,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Divine Monkey",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/genji/divine-monkey.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/divine-monkey.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -3346,7 +3346,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Genos",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/genji/genos.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/genos.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -3356,7 +3356,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Volcanic",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/genji/volcanic.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/volcanic.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -3366,7 +3366,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Heihu",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/genji/heihu.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/heihu.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -3376,7 +3376,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Stone Crow",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/genji/stone-crow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/stone-crow.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -3386,7 +3386,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Zuko",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/genji/zuko.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/zuko.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -3396,7 +3396,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cyber Demon",
         rarity: "Mythic",
-        img: "${import.meta.env.BASE_URL}skins/genji/cyber-demon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/genji/cyber-demon.png`,
         value: 50,
         currency: "Mythic Prisms",
         event: null,
@@ -3410,7 +3410,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -3420,7 +3420,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -3430,7 +3430,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Azuki",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/azuki.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/azuki.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -3440,7 +3440,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Kinoko",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/kinoko.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/kinoko.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -3450,7 +3450,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Midori",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/midori.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/midori.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -3460,7 +3460,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sora",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/sora.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/sora.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -3470,7 +3470,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cloud",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/cloud.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/cloud.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -3480,7 +3480,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Dragon",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/dragon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/dragon.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -3490,7 +3490,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Nihon",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/nihon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/nihon.png`,
         value: null,
         currency: null,
         event: "Summer Games",
@@ -3500,7 +3500,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Demon",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/demon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/demon.png`,
         value: 750,
         currency: "Credits",
         event: "Halloween Terror",
@@ -3510,7 +3510,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Kyōgisha",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/kyogisha.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/kyogisha.png`,
         value: null,
         currency: null,
         event: null,
@@ -3520,7 +3520,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Festival",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/festival.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/festival.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -3530,7 +3530,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Koi",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/koi.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/koi.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -3540,7 +3540,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Young Hanzo",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/young-hanzo.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/young-hanzo.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -3550,7 +3550,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Young Master",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/young-master.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/young-master.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -3560,7 +3560,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Okami",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/okami.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/okami.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -3570,7 +3570,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Lone Wolf",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/lone-wolf.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/lone-wolf.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -3580,7 +3580,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Kabuki",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/kabuki.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/kabuki.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -3590,7 +3590,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Huang Zhong",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/huang-zhong.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/huang-zhong.png`,
         value: 1500,
         currency: "Credits",
         event: "Lunar New Year",
@@ -3600,7 +3600,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Scion",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/scion.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/scion.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -3610,7 +3610,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Wave",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/wave.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/wave.png`,
         value: 1500,
         currency: "Credits",
         event: "Summer Games",
@@ -3620,7 +3620,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Dai Tengu",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/dai-tengu.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/dai-tengu.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -3630,7 +3630,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Casual",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/casual.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/casual.png`,
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -3640,7 +3640,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Azure Flame",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/azure-flame.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/azure-flame.png`,
         value: null,
         currency: null,
         event: null,
@@ -3650,7 +3650,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cyber Dragon",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/cyber-dragon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/cyber-dragon.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -3660,7 +3660,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cupid",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/cupid.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/cupid.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -3670,7 +3670,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Drake Master",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/drake-master.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/drake-master.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -3680,7 +3680,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Great Tengu",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/great-tengu.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/great-tengu.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -3690,7 +3690,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Hashimoto",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/hashimoto.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/hashimoto.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -3700,7 +3700,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Streetwear",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/streetwear.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/streetwear.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -3710,7 +3710,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Heir",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/heir.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/heir.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -3720,7 +3720,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cyber Oni",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/cyber-oni.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/cyber-oni.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -3730,7 +3730,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Onryō",
         rarity: "Mythic",
-        img: "${import.meta.env.BASE_URL}skins/hanzo/onryo.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hanzo/onryo.png`,
         value: 50,
         currency: "Mythic Prisms",
         event: null,
@@ -3744,7 +3744,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/hazard/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hazard/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -3754,7 +3754,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Corrosive",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/hazard/corrosive.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hazard/corrosive.png`,
         value: 300,
         currency: "Credits",
         event: null,
@@ -3764,7 +3764,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Explosive",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/hazard/explosive.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hazard/explosive.png`,
         value: 300,
         currency: "Credits",
         event: null,
@@ -3774,7 +3774,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Flammable",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/hazard/flammable.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hazard/flammable.png`,
         value: 300,
         currency: "Credits",
         event: null,
@@ -3784,7 +3784,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Radioactive",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/hazard/radioactive.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hazard/radioactive.png`,
         value: 300,
         currency: "Credits",
         event: null,
@@ -3794,7 +3794,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mobster",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/hazard/mobster.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/hazard/mobster.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -3808,7 +3808,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/illari/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/illari/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -3818,7 +3818,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Anqas",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/illari/anqas.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/illari/anqas.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -3828,7 +3828,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Chumpi",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/illari/chumpi.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/illari/chumpi.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -3838,7 +3838,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Kulli",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/illari/kulli.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/illari/kulli.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -3848,7 +3848,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Qumir",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/illari/qumir.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/illari/qumir.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -3858,7 +3858,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Amethyst",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/illari/amethyst.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/illari/amethyst.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -3868,7 +3868,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Eclipse",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/illari/eclipse.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/illari/eclipse.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -3878,7 +3878,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Nightfall",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/illari/nightfall.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/illari/nightfall.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -3888,7 +3888,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Shadowchild",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/illari/shadowchild.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/illari/shadowchild.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -3898,7 +3898,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Daybreak",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/illari/daybreak.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/illari/daybreak.png`,
         value: 1900,
         currency: "Credits",
         event: null,
@@ -3908,7 +3908,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sundown",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/illari/sundown.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/illari/sundown.png`,
         value: 1900,
         currency: "Credits",
         event: null,
@@ -3918,7 +3918,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Llama Pajamas",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/illari/llama-pajamas.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/illari/llama-pajamas.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -3928,7 +3928,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Nightraven",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/illari/nightraven.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/illari/nightraven.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -3938,7 +3938,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Thoth",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/illari/thoth.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/illari/thoth.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -3948,7 +3948,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Winter Jammies",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/illari/winter-jammies.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/illari/winter-jammies.png`,
         value: null,
         currency: null,
         event: "Winter Wonderland",
@@ -3958,7 +3958,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Arcee",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/illari/arcee.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/illari/arcee.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -3968,7 +3968,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Black Cat",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/illari/black-cat.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/illari/black-cat.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -3982,7 +3982,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/junker-queen/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junker-queen/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -3992,7 +3992,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Actinium",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/junker-queen/actinium.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junker-queen/actinium.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -4002,7 +4002,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Plutonium",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/junker-queen/plutonium.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junker-queen/plutonium.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -4012,7 +4012,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Radium",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/junker-queen/radium.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junker-queen/radium.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -4022,7 +4022,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Uranium",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/junker-queen/uranium.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junker-queen/uranium.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -4032,7 +4032,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Punker Queen",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/junker-queen/punker-queen.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junker-queen/punker-queen.png`,
         value: 100,
         currency: "Credits",
         event: null,
@@ -4042,7 +4042,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Beast Hunter",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/junker-queen/beast-hunter.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junker-queen/beast-hunter.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -4052,7 +4052,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Jötunn",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/junker-queen/jotun.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junker-queen/jotun.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -4062,7 +4062,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Rugby",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/junker-queen/rugby.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junker-queen/rugby.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4072,7 +4072,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Circuit Breaker",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/junker-queen/circuit-breaker.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junker-queen/circuit-breaker.png`,
         value: 1900,
         currency: "Credits",
         event: null,
@@ -4082,7 +4082,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Wastelander",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/junker-queen/wastelander.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junker-queen/wastelander.png`,
         value: 1900,
         currency: "Credits",
         event: null,
@@ -4093,7 +4093,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Executioner",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/junker-queen/executioner.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junker-queen/executioner.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4103,7 +4103,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mob Boss",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/junker-queen/mob-boss.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junker-queen/mob-boss.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4113,7 +4113,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Gladiator Queen",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/junker-queen/gladiator-queen.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junker-queen/gladiator-queen.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4123,7 +4123,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Heavy Metal ",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/junker-queen/heavy-metal.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junker-queen/heavy-metal.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4133,7 +4133,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Black Metal",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/junker-queen/black-metal.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junker-queen/black-metal.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -4143,7 +4143,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Huntress",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/junker-queen/huntress.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junker-queen/huntress.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -4153,7 +4153,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Necrotic Witch",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/junker-queen/necrotic-witch.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junker-queen/necrotic-witch.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -4163,7 +4163,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Zeus",
         rarity: "Mythic",
-        img: "${import.meta.env.BASE_URL}skins/junker-queen/zeus.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junker-queen/zeus.png`,
         value: 50,
         currency: "Mythic Prisms",
         event: null,
@@ -4177,7 +4177,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/junkrat/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junkrat/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -4187,7 +4187,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/junkrat/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junkrat/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -4197,7 +4197,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Bleached",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/junkrat/bleached.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junkrat/bleached.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -4207,7 +4207,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Drowned",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/junkrat/drowned.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junkrat/drowned.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -4217,7 +4217,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Irradiated",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/junkrat/irradiated.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junkrat/irradiated.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -4227,7 +4227,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Rusted",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/junkrat/rusted.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junkrat/rusted.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -4237,7 +4237,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Caution",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/junkrat/caution.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junkrat/caution.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -4247,7 +4247,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Jailbird",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/junkrat/jailbird.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junkrat/jailbird.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -4257,7 +4257,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Toasted",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/junkrat/toasted.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junkrat/toasted.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -4267,7 +4267,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Firework",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/junkrat/firework.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junkrat/firework.png`,
         value: 750,
         currency: "Credits",
         event: "Lunar New Year",
@@ -4277,7 +4277,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Circus",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/junkrat/circus.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junkrat/circus.png`,
         value: 750,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -4287,7 +4287,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Inferno",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/junkrat/inferno.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junkrat/inferno.png`,
         value: null,
         currency: null,
         event: "Halloween Terror",
@@ -4297,7 +4297,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Neon Streets",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/junkrat/neon-streets.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junkrat/neon-streets.png`,
         value: 1000,
         currency: null,
         event: null,
@@ -4307,7 +4307,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sawtooth Trapper",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/junkrat/sawtooth-trapper.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junkrat/sawtooth-trapper.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -4317,7 +4317,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mobster",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/junkrat/mobster.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junkrat/mobster.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4327,7 +4327,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Aviator",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/junkrat/aviator.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junkrat/aviator.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4337,7 +4337,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Fool",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/junkrat/fool.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junkrat/fool.png`,
         value: 1500,
         currency: "Credits",
         event: null,
@@ -4347,7 +4347,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Jester",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/junkrat/jester.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junkrat/jester.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -4357,7 +4357,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Hayseed",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/junkrat/hayseed.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junkrat/hayseed.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -4367,7 +4367,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Scarecrow",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/junkrat/scarecrow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junkrat/scarecrow.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -4377,7 +4377,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "King Jamison",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/junkrat/king-jamison.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junkrat/king-jamison.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -4387,7 +4387,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Junkfood",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/junkrat/junkfood.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junkrat/junkfood.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -4397,7 +4397,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Bilgerat",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/junkrat/bilgerat.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junkrat/bilgerat.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -4407,7 +4407,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cricket",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/junkrat/cricket.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junkrat/cricket.png`,
         value: 1500,
         currency: "Credits",
         event: "Summer Games",
@@ -4417,7 +4417,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Dr. Junkenstein",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/junkrat/dr-junkenstein.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junkrat/dr-junkenstein.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -4427,7 +4427,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Beachrat",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/junkrat/beachrat.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junkrat/beachrat.png`,
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -4437,7 +4437,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Krampus",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/junkrat/krampus.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junkrat/krampus.png`,
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -4447,7 +4447,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Fawksey James",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/junkrat/fawksey-james.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junkrat/fawksey-james.png`,
         value: null,
         currency: null,
         event: null,
@@ -4457,7 +4457,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Junkbot",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/junkrat/junkbot.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junkrat/junkbot.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4467,7 +4467,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Hong Hai Er",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/junkrat/hong-hai-er.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junkrat/hong-hai-er.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -4477,7 +4477,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Lifeguard",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/junkrat/lifeguard.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/junkrat/lifeguard.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -4491,7 +4491,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/juno/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/juno/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -4501,7 +4501,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mercury",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/juno/mercury.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/juno/mercury.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -4511,7 +4511,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Neptune",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/juno/neptune.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/juno/neptune.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -4521,7 +4521,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Saturn",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/juno/saturn.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/juno/saturn.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -4531,7 +4531,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Venus",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/juno/venus.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/juno/venus.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -4541,7 +4541,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Uravity",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/juno/uravity.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/juno/uravity.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4555,7 +4555,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/kiriko/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/kiriko/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -4565,7 +4565,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ajisai",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/kiriko/ajisai.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/kiriko/ajisai.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -4575,7 +4575,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Fuji",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/kiriko/fuji.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/kiriko/fuji.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -4585,7 +4585,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Take",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/kiriko/take.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/kiriko/take.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -4595,7 +4595,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Tanpopo",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/kiriko/tanpopo.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/kiriko/tanpopo.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -4605,7 +4605,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Matsuri",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/kiriko/matsuri.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/kiriko/matsuri.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -4615,7 +4615,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Rogue",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/kiriko/rogue.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/kiriko/rogue.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -4625,7 +4625,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Visual Kei",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/kiriko/visual-kei.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/kiriko/visual-kei.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4635,7 +4635,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sakura",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/kiriko/sakura.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/kiriko/sakura.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4645,7 +4645,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Suki",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/kiriko/suki.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/kiriko/suki.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4655,7 +4655,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Athleisure",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/kiriko/athleisure.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/kiriko/athleisure.png`,
         value: 1900,
         currency: "Credits",
         event: null,
@@ -4665,7 +4665,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sukajan",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/kiriko/sukajan.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/kiriko/sukajan.png`,
         value: 1900,
         currency: "Credits",
         event: null,
@@ -4675,7 +4675,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Hinotori",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/kiriko/hinotori.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/kiriko/hinotori.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -4685,7 +4685,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Witch",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/kiriko/witch.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/kiriko/witch.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4695,7 +4695,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Terrible Tornado",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/kiriko/terrible-tornado.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/kiriko/terrible-tornado.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4705,7 +4705,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Time Keeper",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/kiriko/time-keeper.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/kiriko/time-keeper.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4715,7 +4715,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "K-2000 Blademaster",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/kiriko/k---2000-blademaster.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/kiriko/k---2000-blademaster.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4725,7 +4725,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Antifragile Kira-Kira",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/kiriko/antifragile-kira---kira.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/kiriko/antifragile-kira---kira.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4735,7 +4735,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Festive",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/kiriko/festive.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/kiriko/festive.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4745,7 +4745,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Hashimoto",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/kiriko/hashimoto.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/kiriko/hashimoto.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4755,7 +4755,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Lifeguard",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/kiriko/lifeguard.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/kiriko/lifeguard.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4765,7 +4765,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Oni",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/kiriko/oni.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/kiriko/oni.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4775,7 +4775,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Divinator",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/kiriko/divinator.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/kiriko/divinator.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4785,7 +4785,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Yatagarasu",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/kiriko/yatagarasu.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/kiriko/yatagarasu.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4795,7 +4795,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Himiko Toga",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/kiriko/himiko-toga.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/kiriko/himiko-toga.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4805,7 +4805,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Amaterasu",
         rarity: "Mythic",
-        img: "${import.meta.env.BASE_URL}skins/kiriko/amaterasu.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/kiriko/amaterasu.png`,
         value: 50,
         currency: "Mythic Prisms",
         event: null,
@@ -4819,7 +4819,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/lifeweaver/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lifeweaver/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -4829,7 +4829,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Amsonia",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/lifeweaver/amsonia.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lifeweaver/amsonia.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -4839,7 +4839,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Hydrangea",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/lifeweaver/hydrangea.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lifeweaver/hydrangea.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -4849,7 +4849,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Magnolia",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/lifeweaver/magnolia.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lifeweaver/magnolia.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -4859,7 +4859,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Orchid",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/lifeweaver/orchid.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lifeweaver/orchid.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -4869,7 +4869,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cassia",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/lifeweaver/cassia.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lifeweaver/cassia.png`,
         value: null,
         currency: null,
         event: null,
@@ -4879,7 +4879,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ghostbloom",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/lifeweaver/ghostbloom.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lifeweaver/ghostbloom.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -4889,7 +4889,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Baldr",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/lifeweaver/baldr.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lifeweaver/baldr.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -4899,7 +4899,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Lotus",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/lifeweaver/lotus.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lifeweaver/lotus.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4909,7 +4909,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Synthwave",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/lifeweaver/synthwave.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lifeweaver/synthwave.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4919,7 +4919,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cotton Candy",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/lifeweaver/cotton-candy.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lifeweaver/cotton-candy.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4929,7 +4929,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Regent",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/lifeweaver/regent.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lifeweaver/regent.png`,
         value: 1900,
         currency: "Credits",
         event: null,
@@ -4939,7 +4939,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sovereign",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/lifeweaver/sovereign.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lifeweaver/sovereign.png`,
         value: 1900,
         currency: "Credits",
         event: null,
@@ -4949,7 +4949,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Phi Ta Khon",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/lifeweaver/phi-ta-khon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lifeweaver/phi-ta-khon.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -4959,7 +4959,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Black Swan",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/lifeweaver/black-swan.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lifeweaver/black-swan.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4969,7 +4969,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cleric",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/lifeweaver/cleric.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lifeweaver/cleric.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4979,7 +4979,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Harbinger",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/lifeweaver/harbinger.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lifeweaver/harbinger.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -4989,7 +4989,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Lifeguarder",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/lifeweaver/lifeguarder.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lifeweaver/lifeguarder.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -5003,7 +5003,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/lucio/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -5013,7 +5013,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/lucio/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -5023,7 +5023,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Azul",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/lucio/azul.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/azul.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -5033,7 +5033,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Laranja",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/lucio/laranja.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/laranja.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -5043,7 +5043,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Roxo",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/lucio/roxo.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/roxo.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -5053,7 +5053,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Vermelho",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/lucio/vermelho.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/vermelho.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -5063,7 +5063,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Auditiva",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/lucio/auditiva.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/auditiva.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -5073,7 +5073,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Synaesthesia",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/lucio/synaesthesia.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/synaesthesia.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -5083,7 +5083,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Corredor",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/lucio/corredor.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/corredor.png`,
         value: null,
         currency: null,
         event: "Overwatch Archives",
@@ -5093,7 +5093,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Bitrate",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/lucio/bitrate.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/bitrate.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Overwatch Anniversary",
@@ -5103,7 +5103,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Gorgon",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/lucio/gorgon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/gorgon.png`,
         value: null,
         currency: null,
         event: "Halloween Terror",
@@ -5113,7 +5113,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Andes",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/lucio/andes.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/andes.png`,
         value: 750,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -5123,7 +5123,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Boleiro",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/lucio/boleiro.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/boleiro.png`,
         value: null,
         currency: null,
         event: null,
@@ -5133,7 +5133,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Victorian Ghost",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/lucio/victorian-ghost.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/victorian-ghost.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -5143,7 +5143,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Lifeguard",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/lucio/lifeguard.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/lifeguard.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -5153,7 +5153,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Polar",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/lucio/polar.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/polar.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -5163,7 +5163,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Disco",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/lucio/disco.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/disco.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -5173,7 +5173,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Octopus",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/lucio/octopus.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/octopus.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -5183,7 +5183,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "HippityHop",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/lucio/hippityHop.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/hippityHop.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -5193,7 +5193,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ribbit",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/lucio/ribbit.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/ribbit.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -5203,7 +5203,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Breakaway",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/lucio/breakaway.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/breakaway.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -5213,7 +5213,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Slapshot",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/lucio/slapshot.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/slapshot.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -5223,7 +5223,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Capoeira",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/lucio/capoeira.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/capoeira.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -5233,7 +5233,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Samul Nori",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/lucio/samul-nori.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/samul-nori.png`,
         value: 1500,
         currency: "Credits",
         event: "Lunar New Year",
@@ -5243,7 +5243,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Equalizer",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/lucio/equalizer.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/equalizer.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -5253,7 +5253,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Jazzy",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/lucio/jazzy.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/jazzy.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -5263,7 +5263,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Poison Dart",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/lucio/poison-dart.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/poison-dart.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -5273,7 +5273,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Seleção",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/lucio/seleção.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/seleção.png`,
         value: 1500,
         currency: "Credits",
         event: "Summer Games",
@@ -5283,7 +5283,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Striker",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/lucio/striker.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/striker.png`,
         value: 1500,
         currency: "Credits",
         event: "Summer Games",
@@ -5293,7 +5293,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Satyr",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/lucio/satyr.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/satyr.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -5303,7 +5303,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Snow Fox",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/lucio/snow-fox.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/snow-fox.png`,
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -5313,7 +5313,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "2019 Paciffic All-Stars",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/lucio/2019-paciffic-all---stars.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/2019-paciffic-all---stars.png`,
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -5323,7 +5323,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Hermes",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/lucio/hermes.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/hermes.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -5333,7 +5333,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Space Prince",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/lucio/space-prince.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/space-prince.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -5343,7 +5343,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Grafiteiro",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/lucio/grafiteiro.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/grafiteiro.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -5353,7 +5353,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Bard",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/lucio/bard.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/bard.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -5363,7 +5363,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Dark Faun",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/lucio/dark-faun.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/dark-faun.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -5373,7 +5373,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Poet",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/lucio/poet.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/lucio/poet.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -5387,7 +5387,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/mauga/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mauga/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -5397,7 +5397,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Lava",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/mauga/lava.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mauga/lava.png`,
         value: 300,
         currency: "Credits",
         event: null,
@@ -5407,7 +5407,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ocean",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/mauga/ocean.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mauga/ocean.png`,
         value: 300,
         currency: "Credits",
         event: null,
@@ -5417,7 +5417,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Palm",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/mauga/palm.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mauga/palm.png`,
         value: 300,
         currency: "Credits",
         event: null,
@@ -5427,7 +5427,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sand",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/mauga/sand.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mauga/sand.png`,
         value: 300,
         currency: "Credits",
         event: null,
@@ -5437,7 +5437,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Rugby",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/mauga/rugby.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mauga/rugby.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -5447,7 +5447,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Bonesplinter",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mauga/bonesplinter.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mauga/bonesplinter.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -5457,7 +5457,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Port-De-Paix",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mauga/port---de---paix.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mauga/port---de---paix.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -5467,7 +5467,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Magma",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mauga/magma.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mauga/magma.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -5477,7 +5477,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Jet Black",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mauga/jet-black.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mauga/jet-black.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -5487,7 +5487,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Jötunn",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mauga/jotunn.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mauga/jotunn.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -5501,7 +5501,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/mei/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -5511,7 +5511,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/mei/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -5521,7 +5521,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Chrysanthemum",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/mei/chrysanthemum.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/chrysanthemum.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -5531,7 +5531,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Heliotrope",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/mei/heliotrope.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/heliotrope.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -5541,7 +5541,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Jade",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/mei/jade.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/jade.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -5551,7 +5551,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Persimmon",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/mei/persimmon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/persimmon.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -5561,7 +5561,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Earthen",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/mei/earthen.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/earthen.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -5571,7 +5571,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Snow Plum",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/mei/snow-plum.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/snow-plum.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -5581,7 +5581,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Bear",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/mei/bear.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/bear.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Overwatch Archives",
@@ -5591,7 +5591,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Zhongguo",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/mei/zhongguo.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/zhongguo.png`,
         value: null,
         currency: null,
         event: "Summer Games",
@@ -5601,7 +5601,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Pumpkin",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/mei/pumpkin.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/pumpkin.png`,
         value: 750,
         currency: "Credits",
         event: "Halloween Terror",
@@ -5611,7 +5611,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Katara",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/mei/katara.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/katara.png`,
         value: null,
         currency: null,
         event: null,
@@ -5621,7 +5621,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cursed Seer",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/mei/cursed-seer.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/cursed-seer.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -5631,7 +5631,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Arcane Apprentice",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/mei/arcane-apprentice.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/arcane-apprentice.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -5641,7 +5641,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Retro Star",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/mei/retro-star.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/retro-star.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -5651,7 +5651,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Hu Tou Mao",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/mei/hu-tou-mao.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/hu-tou-mao.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -5661,7 +5661,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cartographer",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/mei/cartographer.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/cartographer.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -5671,7 +5671,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Firefighter",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mei/firefighter.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/firefighter.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -5681,7 +5681,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Rescue Mei",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mei/rescue-mei.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/rescue-mei.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -5691,7 +5691,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Abominable",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mei/abominable.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/abominable.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -5701,7 +5701,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Yeti Hunter",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mei/yeti-hunter.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/yeti-hunter.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -5711,7 +5711,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ecopoint: Antarctica",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mei/ecopoint.-antarctica.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/ecopoint.-antarctica.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -5721,7 +5721,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Chang'e",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mei/chang'e.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/chang'e.png`,
         value: 1500,
         currency: "Credits",
         event: "Lunar New Year",
@@ -5731,7 +5731,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Luna",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mei/luna.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/luna.png`,
         value: 1500,
         currency: "Credits",
         event: "Lunar New Year",
@@ -5741,7 +5741,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Pajamei",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mei/pajamei.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/pajamei.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -5751,7 +5751,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Beekeeper",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mei/beekeeper.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/beekeeper.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -5761,7 +5761,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Honeydew",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mei/honeydew.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/honeydew.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -5771,7 +5771,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sprinkles",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mei/sprinkles.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/sprinkles.png`,
         value: 1500,
         currency: "Credits",
         event: "Summer Games",
@@ -5781,7 +5781,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Jiangshi",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mei/jiangshi.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/jiangshi.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -5791,7 +5791,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mei-rry",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mei/mei---rry.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/mei---rry.png`,
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -5801,7 +5801,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Penguin",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mei/penguin.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/penguin.png`,
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -5811,7 +5811,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "MM-Mei",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mei/mm---mei.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/mm---mei.png`,
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -5821,7 +5821,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Neon Streets",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mei/neon-streets.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/neon-streets.png`,
         value: null,
         currency: null,
         event: null,
@@ -5831,7 +5831,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Alchemist",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mei/alchemist.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/alchemist.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -5841,7 +5841,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Celestial",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mei/celestial.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/celestial.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -5851,7 +5851,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Empress",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mei/empress.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/empress.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -5861,7 +5861,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Flower Child",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mei/flower-child.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/flower-child.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -5871,7 +5871,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Strawberry",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mei/strawberry.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mei/strawberry.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -5885,7 +5885,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/mercy/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -5895,7 +5895,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/mercy/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -5905,7 +5905,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Celestial",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/mercy/celestial.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/celestial.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -5915,7 +5915,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mist",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/mercy/mist.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/mist.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -5925,7 +5925,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Orchid",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/mercy/orchid.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/orchid.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -5935,7 +5935,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Verdant",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/mercy/verdant.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/verdant.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -5945,7 +5945,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Amber",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/mercy/amber.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/amber.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -5955,7 +5955,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cobalt",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/mercy/cobalt.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/cobalt.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -5965,7 +5965,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Fortune",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/mercy/fortune.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/fortune.png`,
         value: 750,
         currency: "Credits",
         event: "Lunar New Year",
@@ -5975,7 +5975,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Camouflage",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/mercy/camouflage.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/camouflage.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Overwatch Archives",
@@ -5985,7 +5985,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Eidgenossin",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/mercy/eidgenossin.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/eidgenossin.png`,
         value: 750,
         currency: "Credits",
         event: "Summer Games",
@@ -5995,7 +5995,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Snow Angel",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/mercy/snow-angel.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/snow-angel.png`,
         value: null,
         currency: null,
         event: "Winter Wonderland",
@@ -6005,7 +6005,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Infinite Seer",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/mercy/infinite-seer.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/infinite-seer.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -6015,7 +6015,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Owl Guardian",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/mercy/owl-guardian.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/owl-guardian.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -6025,7 +6025,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Honey Bee",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/mercy/honey-bee.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/honey-bee.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -6035,7 +6035,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Zombie Doctor",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/mercy/zombie-doctor.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/zombie-doctor.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -6045,7 +6045,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sigrún",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mercy/sigrún.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/sigrún.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -6055,7 +6055,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Valkyrie",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mercy/valkyrie.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/valkyrie.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -6065,7 +6065,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Devil",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mercy/devil.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/devil.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -6075,7 +6075,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Imp",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mercy/imp.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/imp.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -6085,7 +6085,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Zhuque",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mercy/zhuque.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/zhuque.png`,
         value: 1500,
         currency: "Credits",
         event: "Lunar New Year",
@@ -6095,7 +6095,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Seolbim",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mercy/seolbim.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/seolbim.png`,
         value: 1500,
         currency: "Credits",
         event: "Lunar New Year",
@@ -6105,7 +6105,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Combat Medic Ziegler",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mercy/combat-medic-ziegler.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/combat-medic-ziegler.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -6115,7 +6115,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Dragoon",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mercy/dragoon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/dragoon.png`,
         value: null,
         currency: null,
         event: "Overwatch Anniversary",
@@ -6125,7 +6125,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mage",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mercy/mage.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/mage.png`,
         value: null,
         currency: null,
         event: "Overwatch Anniversary",
@@ -6135,7 +6135,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Winged Victory",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mercy/winged-victory.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/winged-victory.png`,
         value: 1500,
         currency: "Credits",
         event: "Summer Games",
@@ -6145,7 +6145,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Witch",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mercy/witch.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/witch.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -6155,7 +6155,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sugar Plum Fairy",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mercy/sugar-plum-fairy.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/sugar-plum-fairy.png`,
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -6165,7 +6165,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Pink",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mercy/pink.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/pink.png`,
         value: null,
         currency: null,
         event: "BCRF Charity Event",
@@ -6175,7 +6175,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Rose Gold",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mercy/rose-gold.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/rose-gold.png`,
         value: null,
         currency: null,
         event: "BCRF Charity Event",
@@ -6185,7 +6185,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Dr. Ziegler",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mercy/dr.ziegler.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/dr.ziegler.png`,
         value: null,
         currency: null,
         event: null,
@@ -6195,7 +6195,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "2019 Atlantic All-Stars",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mercy/2019-atlantic-all---stars.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/2019-atlantic-all---stars.png`,
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -6205,7 +6205,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Royal Knight",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mercy/royal-knight.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/royal-knight.png`,
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -6215,7 +6215,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Royal Gladiator",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mercy/royal-gladiator.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/royal-gladiator.png`,
         value: 200,
         currency: "League Tokens",
         event: null,
@@ -6225,7 +6225,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Miko",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mercy/miko.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/miko.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -6235,7 +6235,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Lifeguard",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mercy/lifeguard.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/lifeguard.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -6245,7 +6245,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Jingle Belle",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mercy/jingle-belle.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/jingle-belle.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -6255,7 +6255,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Happy Holly",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mercy/happy-holly.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/happy-holly.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -6265,7 +6265,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mystic Swan",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mercy/mystic-swan.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/mystic-swan.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -6275,7 +6275,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Beach Rescue",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mercy/beach-rescue.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/beach-rescue.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -6285,7 +6285,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Formalwear",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mercy/formalwear.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/formalwear.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -6295,7 +6295,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Wyvern",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mercy/wyvern.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/wyvern.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -6305,7 +6305,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Conjurer",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mercy/conjurer.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/conjurer.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -6315,7 +6315,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Black Cat",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mercy/black-cat.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/black-cat.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -6325,7 +6325,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Rose Majesty",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/mercy/rose-majesty.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/rose-majesty.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -6335,7 +6335,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Vengeance",
         rarity: "Mythic",
-        img: "${import.meta.env.BASE_URL}skins/mercy/vengeance.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/mercy/vengeance.png`,
         value: 50,
         currency: "Mythic Prisms",
         event: null,
@@ -6349,7 +6349,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/moira/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/moira/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -6359,7 +6359,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/moira/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/moira/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -6369,7 +6369,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Fiery",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/moira/fiery.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/moira/fiery.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -6379,7 +6379,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Royal",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/moira/royal.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/moira/royal.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -6389,7 +6389,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Selkie",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/moira/selkie.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/moira/selkie.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -6399,7 +6399,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Whiskey",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/moira/whiskey.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/moira/whiskey.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -6409,7 +6409,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ornate",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/moira/ornate.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/moira/ornate.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -6419,7 +6419,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Pale",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/moira/pale.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/moira/pale.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -6429,7 +6429,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Éireannach",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/moira/Éireannach.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/moira/Éireannach.png`,
         value: 750,
         currency: "Credits",
         event: "Summer Games",
@@ -6439,7 +6439,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Holly",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/moira/holly.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/moira/holly.png`,
         value: null,
         currency: null,
         event: "Winter Wonderland",
@@ -6449,7 +6449,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Rosewood",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/moira/rosewood.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/moira/rosewood.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -6459,7 +6459,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Magma",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/moira/magma.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/moira/magma.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -6469,7 +6469,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Glam",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/moira/glam.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/moira/glam.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -6479,7 +6479,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Moon",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/moira/moon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/moira/moon.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -6489,7 +6489,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Minister",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/moira/minister.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/moira/minister.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -6499,7 +6499,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Oasis",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/moira/oasis.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/moira/oasis.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -6509,7 +6509,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mask Dancer",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/moira/mask-dancer.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/moira/mask-dancer.png`,
         value: 1500,
         currency: "Credits",
         event: "Lunar New Year",
@@ -6519,7 +6519,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Blackwatch",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/moira/blackwatch.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/moira/blackwatch.png`,
         value: null,
         currency: null,
         event: "Overwatch Archives",
@@ -6529,7 +6529,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Scientist",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/moira/scientist.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/moira/scientist.png`,
         value: null,
         currency: null,
         event: "Overwatch Archives",
@@ -6539,7 +6539,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Venus",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/moira/venus.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/moira/venus.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -6549,7 +6549,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Banshee",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/moira/banshee.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/moira/banshee.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -6559,7 +6559,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ice Empress",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/moira/ice-empress.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/moira/ice-empress.png`,
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -6569,7 +6569,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Demon Queen",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/moira/demon-queen.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/moira/demon-queen.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -6579,7 +6579,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cyber Scientist",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/moira/cyber-scientist.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/moira/cyber-scientist.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -6589,7 +6589,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mime",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/moira/mime.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/moira/mime.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -6599,7 +6599,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Plague Doctor",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/moira/plague-doctor.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/moira/plague-doctor.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -6609,7 +6609,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Lilith",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/moira/lilith.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/moira/lilith.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -6619,7 +6619,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Wicked",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/moira/wicked.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/moira/wicked.png`,
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -6629,7 +6629,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Wicked Reign",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/moira/wicked-reign.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/moira/wicked-reign.png`,
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -6639,7 +6639,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ancient Caller",
         rarity: "Mythic",
-        img: "${import.meta.env.BASE_URL}skins/moira/ancient-caller.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/moira/ancient-caller.png`,
         value: 50,
         currency: "Mythic Prisms",
         event: null,
@@ -6653,7 +6653,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/orisa/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/orisa/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -6663,7 +6663,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/orisa/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/orisa/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -6673,7 +6673,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Dawn",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/orisa/dawn.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/orisa/dawn.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -6683,7 +6683,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Plains",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/orisa/plains.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/orisa/plains.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -6693,7 +6693,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sunrise",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/orisa/sunrise.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/orisa/sunrise.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -6703,7 +6703,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Twilight",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/orisa/twilight.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/orisa/twilight.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -6713,7 +6713,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Camouflage",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/orisa/camouflage.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/orisa/camouflage.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -6723,7 +6723,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "OR15",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/orisa/or15.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/orisa/or15.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -6733,7 +6733,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sanye",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/orisa/sanye.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/orisa/sanye.png`,
         value: 750,
         currency: "Credits",
         event: "Lunar New Year",
@@ -6743,7 +6743,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ice Cream",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/orisa/ice-cream.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/orisa/ice-cream.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Summer Games",
@@ -6753,7 +6753,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Carved",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/orisa/carved.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/orisa/carved.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -6763,7 +6763,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Dynastinae",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/orisa/dynastinae.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/orisa/dynastinae.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -6773,7 +6773,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Megasoma",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/orisa/megasoma.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/orisa/megasoma.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -6783,7 +6783,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Carbon Fiber",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/orisa/carbon-fiber.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/orisa/carbon-fiber.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -6793,7 +6793,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Protector",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/orisa/protector.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/orisa/protector.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -6803,7 +6803,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Immortal",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/orisa/immortal.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/orisa/immortal.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -6813,7 +6813,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Bull Demon",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/orisa/bull-demon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/orisa/bull-demon.png`,
         value: 1500,
         currency: "Credits",
         event: "Lunar New Year",
@@ -6823,7 +6823,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Null Sector",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/orisa/null-sector.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/orisa/null-sector.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -6833,7 +6833,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Referee",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/orisa/referee.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/orisa/referee.png`,
         value: null,
         currency: null,
         event: "Overwatch Anniversary",
@@ -6843,7 +6843,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Forest Spirit",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/orisa/forest-spirit.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/orisa/forest-spirit.png`,
         value: 1500,
         currency: "Credits",
         event: "Summer Games",
@@ -6853,7 +6853,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Demon",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/orisa/demon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/orisa/demon.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -6863,7 +6863,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Reindeer",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/orisa/reindeer.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/orisa/reindeer.png`,
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -6873,7 +6873,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "GR-iffon",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/orisa/gr-iffon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/orisa/gr-iffon.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -6883,7 +6883,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Star Sheep",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/orisa/star-sheep.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/orisa/star-sheep.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -6893,7 +6893,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Rubber Ducky",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/orisa/rubber-ducky.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/orisa/rubber-ducky.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -6903,7 +6903,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Fiend",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/orisa/fiend.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/orisa/fiend.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -6913,7 +6913,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "OR-Unit",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/orisa/or-unit.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/orisa/or-unit.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -6923,7 +6923,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Retro Future",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/orisa/retro-future.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/orisa/retro-future.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -6933,7 +6933,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Appa",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/orisa/appa.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/orisa/appa.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -6943,7 +6943,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Grand Beast",
         rarity: "Mythic",
-        img: "${import.meta.env.BASE_URL}skins/orisa/grand-beast.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/orisa/grand-beast.png`,
         value: 50,
         currency: "Mythic Prisms",
         event: null,
@@ -6957,7 +6957,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/pharah/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -6967,7 +6967,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/pharah/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -6977,7 +6977,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Amethyst",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/pharah/amethyst.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/amethyst.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -6987,7 +6987,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Copper",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/pharah/copper.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/copper.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -6997,7 +6997,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Emerald",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/pharah/emerald.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/emerald.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -7007,7 +7007,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Titanium",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/pharah/titanium.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/titanium.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -7017,7 +7017,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Anubis",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/pharah/anubis.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/anubis.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -7027,7 +7027,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Jackal",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/pharah/jackal.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/jackal.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -7037,7 +7037,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Carbon Fiber",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/pharah/carbon-fiber.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/carbon-fiber.png`,
         value: 750,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -7047,7 +7047,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Possessed",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/pharah/possessed.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/possessed.png`,
         value: 750,
         currency: "Credits",
         event: "Halloween Terror",
@@ -7057,7 +7057,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Frostbite",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/pharah/frostbite.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/frostbite.png`,
         value: 750,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -7067,7 +7067,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sunset",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/pharah/sunset.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/sunset.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Summer Games",
@@ -7077,7 +7077,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Punk",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/pharah/punk.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/punk.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -7087,7 +7087,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Devil",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/pharah/devil.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/devil.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -7097,7 +7097,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mechaqueen",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/pharah/mechaqueen.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/mechaqueen.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -7107,7 +7107,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Raptorion",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/pharah/raptorion.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/raptorion.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -7117,7 +7117,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Thunderbird",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/pharah/thunderbird.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/thunderbird.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -7127,7 +7127,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Raindancer",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/pharah/raindancer.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/raindancer.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -7137,7 +7137,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Asp",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/pharah/asp.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/asp.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -7147,7 +7147,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Qinglong",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/pharah/qinglong.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/qinglong.png`,
         value: 1500,
         currency: "Credits",
         event: "Lunar New Year",
@@ -7157,7 +7157,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Aviator",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/pharah/aviator.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/aviator.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -7167,7 +7167,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Bedouin",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/pharah/bedouin.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/bedouin.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -7177,7 +7177,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Orbital",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/pharah/orbital.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/orbital.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -7187,7 +7187,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mechatron",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/pharah/mechatron.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/mechatron.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -7197,7 +7197,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Lifeguard",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/pharah/lifeguard.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/lifeguard.png`,
         value: null,
         currency: null,
         event: "Overwatch Anniversary",
@@ -7207,7 +7207,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Enchanted Armor",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/pharah/enchanted-armor.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/enchanted-armor.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -7217,7 +7217,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Security Chief",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/pharah/security-chief.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/security-chief.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: null,
@@ -7227,7 +7227,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sky Centurion",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/pharah/sky-centurion.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/sky-centurion.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -7237,7 +7237,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Hades",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/pharah/hades.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/hades.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -7247,7 +7247,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "P-900 Warhead",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/pharah/p-900-warhead.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/p-900-warhead.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -7257,7 +7257,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Inarius",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/pharah/inarius.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/inarius.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -7267,7 +7267,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Nutcracker",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/pharah/nutcracker.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/nutcracker.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -7277,7 +7277,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Porsche",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/pharah/porsche.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/porsche.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -7287,7 +7287,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Beach Rescue",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/pharah/beach-rescue.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/beach-rescue.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -7297,7 +7297,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Nefertari",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/pharah/nefertari.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/nefertari.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -7307,7 +7307,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Dragon Hunter",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/pharah/dragon-hunter.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/pharah/dragon-hunter.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -7321,7 +7321,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/ramattra/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ramattra/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -7331,7 +7331,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Detachment",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/ramattra/detachment.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ramattra/detachment.png`,
         value: 300,
         currency: "Credits",
         event: null,
@@ -7341,7 +7341,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Discipline",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/ramattra/discipline.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ramattra/discipline.png`,
         value: 300,
         currency: "Credits",
         event: null,
@@ -7351,7 +7351,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Reverence",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/ramattra/reverence.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ramattra/reverence.png`,
         value: 300,
         currency: "Credits",
         event: null,
@@ -7361,7 +7361,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Wisdom",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/ramattra/wisdom.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ramattra/wisdom.png`,
         value: 300,
         currency: "Credits",
         event: null,
@@ -7371,7 +7371,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Construction",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/ramattra/construction.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ramattra/construction.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -7381,7 +7381,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Primordial",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/ramattra/primordial.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ramattra/primordial.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -7391,7 +7391,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Kabuki",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/ramattra/kabuki.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ramattra/kabuki.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -7401,7 +7401,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Jade Totem",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/ramattra/jade-totem.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ramattra/jade-totem.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -7411,7 +7411,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Travelling Monk",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ramattra/travelling-monk.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ramattra/travelling-monk.png`,
         value: 1900,
         currency: "Credits",
         event: null,
@@ -7421,7 +7421,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Wandering Monk",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ramattra/wandering-monk.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ramattra/wandering-monk.png`,
         value: 1900,
         currency: "Credits",
         event: null,
@@ -7431,7 +7431,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Biohazard",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ramattra/biohazard.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ramattra/biohazard.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -7441,7 +7441,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Necromancer",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ramattra/necromancer.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ramattra/necromancer.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -7451,7 +7451,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Summoner",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ramattra/summoner.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ramattra/summoner.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -7461,7 +7461,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Megatron",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ramattra/megatron.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ramattra/megatron.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -7471,7 +7471,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ocean King",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ramattra/ocean-king.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ramattra/ocean-king.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -7481,7 +7481,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Poseidon",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ramattra/poseidon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ramattra/poseidon.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -7491,7 +7491,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Diesel Baron",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/ramattra/diesel-baron.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/ramattra/diesel-baron.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -7505,7 +7505,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/reaper/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -7515,7 +7515,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/reaper/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -7525,7 +7525,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Blood",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/reaper/blood.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/blood.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -7535,7 +7535,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Midnight",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/reaper/midnight.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/midnight.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -7545,7 +7545,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Moss",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/reaper/moss.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/moss.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -7555,7 +7555,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Royal",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/reaper/royal.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/royal.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -7565,7 +7565,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Desert",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/reaper/desert.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/desert.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -7575,7 +7575,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Wight",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/reaper/wight.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/wight.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -7585,7 +7585,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Hellfire",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/reaper/hellfire.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/hellfire.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -7595,7 +7595,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Imperial Guard",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/reaper/imperial-guard.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/imperial-guard.png`,
         value: null,
         currency: null,
         event: "Lunar New Year",
@@ -7605,7 +7605,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "American",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/reaper/american.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/american.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Summer Games",
@@ -7615,7 +7615,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Shiver",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/reaper/shiver.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/shiver.png`,
         value: 750,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -7625,7 +7625,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Grim Effigy",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/reaper/grim-effigy.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/grim-effigy.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -7635,7 +7635,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Calavera",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/reaper/calavera.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/calavera.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -7645,7 +7645,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Nebula",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/reaper/nebula.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/nebula.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -7655,7 +7655,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ringleader",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/reaper/ringleader.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/ringleader.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -7665,7 +7665,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Fenrir",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/reaper/fenrir.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/fenrir.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -7675,7 +7675,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Nevermore",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reaper/nevermore.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/nevermore.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -7685,7 +7685,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Plague Doctor",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reaper/plague-doctor.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/plague-doctor.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -7695,7 +7695,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "El Blanco",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reaper/el-blanco.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/el-blanco.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -7705,7 +7705,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mariachi",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reaper/mariachi.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/mariachi.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -7715,7 +7715,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Lü Bu",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reaper/lü-bu.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/lü-bu.png`,
         value: 1500,
         currency: "Credits",
         event: "Lunar New Year",
@@ -7725,7 +7725,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Soldier: 24",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reaper/soldier.24.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/soldier.24.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -7735,7 +7735,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Evermore",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reaper/evermore.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/evermore.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -7745,7 +7745,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Masquerade",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reaper/masquerade.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/masquerade.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -7755,7 +7755,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Biker",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reaper/biker.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/biker.png`,
         value: 1500,
         currency: "Credits",
         event: "Summer Games",
@@ -7765,7 +7765,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Rat King",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reaper/rat-king.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/rat-king.png`,
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -7775,7 +7775,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Pumpkin",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reaper/pumpkin.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/pumpkin.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -7785,7 +7785,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Dracula",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reaper/dracula.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/dracula.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -7795,7 +7795,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Blackwatch Reyes",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reaper/blackwatch-reyes.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/blackwatch-reyes.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: null,
@@ -7805,7 +7805,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Dusk",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reaper/dusk.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/dusk.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: null,
@@ -7815,7 +7815,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Luchador",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reaper/luchador.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/luchador.png`,
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -7825,7 +7825,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Chained King",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reaper/chained-king.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/chained-king.png`,
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -7835,7 +7835,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Lion Luchador",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reaper/lion-luchador.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/lion-luchador.png`,
         value: 200,
         currency: "League Tokens",
         event: null,
@@ -7845,7 +7845,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Chasa",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reaper/chasa.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/chasa.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -7855,7 +7855,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Hazmat",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reaper/hazmat.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/hazmat.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -7865,7 +7865,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ultrawatch",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reaper/ultrawatch.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/ultrawatch.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -7875,7 +7875,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cursed Captain",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reaper/cursed-captain.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/cursed-captain.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -7885,7 +7885,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Eagle Warrior",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reaper/eagle-warrior.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/eagle-warrior.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -7895,7 +7895,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Heartbreaker",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reaper/heartbreaker.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/heartbreaker.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -7905,7 +7905,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Tomura Shigaraki",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reaper/tomura-shigaraki.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/tomura-shigaraki.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -7915,7 +7915,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cardboard",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reaper/cardboard.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/cardboard.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -7925,7 +7925,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Anubis",
         rarity: "Mythic",
-        img: "${import.meta.env.BASE_URL}skins/reaper/anubis.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reaper/anubis.png`,
         value: 50,
         currency: "Mythic Prisms",
         event: null,
@@ -7939,7 +7939,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -7949,7 +7949,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -7959,7 +7959,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Brass",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/brass.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/brass.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -7969,7 +7969,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cobalt",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/cobalt.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/cobalt.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -7979,7 +7979,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Copper",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/copper.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/copper.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -7989,7 +7989,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Viridian",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/viridian.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/viridian.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -7999,7 +7999,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Bundeswehr",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/bundeswehr.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/bundeswehr.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -8009,7 +8009,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Paragon",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/paragon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/paragon.png`,
         value: null,
         currency: null,
         event: null,
@@ -8019,7 +8019,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Lieutenant Wilhelm",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/lieutenant-wilhelm.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/lieutenant-wilhelm.png`,
         value: 750,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -8029,7 +8029,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Coldhardt",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/coldhardt.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/coldhardt.png`,
         value: 750,
         currency: "Credits",
         event: "Halloween Terror",
@@ -8039,7 +8039,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Festive",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/festive.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/festive.png`,
         value: 750,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -8049,7 +8049,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Prideful",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/prideful.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/prideful.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -8059,7 +8059,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Crusader",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/crusader.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/crusader.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -8069,7 +8069,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Blackhardt",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/blackhardt.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/blackhardt.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -8079,7 +8079,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Bloodhardt",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/bloodhardt.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/bloodhardt.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -8089,7 +8089,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Lionhardt",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/lionhardt.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/lionhardt.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -8099,7 +8099,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Stonehardt",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/stonehardt.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/stonehardt.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -8109,7 +8109,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Balderich",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/balderich.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/balderich.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -8119,7 +8119,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Greifhardt",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/greifhardt.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/greifhardt.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -8129,7 +8129,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Wujing",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/wujing.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/wujing.png`,
         value: 1500,
         currency: "Credits",
         event: "Lunar New Year",
@@ -8139,7 +8139,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Guan Yu",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/guan-yu.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/guan-yu.png`,
         value: 1500,
         currency: "Credits",
         event: "Lunar New Year",
@@ -8149,7 +8149,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Steelhardt",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/steelhardt.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/steelhardt.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -8159,7 +8159,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Gridironhardt",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/gridironhardt.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/gridironhardt.png`,
         value: 1500,
         currency: "Credits",
         event: "Summer Games",
@@ -8169,7 +8169,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Raynhardt",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/raynhardt.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/raynhardt.png`,
         value: null,
         currency: null,
         event: null,
@@ -8179,7 +8179,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Draugr",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/draugr.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/draugr.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -8189,7 +8189,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Conductor",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/conductor.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/conductor.png`,
         value: null,
         currency: null,
         event: "Winter Wonderland",
@@ -8199,7 +8199,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Wrapping Paper",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/wrapping-paper.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/wrapping-paper.png`,
         value: null,
         currency: null,
         event: "Winter Wonderland",
@@ -8209,7 +8209,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Demon Lord",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/demon-lord.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/demon-lord.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -8219,7 +8219,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "2020 Atlantic All-Stars",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/2020-atlantic-all---stars.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/2020-atlantic-all---stars.png`,
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -8229,7 +8229,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Minotaur",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/minotaur.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/minotaur.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -8239,7 +8239,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cardboard",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/cardboard.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/cardboard.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -8249,7 +8249,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Imperius",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/imperius.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/imperius.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -8259,7 +8259,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Heaven's Devil",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/heaven's-devil.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/heaven's-devil.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -8269,7 +8269,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Rosahardt",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/rosahardt.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/rosahardt.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -8279,7 +8279,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Fallen Knight",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/fallen-knight.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/fallen-knight.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -8289,7 +8289,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Optimus Prime",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/optimus-prime.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/optimus-prime.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -8299,7 +8299,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Polar",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/polar.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/polar.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -8309,7 +8309,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Lich King",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/lich-king.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/lich-king.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -8319,7 +8319,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "All Might",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/all-mighty.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/all-mighty.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -8329,7 +8329,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Thor",
         rarity: "Mythic",
-        img: "${import.meta.env.BASE_URL}skins/reinhardt/thor.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/reinhardt/thor.png`,
         value: 50,
         currency: "Mythic Prisms",
         event: null,
@@ -8343,7 +8343,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -8353,7 +8353,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -8363,7 +8363,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Kiwi",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/kiwi.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/kiwi.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -8373,7 +8373,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mud",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/mud.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/mud.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -8383,7 +8383,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sand",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/sand.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/sand.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -8393,7 +8393,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Thistle",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/thistle.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/thistle.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -8403,7 +8403,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Pigpen",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/pigpen.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/pigpen.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -8413,7 +8413,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Stitched",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/stitched.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/stitched.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -8423,7 +8423,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Clown",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/clown.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/clown.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Halloween Terror",
@@ -8433,7 +8433,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Rudolph",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/rudolph.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/rudolph.png`,
         value: 750,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -8443,7 +8443,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Frosty",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/frosty.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/frosty.png`,
         value: 750,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -8453,7 +8453,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Pachimari",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/pachimari.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/pachimari.png`,
         value: null,
         currency: null,
         event: null,
@@ -8463,7 +8463,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cairn",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/cairn.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/cairn.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -8473,7 +8473,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Haunted Doll",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/haunted-doll.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/haunted-doll.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -8483,7 +8483,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Islander",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/islander.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/islander.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -8493,7 +8493,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Toa",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/toa.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/toa.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -8503,7 +8503,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mako",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/mako.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/mako.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -8513,7 +8513,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sharkbait",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/sharkbait.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/sharkbait.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -8523,7 +8523,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Butcher",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/butcher.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/butcher.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -8533,7 +8533,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Bajie",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/bajie.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/bajie.png`,
         value: 1500,
         currency: "Credits",
         event: "Lunar New Year",
@@ -8543,7 +8543,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Militia",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/militia.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/militia.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -8553,7 +8553,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Noxious",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/noxious.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/noxious.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -8563,7 +8563,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Toxic",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/toxic.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/toxic.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -8573,7 +8573,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Lacrosse",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/lacrosse.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/lacrosse.png`,
         value: 1500,
         currency: "Credits",
         event: "Summer Games",
@@ -8583,7 +8583,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Junkenstein's Monster",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/junkenstein's-monster.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/junkenstein's-monster.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -8593,7 +8593,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ice Fisherman",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/ice-fisherman.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/ice-fisherman.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -8603,7 +8603,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Midas",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/midas.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/midas.png`,
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -8613,7 +8613,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cyberhog",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/cyberhog.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/cyberhog.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -8623,7 +8623,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cyclops",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/cyclops.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/cyclops.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -8633,7 +8633,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Roadbot",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/roadbot.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/roadbot.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -8643,7 +8643,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Polar Hog",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/polar-hog.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/polar-hog.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -8653,7 +8653,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Horror Hog",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/horror-hog.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/horror-hog.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -8663,7 +8663,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Kaiju",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/kaiju.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/kaiju.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -8673,7 +8673,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Lifeguard",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/roadhog/lifeguard.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/roadhog/lifeguard.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -8687,7 +8687,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/sigma/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sigma/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -8697,7 +8697,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/sigma/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sigma/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -8707,7 +8707,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Blauw",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/sigma/blauw.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sigma/blauw.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -8717,7 +8717,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Groen",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/sigma/groen.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sigma/groen.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -8727,7 +8727,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Oranje",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/sigma/oranje.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sigma/oranje.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -8737,7 +8737,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Roze",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/sigma/roze.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sigma/roze.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -8747,7 +8747,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Dr. De Kuiper",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/sigma/dr.-de-kuiper.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sigma/dr.-de-kuiper.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -8757,7 +8757,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Talon",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/sigma/talon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sigma/talon.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -8767,7 +8767,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Drowned Warrior",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/sigma/drowned-warrior.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sigma/drowned-warrior.png`,
         value: null,
         currency: null,
         event: null,
@@ -8777,7 +8777,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Carbon Fiber",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/sigma/carbon-fiber.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sigma/carbon-fiber.png`,
         value: null,
         currency: null,
         event: null,
@@ -8787,7 +8787,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Galactic",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/sigma/galactic.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sigma/galactic.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -8797,7 +8797,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Asylum",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sigma/asylum.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sigma/asylum.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -8807,7 +8807,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Subject Sigma",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sigma/subject-sigma.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sigma/subject-sigma.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -8817,7 +8817,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Oracle",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sigma/oracle.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sigma/oracle.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -8827,7 +8827,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Prophet",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sigma/prophet.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sigma/prophet.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -8837,7 +8837,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Scuba",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sigma/scuba.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sigma/scuba.png`,
         value: 1500,
         currency: "Credits",
         event: "Summer Games",
@@ -8847,7 +8847,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Flying Dutchman",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sigma/flying-dutchman.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sigma/flying-dutchman.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -8857,7 +8857,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Rime",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sigma/rime.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sigma/rime.png`,
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -8867,7 +8867,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Maestro",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sigma/maestro.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sigma/maestro.png`,
         value: null,
         currency: null,
         event: null,
@@ -8877,7 +8877,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Beholder",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sigma/beholder.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sigma/beholder.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -8887,7 +8887,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Captain",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sigma/captain.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sigma/captain.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -8897,7 +8897,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Monstrosus",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sigma/monstrosus.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sigma/monstrosus.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -8907,7 +8907,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Odin",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sigma/odin.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sigma/odin.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -8917,7 +8917,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Beekeeper",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sigma/beekeeper.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sigma/beekeeper.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -8927,7 +8927,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Bronze Drake",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sigma/bronze-drake.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sigma/bronze-drake.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -8937,7 +8937,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Plunderer",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sigma/plunderer.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sigma/plunderer.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -8947,7 +8947,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Galactic Emperor",
         rarity: "Mythic",
-        img: "${import.meta.env.BASE_URL}skins/sigma/galactic-emperor.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sigma/galactic-emperor.png`,
         value: 50,
         currency: "Mythic Prisms",
         event: null,
@@ -8961,7 +8961,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/sojourn/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sojourn/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -8971,7 +8971,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Borealis",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/sojourn/borealis.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sojourn/borealis.png`,
         value: 300,
         currency: "Credits",
         event: null,
@@ -8981,7 +8981,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Prairie",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/sojourn/prairie.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sojourn/prairie.png`,
         value: 300,
         currency: "Credits",
         event: null,
@@ -8991,7 +8991,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Tundra",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/sojourn/tundra.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sojourn/tundra.png`,
         value: 300,
         currency: "Credits",
         event: null,
@@ -9001,7 +9001,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Woodland",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/sojourn/woodland.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sojourn/woodland.png`,
         value: 300,
         currency: "Credits",
         event: null,
@@ -9011,7 +9011,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Runner",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/sojourn/runner.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sojourn/runner.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -9021,7 +9021,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Firefighter",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/sojourn/firefighter.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sojourn/firefighter.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -9031,7 +9031,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Infinite Admiral",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/sojourn/infinite-admiral.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sojourn/infinite-admiral.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -9041,7 +9041,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Barista",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/sojourn/barista.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sojourn/barista.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -9051,7 +9051,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Night Ops",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/sojourn/night-ops.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sojourn/night-ops.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -9061,7 +9061,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Troop Commander",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sojourn/troop-commander.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sojourn/troop-commander.png`,
         value: 1900,
         currency: "Credits",
         event: null,
@@ -9071,7 +9071,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Captain Chase",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sojourn/captain-chase.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sojourn/captain-chase.png`,
         value: 1900,
         currency: "Credits",
         event: null,
@@ -9081,7 +9081,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Water Warrior",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sojourn/water-warrior.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sojourn/water-warrior.png`,
         value: null,
         currency: null,
         event: null,
@@ -9091,7 +9091,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Commando",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sojourn/commando.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sojourn/commando.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -9101,7 +9101,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ultrawatch",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sojourn/ultrawatch.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sojourn/ultrawatch.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -9111,7 +9111,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Witchbane",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sojourn/witchbane.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sojourn/witchbane.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -9121,7 +9121,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cozy",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sojourn/cozy.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sojourn/cozy.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -9131,7 +9131,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cyber Detective",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sojourn/cyber-detective.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sojourn/cyber-detective.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -9141,7 +9141,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Polar",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sojourn/polar.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sojourn/polar.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -9151,7 +9151,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Vigilante",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sojourn/vigilante.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sojourn/vigilante.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -9161,7 +9161,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Formalwear",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sojourn/formalwear.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sojourn/formalwear.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -9171,7 +9171,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sea Soldier",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sojourn/sea-soldier.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sojourn/sea-soldier.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -9185,7 +9185,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -9195,7 +9195,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -9205,7 +9205,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Jet",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/jet.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/jet.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -9215,7 +9215,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Olive",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/olive.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/olive.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -9225,7 +9225,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Russet",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/russet.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/russet.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -9235,7 +9235,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Smoke",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/smoke.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/smoke.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -9245,7 +9245,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Bone",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/bone.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/bone.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -9255,7 +9255,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Golden",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/golden.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/golden.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -9265,7 +9265,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Auspicious",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/auspicious.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/auspicious.png`,
         value: null,
         currency: null,
         event: "Lunar New Year",
@@ -9275,7 +9275,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Venom",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/venom.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/venom.png`,
         value: 750,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -9285,7 +9285,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Immortal",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/immortal.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/immortal.png`,
         value: 750,
         currency: "Credits",
         event: "Halloween Terror",
@@ -9295,7 +9295,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ugly Sweater: 76",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/ugly-sweater.76.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/ugly-sweater.76.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Winter Wonderland",
@@ -9305,7 +9305,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Crimson Clown",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/crimson-clown.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/crimson-clown.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -9315,7 +9315,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Golfer: 76",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/golfer.76.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/golfer.76.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -9325,7 +9325,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Commando: 76",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/commando.76.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/commando.76.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -9335,7 +9335,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Night Ops: 76",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/night-ops.76.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/night-ops.76.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -9345,7 +9345,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Daredevil: 76",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/daredevil.76.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/daredevil.76.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -9355,7 +9355,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Stunt Rider: 76",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/stunt-rider.76.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/stunt-rider.76.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -9365,7 +9365,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Formal: 76",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/formal.76.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/formal.76.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -9375,7 +9375,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Soldier: 1776",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/soldier.1776.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/soldier.1776.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -9385,7 +9385,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cyborg: 76",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/cyborg.76.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/cyborg.76.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -9395,7 +9395,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Proteus: 76",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/proteus.76.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/proteus.76.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -9405,7 +9405,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Grillmaster: 76",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/grillmaster.76.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/grillmaster.76.png`,
         value: 1500,
         currency: "Credits",
         event: "Summer Games",
@@ -9415,7 +9415,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Slasher: 76",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/slasher.76.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/slasher.76.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -9425,7 +9425,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Alpine: 76",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/alpine.76.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/alpine.76.png`,
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -9435,7 +9435,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Strike Commander Morrison",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/strike-commander-morrison.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/strike-commander-morrison.png`,
         value: 1500,
         currency: "Credits",
         event: null,
@@ -9445,7 +9445,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mumen Rider",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/mumen-rider.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/mumen-rider.png`,
         value: null,
         currency: null,
         event: null,
@@ -9455,7 +9455,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Biker: 76",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/biker.76.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/biker.76.png`,
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -9465,7 +9465,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Fuel Biker: 76",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/fuel-biker.76.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/fuel-biker.76.png`,
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -9475,7 +9475,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mayhem Biker: 76",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/mayhem-biker.76.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/mayhem-biker.76.png`,
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -9485,7 +9485,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Bug Hero",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/bug-hero.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/bug-hero.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -9495,7 +9495,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Survivor: 76",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/survivor.76.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/survivor.76.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -9505,7 +9505,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Space Raider",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/space-raider.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/space-raider.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -9515,7 +9515,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Infinite Guard: 76",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/infinite-guard.76.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/infinite-guard.76.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -9525,7 +9525,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Huntsman: 76",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/huntsman.76.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/huntsman.76.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -9535,7 +9535,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Heist",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/heist.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/heist.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -9545,7 +9545,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Grill Zombie: 76",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/soldier-76/grill-zombie.76.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/soldier-76/grill-zombie.76.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -9559,7 +9559,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/sombra/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -9569,7 +9569,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/sombra/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -9579,7 +9579,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cidro",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/sombra/cidro.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/cidro.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -9589,7 +9589,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Incendio",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/sombra/incendio.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/incendio.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -9599,7 +9599,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mar",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/sombra/mar.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/mar.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -9609,7 +9609,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Noche",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/sombra/noche.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/noche.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -9619,7 +9619,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Glitch",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/sombra/glitch.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/glitch.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -9629,7 +9629,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Virus",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/sombra/virus.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/virus.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -9639,7 +9639,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Oro",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/sombra/oro.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/oro.png`,
         value: 750,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -9649,7 +9649,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mexicana",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/sombra/mexicana.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/mexicana.png`,
         value: 750,
         currency: "Credits",
         event: "Summer Games",
@@ -9659,7 +9659,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Fantasma",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/sombra/fantasma.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/fantasma.png`,
         value: null,
         currency: null,
         event: "Halloween Terror",
@@ -9669,7 +9669,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Peppermint",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/sombra/peppermint.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/peppermint.png`,
         value: 750,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -9679,7 +9679,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Agent Colomar",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/sombra/agent-colomar.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/agent-colomar.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -9689,7 +9689,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Jester",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/sombra/jester.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/jester.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -9699,7 +9699,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Quicksilver",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/sombra/quicksilver.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/quicksilver.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -9709,7 +9709,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Nightshade",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/sombra/nightshade.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/nightshade.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -9719,7 +9719,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Azúcar",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sombra/azúcar.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/azúcar.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -9729,7 +9729,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Los Muertos",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sombra/los-muertos.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/los-muertos.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -9739,7 +9739,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Augmented",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sombra/augmented.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/augmented.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -9749,7 +9749,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cyberspace",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sombra/cyberspace.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/cyberspace.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -9759,7 +9759,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Face Changer",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sombra/face-changer.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/face-changer.png`,
         value: 1500,
         currency: "Credits",
         event: "Lunar New Year",
@@ -9769,7 +9769,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Talon",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sombra/talon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/talon.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -9779,7 +9779,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Black Cat",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sombra/black-cat.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/black-cat.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -9789,7 +9789,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Neon Cat",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sombra/neon-cat.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/neon-cat.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -9799,7 +9799,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Tulum",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sombra/tulum.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/tulum.png`,
         value: 1500,
         currency: "Credits",
         event: "Summer Games",
@@ -9809,7 +9809,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Bride",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sombra/bride.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/bride.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -9819,7 +9819,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Rime",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sombra/rime.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/rime.png`,
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -9829,7 +9829,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Demon Hunter",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sombra/demon-hunter.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/demon-hunter.png`,
         value: null,
         currency: null,
         event: null,
@@ -9839,7 +9839,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Zhulong",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sombra/zhulong.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/zhulong.png`,
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -9849,7 +9849,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Folklórica",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sombra/folklórica.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/folklórica.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -9859,7 +9859,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Aztec",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sombra/aztec.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/aztec.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -9869,7 +9869,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Marioneta",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sombra/marioneta.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/marioneta.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -9879,7 +9879,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Gilded Hunter",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sombra/gilded-hunter.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/gilded-hunter.png`,
         value: 3000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -9889,7 +9889,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Antifragile Slay Star",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sombra/antifragile-slay-star.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/antifragile-slay-star.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -9899,7 +9899,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ed",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sombra/ed.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/ed.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -9909,7 +9909,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Magma",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sombra/magma.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/magma.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -9919,7 +9919,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Tuxedo Cat",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sombra/tuxedo-cat.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/tuxedo-cat.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -9929,7 +9929,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Loki",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/sombra/loki.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/sombra/loki.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -9943,7 +9943,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -9953,7 +9953,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -9963,7 +9963,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cardamom",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/cardamom.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/cardamom.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -9973,7 +9973,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Hyacinth",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/hyacinth.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/hyacinth.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -9983,7 +9983,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Saffron",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/saffron.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/saffron.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -9993,7 +9993,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Technomancer",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/technomancer.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/technomancer.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -10003,7 +10003,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Regal",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/regal.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/regal.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -10013,7 +10013,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Utopaea",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/utopaea.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/utopaea.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -10023,7 +10023,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Peacock",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/peacock.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/peacock.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -10033,7 +10033,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Qipao",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/qipao.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/qipao.png`,
         value: 750,
         currency: "Credits",
         event: "Lunar New Year",
@@ -10043,7 +10043,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Holi",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/holi.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/holi.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -10053,7 +10053,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Vampire",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/vampire.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/vampire.png`,
         value: 750,
         currency: "Credits",
         event: "Halloween Terror",
@@ -10063,7 +10063,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mistletoe",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/mistletoe.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/mistletoe.png`,
         value: null,
         currency: null,
         event: "Winter Wonderland",
@@ -10073,7 +10073,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Marammat",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/marammat.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/marammat.png`,
         value: null,
         currency: null,
         event: null,
@@ -10083,7 +10083,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Gardener",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/gardener.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/gardener.png`,
         value: null,
         currency: null,
         event: null,
@@ -10093,7 +10093,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cobra Queen",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/cobra-queen.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/cobra-queen.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -10103,7 +10103,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Butterfly",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/butterfly.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/butterfly.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -10113,7 +10113,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Conjurer",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/conjurer.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/conjurer.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -10123,7 +10123,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Architech",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/architech.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/architech.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -10133,7 +10133,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Vishkar",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/vishkar.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/vishkar.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -10143,7 +10143,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Devi",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/devi.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/devi.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -10153,7 +10153,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Goddess",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/goddess.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/goddess.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -10163,7 +10163,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Oasis",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/oasis.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/oasis.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -10173,7 +10173,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Magician",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/magician.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/magician.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -10183,7 +10183,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Hydra",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/hydra.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/hydra.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -10193,7 +10193,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mermaid",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/mermaid.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/mermaid.png`,
         value: 1500,
         currency: "Credits",
         event: "Summer Games",
@@ -10203,7 +10203,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Dragon",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/dragon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/dragon.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -10213,7 +10213,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Figure Skater",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/figure-skater.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/figure-skater.png`,
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -10223,7 +10223,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Tyrande",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/tyrande.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/tyrande.png`,
         value: 1500,
         currency: "Credits",
         event: null,
@@ -10233,7 +10233,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "S-900 Sentry",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/s-900-sentry.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/s-900-sentry.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -10243,7 +10243,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Junker",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/junker.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/junker.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -10253,7 +10253,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Art Deco",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/art-deco.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/art-deco.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -10263,7 +10263,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sin'dorei",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/sin'dorei.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/sin'dorei.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -10273,7 +10273,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Infernal Witch",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/symmetra/infernal-witch.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/symmetra/infernal-witch.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -10287,7 +10287,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/torbjorn/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/torbjorn/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -10297,7 +10297,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/torbjorn/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/torbjorn/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -10307,7 +10307,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Blå",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/torbjorn/blå.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/torbjorn/blå.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -10317,7 +10317,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Citron",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/torbjorn/citron.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/torbjorn/citron.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -10327,7 +10327,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Grön",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/torbjorn/grön.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/torbjorn/grön.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -10337,7 +10337,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Plommon",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/torbjorn/plommon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/torbjorn/plommon.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -10347,7 +10347,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cathode",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/torbjorn/cathode.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/torbjorn/cathode.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -10357,7 +10357,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Woodclad",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/torbjorn/woodclad.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/torbjorn/woodclad.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -10367,7 +10367,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Rustclad",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/torbjorn/rustclad.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/torbjorn/rustclad.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Overwatch Archives",
@@ -10377,7 +10377,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Tre Kronor",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/torbjorn/tre-kronor.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/torbjorn/tre-kronor.png`,
         value: 750,
         currency: "Credits",
         event: "Summer Games",
@@ -10387,7 +10387,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Dark Iron",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/torbjorn/dark-iron.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/torbjorn/dark-iron.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -10397,7 +10397,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Steampunk",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/torbjorn/steampunk.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/torbjorn/steampunk.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -10407,7 +10407,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Chopper",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/torbjorn/chopper.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/torbjorn/chopper.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -10417,7 +10417,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Deadlock",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/torbjorn/deadlock.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/torbjorn/deadlock.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -10427,7 +10427,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Barbarossa",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/torbjorn/barbarossa.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/torbjorn/barbarossa.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -10437,7 +10437,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Blackbeard",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/torbjorn/blackbeard.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/torbjorn/blackbeard.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -10447,7 +10447,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Magni",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/torbjorn/magni.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/torbjorn/magni.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -10457,7 +10457,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Zhang Fei",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/torbjorn/zhang-fei.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/torbjorn/zhang-fei.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -10467,7 +10467,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Surf 'n' Splash",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/torbjorn/surf-'n'-splash.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/torbjorn/surf-'n'-splash.png`,
         value: 1500,
         currency: "Credits",
         event: "Summer Games",
@@ -10477,7 +10477,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Viking",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/torbjorn/viking.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/torbjorn/viking.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -10487,7 +10487,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Santaclad",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/torbjorn/santaclad.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/torbjorn/santaclad.png`,
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -10497,7 +10497,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Lumberjack",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/torbjorn/lumberjack.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/torbjorn/lumberjack.png`,
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -10507,7 +10507,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Tentacle Horror",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/torbjorn/tentacle-horror.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/torbjorn/tentacle-horror.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -10517,7 +10517,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Gnome",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/torbjorn/gnome.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/torbjorn/gnome.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -10527,7 +10527,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Captain",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/torbjorn/captain.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/torbjorn/captain.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -10537,7 +10537,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Starship Engineer",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/torbjorn/starship-engineer.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/torbjorn/starship-engineer.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -10547,7 +10547,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Prospector",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/torbjorn/prospector.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/torbjorn/prospector.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -10557,7 +10557,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Diamond Magni",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/torbjorn/diamond-magni.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/torbjorn/diamond-magni.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -10567,7 +10567,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Drowned",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/torbjorn/drowned.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/torbjorn/drowned.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -10581,7 +10581,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/tracer/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -10591,7 +10591,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/tracer/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -10601,7 +10601,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Electric Purple",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/tracer/electric-purple.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/electric-purple.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -10611,7 +10611,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Hot Pink",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/tracer/hot-pink.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/hot-pink.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -10621,7 +10621,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Neon Green",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/tracer/neon-green.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/neon-green.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -10631,7 +10631,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Royal Blue",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/tracer/royal-blue.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/royal-blue.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -10641,7 +10641,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Posh",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/tracer/posh.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/posh.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -10651,7 +10651,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sporty",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/tracer/sporty.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/sporty.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -10661,7 +10661,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Rose",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/tracer/rose.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/rose.png`,
         value: 750,
         currency: "Credits",
         event: "Lunar New Year",
@@ -10671,7 +10671,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Lightning",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/tracer/lightning.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/lightning.png`,
         value: 750,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -10681,7 +10681,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Union Jack",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/tracer/union-jack.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/union-jack.png`,
         value: null,
         currency: null,
         event: "Summer Games",
@@ -10691,7 +10691,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Wooltide",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/tracer/wooltide.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/wooltide.png`,
         value: null,
         currency: null,
         event: "Winter Wonderland",
@@ -10701,7 +10701,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Comic Book",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/tracer/comic-book.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/comic-book.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -10711,7 +10711,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Constable",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/tracer/constable.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/constable.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -10721,7 +10721,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Synthwave",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/tracer/synthwave.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/synthwave.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -10731,7 +10731,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Punk",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/tracer/punk.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/punk.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -10741,7 +10741,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ultraviolet",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/tracer/ultraviolet.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/ultraviolet.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -10751,7 +10751,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mach T",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/tracer/mach-t.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/mach-t.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -10761,7 +10761,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "T.Racer",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/tracer/t.racer.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/t.racer.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -10771,7 +10771,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Hong Gildong",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/tracer/hong-gildong.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/hong-gildong.png`,
         value: 1500,
         currency: "Credits",
         event: "Lunar New Year",
@@ -10781,7 +10781,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Nezha",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/tracer/nezha.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/nezha.png`,
         value: 1500,
         currency: "Credits",
         event: "Lunar New Year",
@@ -10791,7 +10791,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cadet Oxton",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/tracer/cadet-oxton.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/cadet-oxton.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -10801,7 +10801,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cavalry",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/tracer/cavalry.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/cavalry.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -10811,7 +10811,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Graffiti",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/tracer/graffiti.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/graffiti.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -10821,7 +10821,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Tagged",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/tracer/tagged.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/tagged.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -10831,7 +10831,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sprinter",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/tracer/sprinter.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/sprinter.png`,
         value: 1500,
         currency: "Credits",
         event: "Summer Games",
@@ -10841,7 +10841,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Track and Field",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/tracer/track-and-field.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/track-and-field.png`,
         value: 1500,
         currency: "Credits",
         event: "Summer Games",
@@ -10851,7 +10851,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Will-O'-Wisp",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/tracer/will-o'-wisp.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/will-o'-wisp.png`,
         value: null,
         currency: null,
         event: "Halloween Terror",
@@ -10861,7 +10861,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Jingle",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/tracer/jingle.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/jingle.png`,
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -10871,7 +10871,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Slipstream",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/tracer/slipstream.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/slipstream.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: null,
@@ -10881,7 +10881,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "2018 Atlantic All-Stars",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/tracer/2018-atlantic-all---stars.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/2018-atlantic-all---stars.png`,
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -10891,7 +10891,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Neon Streets",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/tracer/neon-streets.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/neon-streets.png`,
         value: null,
         currency: null,
         event: null,
@@ -10901,7 +10901,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Street Urchin",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/tracer/street-urchin.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/street-urchin.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -10911,7 +10911,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Polar",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/tracer/polar.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/polar.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -10921,7 +10921,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Antifragile Traysi",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/tracer/antifragile-traysi.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/antifragile-traysi.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -10931,7 +10931,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Formalwear",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/tracer/formalwear.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/formalwear.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -10941,7 +10941,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Operative Oxton",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/tracer/operative-oxton.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/operative-oxton.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -10951,7 +10951,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Evening Wear",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/tracer/evening-wear.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/evening-wear.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -10961,7 +10961,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Deku",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/tracer/deku.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/deku.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -10971,7 +10971,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Black Cat",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/tracer/black-cat.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/black-cat.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -10981,7 +10981,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Adventurer",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/tracer/adventurer.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/tracer/adventurer.png`,
         value: 50,
         currency: "Mythic Prisms",
         event: null,
@@ -10995,7 +10995,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/venture/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/venture/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -11005,7 +11005,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Alexandria",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/venture/alexandria.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/venture/alexandria.png`,
         value: 300,
         currency: "Credits",
         event: null,
@@ -11015,7 +11015,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Babylon",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/venture/babylon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/venture/babylon.png`,
         value: 300,
         currency: "Credits",
         event: null,
@@ -11025,7 +11025,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Giza",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/venture/giza.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/venture/giza.png`,
         value: 300,
         currency: "Credits",
         event: null,
@@ -11035,7 +11035,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Olympia",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/venture/olympia.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/venture/olympia.png`,
         value: 300,
         currency: "Credits",
         event: null,
@@ -11045,7 +11045,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Monarch",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/venture/monarch.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/venture/monarch.png`,
         value: 300,
         currency: "Credits",
         event: null,
@@ -11055,7 +11055,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ice Cream",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/venture/ice-cream.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/venture/ice-cream.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -11069,7 +11069,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -11079,7 +11079,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -11089,7 +11089,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ciel",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/ciel.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/ciel.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -11099,7 +11099,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Nuit",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/nuit.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/nuit.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -11109,7 +11109,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Rose",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/rose.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/rose.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -11119,7 +11119,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Vert",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/vert.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/vert.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -11129,7 +11129,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Patina",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/patina.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/patina.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -11139,7 +11139,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Winter",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/winter.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/winter.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -11149,7 +11149,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Electric",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/electric.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/electric.png`,
         value: 750,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -11159,7 +11159,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Fleur de Lis",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/fleur-de-lis.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/fleur-de-lis.png`,
         value: 750,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -11169,7 +11169,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Tricolore",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/tricolore.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/tricolore.png`,
         value: 750,
         currency: "Credits",
         event: "Summer Games",
@@ -11179,7 +11179,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Spider",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/spider.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/spider.png`,
         value: 750,
         currency: "Credits",
         event: "Halloween Terror",
@@ -11189,7 +11189,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Harlequin",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/harlequin.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/harlequin.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -11199,7 +11199,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Endless Sight",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/endless-sight.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/endless-sight.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -11209,7 +11209,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Odette",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/odette.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/odette.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -11219,7 +11219,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Odile",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/odile.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/odile.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -11229,7 +11229,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Huntress",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/huntress.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/huntress.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -11239,7 +11239,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Comtesse",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/comtesse.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/comtesse.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -11249,7 +11249,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Nova",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/nova.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/nova.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -11259,7 +11259,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Black Lily",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/black-lily.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/black-lily.png`,
         value: 1500,
         currency: "Credits",
         event: "Lunar New Year",
@@ -11269,7 +11269,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Pale Serpent",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/pale-serpent.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/pale-serpent.png`,
         value: 1500,
         currency: "Credits",
         event: "Lunar New Year",
@@ -11279,7 +11279,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Talon",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/talon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/talon.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -11289,7 +11289,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mousquetaire",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/mousquetaire.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/mousquetaire.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -11299,7 +11299,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Côte d'Azur",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/côte-d'azur.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/côte-d'azur.png`,
         value: 1500,
         currency: "Credits",
         event: "Summer Games",
@@ -11309,7 +11309,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Scorpion",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/scorpion.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/scorpion.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -11319,7 +11319,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Biathlon",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/biathlon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/biathlon.png`,
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -11329,7 +11329,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ange de la Mort",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/ange-de-la-mort.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/ange-de-la-mort.png`,
         value: 200,
         currency: "League Tokens",
         event: null,
@@ -11339,7 +11339,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Kerrigan",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/kerrigan.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/kerrigan.png`,
         value: null,
         currency: null,
         event: null,
@@ -11349,7 +11349,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Noire",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/noire.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/noire.png`,
         value: null,
         currency: null,
         event: null,
@@ -11359,7 +11359,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ghostly Bride",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/ghostly-bride.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/ghostly-bride.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -11369,7 +11369,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Captain Lacroix",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/captain-lacroix.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/captain-lacroix.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -11379,7 +11379,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cyberdevil",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/cyberdevil.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/cyberdevil.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -11389,7 +11389,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cyber Fiend",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/cyber-fiend.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/cyber-fiend.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -11399,7 +11399,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Dryad",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/dryad.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/dryad.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -11409,7 +11409,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Medusa",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/medusa.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/medusa.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -11419,7 +11419,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Rose Lily",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/rose-lily.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/rose-lily.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -11429,7 +11429,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Saint-Tropez",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/saint-tropez.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/saint-tropez.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -11439,7 +11439,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Wild Tracker",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/wild-tracker.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/wild-tracker.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -11449,7 +11449,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Euryale",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/euryale.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/euryale.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -11459,7 +11459,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sylvanas",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/sylvanas.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/sylvanas.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -11469,7 +11469,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Winter Chic",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/winter-chic.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/winter-chic.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -11479,7 +11479,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Spellbinder",
         rarity: "Mythic",
-        img: "${import.meta.env.BASE_URL}skins/widowmaker/spellbinder.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/widowmaker/spellbinder.png`,
         value: 50,
         currency: "Mythic Prisms",
         event: null,
@@ -11493,7 +11493,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/winston/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/winston/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -11503,7 +11503,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/winston/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/winston/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -11513,7 +11513,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Atmosphere",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/winston/atmosphere.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/winston/atmosphere.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -11523,7 +11523,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Banana",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/winston/banana.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/winston/banana.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -11533,7 +11533,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Forest",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/winston/forest.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/winston/forest.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -11543,7 +11543,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Red Planet",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/winston/red-planet.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/winston/red-planet.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -11553,7 +11553,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Desert",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/winston/desert.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/winston/desert.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -11563,7 +11563,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Horizon",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/winston/horizon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/winston/horizon.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -11573,7 +11573,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ancient Bronze",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/winston/ancient-bronze.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/winston/ancient-bronze.png`,
         value: null,
         currency: null,
         event: "Lunar New Year",
@@ -11583,7 +11583,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ocean King",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/winston/ocean-king.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/winston/ocean-king.png`,
         value: null,
         currency: null,
         event: "Summer Games",
@@ -11593,7 +11593,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "BlizzCon 2017",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/winston/blizzcon-2017.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/winston/blizzcon-2017.png`,
         value: null,
         currency: null,
         event: null,
@@ -11603,7 +11603,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Tactical",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/winston/tactical.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/winston/tactical.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -11613,7 +11613,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Monkey Business",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/winston/monkey-business.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/winston/monkey-business.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -11623,7 +11623,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ugly Sweater",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/winston/ugly-sweater.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/winston/ugly-sweater.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -11633,7 +11633,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Frogston",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/winston/frogston.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/winston/frogston.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -11643,7 +11643,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Undersea",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/winston/undersea.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/winston/undersea.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -11653,7 +11653,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Explorer",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/winston/explorer.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/winston/explorer.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -11663,7 +11663,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Safari",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/winston/safari.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/winston/safari.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -11673,7 +11673,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Wukong",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/winston/wukong.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/winston/wukong.png`,
         value: 1500,
         currency: "Credits",
         event: "Lunar New Year",
@@ -11683,7 +11683,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Specimen 28",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/winston/specimen-28.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/winston/specimen-28.png`,
         value: null,
         currency: null,
         event: "Overwatch Archives",
@@ -11693,7 +11693,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Gargoyle",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/winston/gargoyle.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/winston/gargoyle.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -11703,7 +11703,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Catcher",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/winston/catcher.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/winston/catcher.png`,
         value: 1500,
         currency: "Credits",
         event: "Summer Games",
@@ -11713,7 +11713,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Werewolf",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/winston/werewolf.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/winston/werewolf.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -11723,7 +11723,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Yeti",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/winston/yeti.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/winston/yeti.png`,
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -11733,7 +11733,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Extraterrestrial",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/winston/extraterrestrial.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/winston/extraterrestrial.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -11743,7 +11743,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Lab Technician",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/winston/lab-technician.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/winston/lab-technician.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -11753,7 +11753,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ringmaster",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/winston/ringmaster.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/winston/ringmaster.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -11763,7 +11763,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Siege",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/winston/siege.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/winston/siege.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -11773,7 +11773,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Flying Ace",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/winston/flying-ace.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/winston/flying-ace.png`,
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -11787,7 +11787,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/wrecking-ball/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/wrecking-ball/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -11797,7 +11797,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/wrecking-ball/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/wrecking-ball/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -11807,7 +11807,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Chloride",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/wrecking-ball/chloride.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/wrecking-ball/chloride.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -11817,7 +11817,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Lithium",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/wrecking-ball/lithium.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/wrecking-ball/lithium.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -11827,7 +11827,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Potassium",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/wrecking-ball/potassium.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/wrecking-ball/potassium.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -11837,7 +11837,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Smoke",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/wrecking-ball/smoke.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/wrecking-ball/smoke.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -11847,7 +11847,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Biohazard",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/wrecking-ball/biohazard.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/wrecking-ball/biohazard.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -11857,7 +11857,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Wooden Ball",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/wrecking-ball/wooden-ball.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/wrecking-ball/wooden-ball.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -11867,7 +11867,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Porcelain",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/wrecking-ball/porcelain.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/wrecking-ball/porcelain.png`,
         value: 750,
         currency: "Credits",
         event: "Lunar New Year",
@@ -11877,7 +11877,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Paper Cutting",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/wrecking-ball/paper-cutting.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/wrecking-ball/paper-cutting.png`,
         value: 750,
         currency: "Credits",
         event: "Lunar New Year",
@@ -11887,7 +11887,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "High Roller",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/wrecking-ball/high-roller.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/wrecking-ball/high-roller.png`,
         value: 750,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -11897,7 +11897,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "8 Ball",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/wrecking-ball/8-ball.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/wrecking-ball/8-ball.png`,
         value: 750,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -11907,7 +11907,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Asteroid",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/wrecking-ball/asteroid.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/wrecking-ball/asteroid.png`,
         value: null,
         currency: null,
         event: null,
@@ -11917,7 +11917,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sugar Bomb",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/wrecking-ball/sugar-bomb.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/wrecking-ball/sugar-bomb.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -11927,7 +11927,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Honeycomb",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/wrecking-ball/honeycomb.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/wrecking-ball/honeycomb.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -11937,7 +11937,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Critter Egg",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/wrecking-ball/critter-egg.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/wrecking-ball/critter-egg.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -11947,7 +11947,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ultrawatch",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/wrecking-ball/ultrawatch.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/wrecking-ball/ultrawatch.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -11957,7 +11957,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Horizon",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/wrecking-ball/horizon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/wrecking-ball/horizon.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -11967,7 +11967,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Lunar",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/wrecking-ball/lunar.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/wrecking-ball/lunar.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -11977,7 +11977,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Junker",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/wrecking-ball/junker.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/wrecking-ball/junker.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -11987,7 +11987,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Mayham",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/wrecking-ball/mayham.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/wrecking-ball/mayham.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -11997,7 +11997,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Submarine",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/wrecking-ball/submarine.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/wrecking-ball/submarine.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -12007,7 +12007,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Lúcioball",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/wrecking-ball/lúcioball.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/wrecking-ball/lúcioball.png`,
         value: null,
         currency: null,
         event: "Summer Games",
@@ -12017,7 +12017,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Jack-O'-Lantern",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/wrecking-ball/jack-o'-lantern.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/wrecking-ball/jack-o'-lantern.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -12027,7 +12027,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Snowman",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/wrecking-ball/snowman.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/wrecking-ball/snowman.png`,
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -12037,7 +12037,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ein",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/wrecking-ball/ein.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/wrecking-ball/ein.png`,
         value: null,
         currency: null,
         event: null,
@@ -12047,7 +12047,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Crustacean",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/wrecking-ball/crustacean.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/wrecking-ball/crustacean.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -12057,7 +12057,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Deep Sea",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/wrecking-ball/deep-sea.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/wrecking-ball/deep-sea.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -12067,7 +12067,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Azmodan",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/wrecking-ball/azmodan.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/wrecking-ball/azmodan.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -12081,7 +12081,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/zarya/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -12091,7 +12091,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/zarya/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -12101,7 +12101,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Brick",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/zarya/brick.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/brick.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -12111,7 +12111,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Goldenrod",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/zarya/goldenrod.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/goldenrod.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -12121,7 +12121,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Taiga",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/zarya/taiga.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/taiga.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -12131,7 +12131,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Violet",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/zarya/violet.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/violet.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -12141,7 +12141,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Dawn",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/zarya/dawn.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/dawn.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -12151,7 +12151,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Midnight",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/zarya/midnight.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/midnight.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -12161,7 +12161,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Racer",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/zarya/racer.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/racer.png`,
         value: null,
         currency: null,
         event: "Overwatch Archives",
@@ -12171,7 +12171,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Einherjar",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/zarya/einherjar.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/einherjar.png`,
         value: null,
         currency: null,
         event: "Halloween Terror",
@@ -12181,7 +12181,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Frosted",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/zarya/frosted.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/frosted.png`,
         value: 750,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -12191,7 +12191,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Tactical",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/zarya/tactical.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/tactical.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -12201,7 +12201,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Apep",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/zarya/apep.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/apep.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -12211,7 +12211,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Frozen",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/zarya/frozen.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/frozen.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -12221,7 +12221,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Talon",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/zarya/talon.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/talon.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -12231,7 +12231,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Arctic",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zarya/arctic.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/arctic.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -12241,7 +12241,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Siberian Front",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zarya/siberian-front.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/siberian-front.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -12251,7 +12251,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cybergoth",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zarya/cybergoth.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/cybergoth.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -12261,7 +12261,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Industrial",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zarya/industrial.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/industrial.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -12271,7 +12271,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Barbarian",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zarya/barbarian.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/barbarian.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -12281,7 +12281,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Xuanwu",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zarya/xuanwu.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/xuanwu.png`,
         value: 1500,
         currency: "Credits",
         event: "Lunar New Year",
@@ -12291,7 +12291,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Workout",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zarya/workout.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/workout.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -12301,7 +12301,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Polyanitsa",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zarya/polyanitsa.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/polyanitsa.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Archives",
@@ -12311,7 +12311,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cyberian",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zarya/cyberian.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/cyberian.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -12321,7 +12321,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Champion",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zarya/champion.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/champion.png`,
         value: 1500,
         currency: "Credits",
         event: "Summer Games",
@@ -12331,7 +12331,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Weightlifter",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zarya/weightlifter.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/weightlifter.png`,
         value: 1500,
         currency: "Credits",
         event: "Summer Games",
@@ -12341,7 +12341,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Totally 80's",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zarya/totally-80's.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/totally-80's.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -12351,7 +12351,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Snowboarder",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zarya/snowboarder.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/snowboarder.png`,
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -12361,7 +12361,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Rock Climber",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zarya/rock-climber.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/rock-climber.png`,
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -12371,7 +12371,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Charged Climber",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zarya/charged-climber.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/charged-climber.png`,
         value: 200,
         currency: "League Tokens",
         event: null,
@@ -12381,7 +12381,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Reigning Climber",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zarya/reigning-climber.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/reigning-climber.png`,
         value: 200,
         currency: "League Tokens",
         event: null,
@@ -12391,7 +12391,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Alien",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zarya/alien.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/alien.png`,
         value: null,
         currency: null,
         event: null,
@@ -12401,7 +12401,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Apocalypse",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zarya/apocalypse.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/apocalypse.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -12411,7 +12411,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cybervision",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zarya/cybervision.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/cybervision.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -12421,7 +12421,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Apocalypse Trainer",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zarya/apocalypse-trainer.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zarya/apocalypse-trainer.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -12435,7 +12435,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Classic",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/ow.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/ow.png`,
         value: null,
         currency: null,
         event: null,
@@ -12445,7 +12445,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Overwatch 2",
         rarity: "Common",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/ow2.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/ow2.png`,
         value: null,
         currency: null,
         event: null,
@@ -12455,7 +12455,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Air",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/air.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/air.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -12465,7 +12465,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Earth",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/earth.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/earth.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -12475,7 +12475,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Leaf",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/leaf.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/leaf.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -12485,7 +12485,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Water",
         rarity: "Rare",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/water.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/water.png`,
         value: 75,
         currency: "Credits",
         event: null,
@@ -12495,7 +12495,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ascendant",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/ascendant.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/ascendant.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -12505,7 +12505,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Carbon Fiber",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/carbon-fiber.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/carbon-fiber.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -12515,7 +12515,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Harmonious",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/harmonious.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/harmonious.png`,
         value: 250,
         currency: "Credits",
         event: null,
@@ -12525,7 +12525,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Subaquatic",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/subaquatic.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/subaquatic.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Overwatch Archives",
@@ -12535,7 +12535,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Skullyatta",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/skullyatta.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/skullyatta.png`,
         value: 750,
         currency: "Credits",
         event: "Halloween Terror",
@@ -12545,7 +12545,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Pinocchio",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/pinocchio.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/pinocchio.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -12555,7 +12555,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Bathmaster",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/bathmaster.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/bathmaster.png`,
         value: 1000,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -12565,7 +12565,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Beast Whisperer",
         rarity: "Epic",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/beast-whisperer.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/beast-whisperer.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -12575,7 +12575,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Djinnyatta",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/djinnyatta.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/djinnyatta.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -12585,7 +12585,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ifrit",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/ifrit.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/ifrit.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -12595,7 +12595,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Ra",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/ra.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/ra.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -12605,7 +12605,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sunyatta",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/sunyatta.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/sunyatta.png`,
         value: 1000,
         currency: "Credits",
         event: null,
@@ -12615,7 +12615,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Sanzang",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/sanzang.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/sanzang.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -12625,7 +12625,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Zealot",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/zealot.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/zealot.png`,
         value: 1500,
         currency: "Credits",
         event: "Overwatch Anniversary",
@@ -12635,7 +12635,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Fastball",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/fastball.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/fastball.png`,
         value: 1500,
         currency: "Credits",
         event: "Summer Games",
@@ -12645,7 +12645,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cultist",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/cultist.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/cultist.png`,
         value: 1500,
         currency: "Credits",
         event: "Halloween Terror",
@@ -12655,7 +12655,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Nutcracker",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/nutcracker.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/nutcracker.png`,
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -12665,7 +12665,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Toybot",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/toybot.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/toybot.png`,
         value: 1500,
         currency: "Credits",
         event: "Winter Wonderland",
@@ -12675,7 +12675,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Clockwork",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/clockwork.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/clockwork.png`,
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -12685,7 +12685,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Zen-Nakji",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/zen-nakji.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/zen-nakji.png`,
         value: 300,
         currency: "League Tokens",
         event: null,
@@ -12695,7 +12695,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Royal Astronomer",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/royal-astronomer.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/royal-astronomer.png`,
         value: null,
         currency: null,
         event: "Battle Pass",
@@ -12705,7 +12705,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Cybermonk",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/cybermonk.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/cybermonk.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -12715,7 +12715,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Takoyaki",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/takoyaki.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/takoyaki.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -12725,7 +12725,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Z-3N Destroyer",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/z-3n-destroyer.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/z-3n-destroyer.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -12735,7 +12735,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Kaiju",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/kaiju.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/kaiju.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -12745,7 +12745,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "thrall",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/thrall.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/thrall.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
@@ -12755,7 +12755,7 @@ export const heroSkinsData: Record<string, { skins: Skin[] }> = {
       {
         name: "Aang",
         rarity: "Legendary",
-        img: "${import.meta.env.BASE_URL}skins/zenyatta/aang.png",
+        img: `${import.meta.env.BASE_URL}skinsskins/zenyatta/aang.png`,
         value: 1900,
         currency: "Overwatch Coins",
         event: "Shop",
