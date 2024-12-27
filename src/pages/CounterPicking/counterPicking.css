@@ -58,14 +58,11 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  background: radial-gradient(
-    50% 4798% at 50% 50.12%,
-    #353e62 48%,
-    #242a42 100%
-  );
+  background-color: #c7cfd9d7;
   border: 2px solid var(--white);
   border-radius: 6px;
   box-sizing: border-box;
+  color: var(--white);
 }
 
 .counterPicking_list-hero-tile {
@@ -146,6 +143,10 @@
   align-items: center;
   flex-shrink: 0;
 }
+
+/* .counterPicking_list-role-group-role-img {
+  filter: brightness(.2) invert(0.1)
+} */
 
 .counterPicking_list-role-heroes {
   display: flex;

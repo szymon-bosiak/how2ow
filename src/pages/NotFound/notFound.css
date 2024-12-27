@@ -1,0 +1,21 @@
+.not-found {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltd0bc9a7387113fff/6450282513e90763ea6e0eee/1600_Origin_Story_v2.jpg?format=webply&quality=90");
+  color: var(--white);
+}
+
+.not-found h1 {
+  font-size: 80px;
+  margin: 0;
+}
+
+.not-found h2 {
+  margin: 0;
+}

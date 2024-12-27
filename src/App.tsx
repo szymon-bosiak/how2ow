@@ -1,29 +1,26 @@
-import {
-  HashRouter, // Import HashRouter
-  Route,
-  Routes,
-  useLocation,
-} from "react-router-dom";
-import Layout from "./components/Layout/Layout";
-import Heroes from "./pages/Heroes/Heroes";
-import HeroDetails from "./pages/HeroDetails/HeroDetails";
-import HeroesSkins from "./pages/HeroesSkins/HeroesSkins";
-import HeroSkins from "./pages/HeroSkins/HeroSkins";
-import About from "./pages/About/About";
-import TierList from "./pages/TierList/TierList";
-import GameModes from "./pages/GameModes/GameModes";
-import CounterPicking from "./pages/CounterPicking/CounterPicking";
-import Home from "./pages/Home/Home";
-import { AnimatePresence, motion } from "motion/react";
+import { HashRouter, Route, Routes, useLocation } from "react-router-dom"
+import NotFound from "./pages/NotFound/NotFound"
+import Layout from "./components/Layout/Layout"
+import Heroes from "./pages/Heroes/Heroes"
+import HeroDetails from "./pages/HeroDetails/HeroDetails"
+import HeroesSkins from "./pages/HeroesSkins/HeroesSkins"
+import HeroSkins from "./pages/HeroSkins/HeroSkins"
+import About from "./pages/About/About"
+import TierList from "./pages/TierList/TierList"
+import GameModes from "./pages/GameModes/GameModes"
+import CounterPicking from "./pages/CounterPicking/CounterPicking"
+import Home from "./pages/Home/Home"
+import { AnimatePresence, motion } from "motion/react"
+import ScrollToTop from "./ScrollToTop"
 
 const pageVariants = {
   initial: { opacity: 0, transition: { duration: 0.3 } },
   animate: { opacity: 1, transition: { duration: 0.3 } },
   exit: { opacity: 0, transition: { duration: 0.3 } },
-};
+}
 
 function App() {
-  const location = useLocation();
+  const location = useLocation()
   return (
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
@@ -144,17 +141,31 @@ function App() {
             </motion.div>
           }
         />
+        <Route
+          path="*"
+          element={
+            <motion.div
+              variants={pageVariants}
+              initial="initial"
+              animate="animate"
+              exit="exit"
+            >
+              <NotFound />
+            </motion.div>
+          }
+        />
       </Routes>
     </AnimatePresence>
-  );
+  )
 }
 
 export default function RootApp() {
   return (
-    <HashRouter> {/* Switch to HashRouter */}
+    <HashRouter>
       <Layout>
+        <ScrollToTop />
         <App />
       </Layout>
     </HashRouter>
-  );
+  )
 }

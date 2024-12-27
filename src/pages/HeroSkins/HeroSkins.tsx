@@ -2,6 +2,7 @@ import { useState } from "react"
 import "./heroSkins.css"
 import { heroSkinsData, Skin } from "./heroSkinsData"
 import { useParams } from "react-router"
+import NotFound from "../NotFound/NotFound"
 
 import battlePass from "../../assets/icons/Battle_Pass_Icon.webp"
 import charity from "../../assets/icons/Charity.webp"
@@ -24,6 +25,10 @@ import info from "../../assets/icons/info_full.svg"
 
 function HeroSkins() {
   const { heroName } = useParams<{ heroName: string }>()
+
+  if (!heroSkinsData[heroName!]) {
+    return <NotFound />
+  }
 
   const [activeSkin, setActiveSkin] = useState<Skin | null>(
     heroSkinsData[heroName!].skins[0]

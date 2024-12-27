@@ -9,6 +9,7 @@ import tank from "../../assets/icons/tank.svg"
 import location from "../../assets/icons/location.svg"
 import birthday from "../../assets/icons/birthday.svg"
 import { heroDetailsData } from "./heroDetailsData"
+import NotFound from "../NotFound/NotFound"
 
 const general = {
   tipsBg: {
@@ -59,6 +60,10 @@ function HeroDetails() {
   const [activeAbilityIndex, setActiveAbilityIndex] = useState(0)
   const [currentAbilityDescription, setCurrentAbilityDescription] = useState("")
   const [currentAbilityName, setCurrentAbilityName] = useState("")
+
+  if (!heroData) {
+    return <NotFound />
+  }
 
   useEffect(() => {
     const updateAssest = () => {
