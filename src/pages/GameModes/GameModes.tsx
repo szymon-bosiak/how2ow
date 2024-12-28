@@ -4,6 +4,7 @@ import { Map } from "../../interfaces/map.interface"
 import { GameMode, GameModeWithMaps } from "../../interfaces/gameMode.interface"
 import "./gameModes.css"
 import arrow from "../../assets/icons/arrow_white.svg"
+import Loading from "../../components/Loading/Loading"
 
 function GameModes() {
   const [gameModes, setGameModes] = useState<GameModeWithMaps[] | null>(null)
@@ -51,7 +52,7 @@ function GameModes() {
     fetchData()
   }, [])
 
-  if (isLoading) return <p className="gameModes_wrapper">Loading...</p>
+  if (isLoading) return <Loading />
   if (error) return <p className="gameModes_wrapper">Error: {error}</p>
 
   const handleGameModeClick = (gameMode: GameModeWithMaps) => {

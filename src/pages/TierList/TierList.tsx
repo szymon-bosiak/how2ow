@@ -8,6 +8,7 @@ import { useState, useEffect } from "react"
 import { HeroWithTier } from "../../interfaces/hero.interface"
 import { AnimatePresence, motion } from "framer-motion"
 import { tierListData } from "./tierListData"
+import Loading from "../../components/Loading/Loading"
 
 const portraitVariants = {
   hidden: { opacity: 0, scale: 0.9 },
@@ -61,7 +62,7 @@ function TierList() {
         hero.tier === tier && (roleFilter === "all" || hero.role === roleFilter)
     )
 
-  if (isLoading) return <p className="tierList_content">Loading...</p>
+  if (isLoading) return <Loading />
   if (error) return <p className="tierList_content">Error: {error}</p>
 
   return (

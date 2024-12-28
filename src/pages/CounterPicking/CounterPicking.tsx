@@ -7,6 +7,7 @@ import arrow from "../../assets/icons/arrow_white.svg"
 import support from "../../assets/icons/support.svg"
 import damage from "../../assets/icons/damage.svg"
 import tank from "../../assets/icons/tank.svg"
+import Loading from "../../components/Loading/Loading"
 
 function CounterPicking() {
   const [heroes, setHeroes] = useState<HeroWithCounter[]>([])
@@ -74,7 +75,7 @@ function CounterPicking() {
     return columns
   }
 
-  if (isLoading) return <p className="counterPicking_wrapper">Loading...</p>
+  if (isLoading) return <Loading />
   if (error) return <p className="counterPicking_wrapper">Error: {error}</p>
 
   const toggleHero = (heroName: string) => {

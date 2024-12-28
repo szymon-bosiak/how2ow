@@ -10,6 +10,7 @@ import location from "../../assets/icons/location.svg"
 import birthday from "../../assets/icons/birthday.svg"
 import { heroDetailsData } from "./heroDetailsData"
 import NotFound from "../NotFound/NotFound"
+import Loading from "../../components/Loading/Loading"
 
 const general = {
   tipsBg: {
@@ -101,7 +102,7 @@ function HeroDetails() {
     setCurrentAbilityName(abilityName)
   }
 
-  if (isLoading) return <p>Loading...</p>
+  if (isLoading) return <Loading />
   if (error) return <p>Error: {error}</p>
   if (!hero) return <p>No hero found.</p>
 
