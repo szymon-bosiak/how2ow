@@ -6,6 +6,7 @@ import { Hero } from "../../interfaces/hero.interface"
 import support from "../../assets/icons/support.svg"
 import damage from "../../assets/icons/damage.svg"
 import tank from "../../assets/icons/tank.svg"
+import Loading from "../Loading/Loading"
 
 function HeroList() {
   const [heroes, setHeroes] = useState<Hero[]>([]) // State to store API data
@@ -29,7 +30,7 @@ function HeroList() {
     fetchHeroes()
   }, [])
 
-  if (isLoading) return <p className="heroes_columns">Loading...</p>
+  if (isLoading) return <Loading />
   if (error) return <p className="heroes_columns">Error: {error}</p>
 
   return (
